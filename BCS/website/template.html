@@ -1,0 +1,852 @@
+<title>BCS 182 Days</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tiro+Bangla&family=Hind+Siliguri:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --paper: #F3F5F1;
+  --surface: #FFFFFF;
+  --sunken: #E9EEE8;
+  --ink: #17221D;
+  --muted: #5A6A62;
+  --line: #D9E1DA;
+  --accent: #0B6E4F;
+  --accent-ink: #FFFFFF;
+  --accent-soft: #DDEFE6;
+  --red: #C2372B;
+  --red-soft: #F8E1DE;
+  --amber: #A86A12;
+  --amber-soft: #F6EBD6;
+  --good: #1D7A4E;
+  --good-soft: #DCEFE3;
+  --display: "Tiro Bangla", "Noto Serif Bengali", Georgia, serif;
+  --body: "Hind Siliguri", "Noto Sans Bengali", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #0E1512; --surface: #151F1B; --sunken: #1B2722; --ink: #E4ECE7; --muted: #95A69D; --line: #283630;
+    --accent: #3DB487; --accent-ink: #06140E; --accent-soft: #173A2C;
+    --red: #EF6A5E; --red-soft: #3A1D1A; --amber: #E2AA4F; --amber-soft: #36290F; --good: #4CC08A; --good-soft: #15362A;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #0E1512; --surface: #151F1B; --sunken: #1B2722; --ink: #E4ECE7; --muted: #95A69D; --line: #283630;
+  --accent: #3DB487; --accent-ink: #06140E; --accent-soft: #173A2C;
+  --red: #EF6A5E; --red-soft: #3A1D1A; --amber: #E2AA4F; --amber-soft: #36290F; --good: #4CC08A; --good-soft: #15362A;
+}
+
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font: 400 16px/1.6 var(--body); }
+a { color: var(--accent); }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.25; text-wrap: balance; margin: 0; }
+.num, .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+/* ---------- top bar ---------- */
+.top { border-bottom: 1px solid var(--line); background: var(--surface); }
+.top-in { max-width: 1120px; margin: 0 auto; padding: 12px 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 24px; }
+.brand { display: flex; align-items: baseline; gap: 10px; text-decoration: none; color: var(--ink); }
+.brand b { font: 400 24px/1 var(--display); }
+.brand b span { color: var(--accent); }
+.brand small { color: var(--muted); font-size: 13px; }
+nav.tabs { display: flex; gap: 4px; flex-wrap: wrap; }
+nav.tabs a { text-decoration: none; color: var(--muted); padding: 6px 12px; border-radius: 999px; font-weight: 500; }
+nav.tabs a[aria-current="page"] { background: var(--accent-soft); color: var(--ink); }
+nav.tabs a:hover { color: var(--ink); }
+.sync { margin-left: auto; font-size: 13px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+.sync i { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); display: inline-block; }
+.sync[data-s="saved"] i { background: var(--good); }
+.sync[data-s="saving"] i { background: var(--amber); }
+.sync[data-s="error"] i { background: var(--red); }
+
+main { max-width: 1120px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 24px; }
+
+/* ---------- shared pieces ---------- */
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; min-width: 0; }
+.card h2 { font-size: 22px; }
+.card-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+.eyebrow { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.muted { color: var(--muted); }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 999px; font-size: 13px; font-weight: 600; background: var(--sunken); color: var(--muted); white-space: nowrap; }
+.chip.good { background: var(--good-soft); color: var(--good); }
+.chip.warn { background: var(--amber-soft); color: var(--amber); }
+.chip.bad { background: var(--red-soft); color: var(--red); }
+.chip.acc { background: var(--accent-soft); color: var(--accent); }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 9px 16px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); cursor: pointer; font-weight: 600; text-decoration: none; color: var(--ink); }
+.btn:hover { border-color: var(--accent); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn.primary:hover { filter: brightness(1.08); }
+.btn.danger { background: var(--red); border-color: var(--red); color: #fff; }
+.btn.small { padding: 5px 10px; font-size: 14px; }
+.row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.bar { height: 8px; border-radius: 999px; background: var(--sunken); overflow: hidden; }
+.bar > span { display: block; height: 100%; background: var(--accent); border-radius: inherit; }
+.empty { color: var(--muted); padding: 8px 0; }
+
+/* ---------- today ---------- */
+.hero { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px 24px; flex-wrap: wrap; }
+.hero h1 { font-size: clamp(30px, 5vw, 46px); }
+.hero h1 .num { font-size: .8em; color: var(--accent); }
+.hero p { margin: 6px 0 0; color: var(--muted); }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; }
+.stat .v { font: 500 28px/1.2 var(--mono); font-variant-numeric: tabular-nums; }
+.stat .v small { font-size: 15px; color: var(--muted); }
+.stat .l { font-size: 13px; color: var(--muted); }
+.timeline { position: relative; display: grid; grid-template-columns: 112fr 42fr 28fr; gap: 3px; margin-top: 8px; }
+.timeline .seg { height: 30px; background: var(--sunken); border-radius: 4px; position: relative; overflow: hidden; }
+.timeline .seg > span { position: absolute; inset: 0 auto 0 0; background: var(--accent-soft); }
+.timeline .seg b { position: relative; font-size: 12px; font-weight: 600; padding: 0 8px; line-height: 30px; white-space: nowrap; color: var(--ink); }
+.timeline .marker { position: absolute; top: -6px; bottom: -6px; width: 2px; background: var(--red); }
+.tl-scale { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); margin-top: 6px; }
+.two { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+.stack { display: grid; gap: 24px; min-width: 0; }
+
+/* ---------- task checklist ---------- */
+.tasks { display: grid; gap: 8px; }
+.task { display: grid; grid-template-columns: auto auto 1fr; gap: 12px; align-items: start; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; cursor: pointer; background: var(--surface); }
+.task:hover { border-color: var(--accent); }
+.task input { width: 20px; height: 20px; margin: 3px 0 0; accent-color: var(--accent); cursor: pointer; }
+.task .h { font: 500 12px/26px var(--mono); color: var(--muted); }
+.task .t { min-width: 0; overflow-wrap: anywhere; }
+.task.done { background: var(--sunken); }
+.task.done .t { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--line); }
+.subj { font-weight: 600; }
+
+/* ---------- routine ---------- */
+.months { display: flex; gap: 8px; flex-wrap: wrap; }
+.months a { text-decoration: none; color: var(--ink); border: 1px solid var(--line); background: var(--surface); padding: 8px 14px; border-radius: 8px; display: grid; gap: 4px; min-width: 120px; }
+.months a[aria-current="page"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.months a small { color: var(--muted); font-size: 12px; }
+.months .bar { height: 4px; }
+.week h3 { font-size: 18px; margin: 8px 0 10px; display: flex; gap: 10px; align-items: baseline; }
+.week h3 small { font: 400 13px var(--body); color: var(--muted); }
+.days { display: grid; gap: 8px; }
+.day { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 12px; padding: 12px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.day.today { border-color: var(--accent); box-shadow: inset 3px 0 0 var(--accent); }
+.day.fri { background: color-mix(in srgb, var(--surface) 88%, var(--amber-soft)); }
+.day-meta { display: grid; gap: 4px; align-content: start; }
+.day-meta a { text-decoration: none; color: var(--ink); }
+.day-meta .dn { font: 500 13px var(--mono); color: var(--muted); }
+.day-meta .dd { font-weight: 600; }
+.day-meta .badges { display: flex; gap: 4px; flex-wrap: wrap; }
+.slots { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.slot { display: grid; grid-template-columns: auto 1fr; gap: 8px; align-items: start; font-size: 14px; line-height: 1.45; padding: 8px; border-radius: 6px; background: var(--paper); cursor: pointer; min-width: 0; }
+.slot input { margin: 2px 0 0; width: 16px; height: 16px; accent-color: var(--accent); cursor: pointer; }
+.slot span { min-width: 0; overflow-wrap: anywhere; }
+.slot.done { opacity: .6; }
+.slot.done span { text-decoration: line-through; }
+
+/* ---------- material (article) ---------- */
+.article { max-width: 78ch; }
+.article h1 { font-size: 30px; margin: 0 0 12px; }
+.article h2 { font-size: 24px; margin: 32px 0 10px; padding-top: 16px; border-top: 1px solid var(--line); }
+.article h3 { font-size: 19px; margin: 22px 0 8px; }
+.article p, .article li { max-width: 72ch; }
+.article hr { border: 0; border-top: 1px solid var(--line); margin: 24px 0; }
+.article blockquote { margin: 12px 0; padding: 8px 14px; border-left: 3px solid var(--accent); background: var(--accent-soft); border-radius: 0 8px 8px 0; }
+.article code { font-family: var(--mono); font-size: .9em; background: var(--sunken); padding: 1px 5px; border-radius: 4px; }
+.tbl { overflow-x: auto; margin: 12px 0; border: 1px solid var(--line); border-radius: 8px; }
+.tbl table { border-collapse: collapse; width: 100%; font-size: 15px; }
+.tbl th, .tbl td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.tbl th { background: var(--sunken); font-weight: 600; }
+.tbl tr:last-child td { border-bottom: 0; }
+.article input[type=checkbox] { accent-color: var(--accent); }
+.exam-cta { display: flex; justify-content: space-between; gap: 16px; align-items: center; flex-wrap: wrap; padding: 18px 20px; border-radius: var(--radius); border: 1px dashed var(--accent); background: var(--accent-soft); margin: 20px 0; }
+.exam-cta h3 { margin: 0; }
+.pager { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+
+/* ---------- exam ---------- */
+.exam-bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 16px; display: flex; gap: 12px 20px; align-items: center; flex-wrap: wrap; box-shadow: 0 4px 16px rgb(0 0 0 / .06); }
+.exam-bar .title { font-weight: 600; }
+.timer { font: 500 26px/1 var(--mono); font-variant-numeric: tabular-nums; }
+.timer.low { color: var(--red); }
+.exam-bar .spacer { flex: 1; }
+.part-h { font-size: 20px; margin: 8px 0 0; }
+.qs { display: grid; gap: 12px; }
+.q { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
+.q .qt { display: grid; grid-template-columns: 2.4em 1fr; gap: 6px; font-size: 17px; }
+.q .qt .n { font: 500 15px/1.9 var(--mono); color: var(--muted); }
+.opts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 12px 0 0 2.4em; }
+.opt { display: grid; grid-template-columns: 30px 1fr; gap: 10px; align-items: center; text-align: left; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); cursor: pointer; min-width: 0; }
+.opt .bub { width: 28px; height: 28px; border-radius: 50%; border: 1.5px solid var(--muted); display: grid; place-items: center; font-size: 14px; font-weight: 600; color: var(--muted); }
+.opt:hover { border-color: var(--accent); }
+.opt[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+.opt[aria-pressed="true"] .bub { background: var(--ink); border-color: var(--ink); color: var(--surface); }
+.opt.right { border-color: var(--good); background: var(--good-soft); }
+.opt.right .bub { background: var(--good); border-color: var(--good); color: #fff; }
+.opt.wrong { border-color: var(--red); background: var(--red-soft); }
+.opt.wrong .bub { background: var(--red); border-color: var(--red); color: #fff; }
+.opt[disabled] { cursor: default; }
+.q.r-wrong { border-left: 4px solid var(--red); }
+.q.r-right { border-left: 4px solid var(--good); }
+.q.r-skip { border-left: 4px solid var(--muted); }
+.explain { margin: 10px 0 0 2.4em; padding: 8px 12px; background: var(--sunken); border-radius: 8px; font-size: 15px; }
+.omr { display: grid; grid-template-columns: repeat(auto-fill, minmax(34px, 1fr)); gap: 4px; }
+.omr a { font: 500 12px/30px var(--mono); text-align: center; border-radius: 6px; border: 1px solid var(--line); text-decoration: none; color: var(--muted); }
+.omr a.on { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.omr a.right { background: var(--good); border-color: var(--good); color: #fff; }
+.omr a.wrong { background: var(--red); border-color: var(--red); color: #fff; }
+.overlay { position: fixed; inset: 0; background: rgb(0 0 0 / .45); display: grid; place-items: center; padding: 16px; z-index: 20; }
+.dialog { background: var(--surface); border-radius: 12px; padding: 24px; max-width: 420px; width: 100%; display: grid; gap: 14px; border: 1px solid var(--line); }
+.score { display: flex; gap: 24px; flex-wrap: wrap; align-items: flex-end; }
+.score .big { font: 500 56px/1 var(--mono); }
+.score .big small { font-size: 22px; color: var(--muted); }
+.filters { display: flex; gap: 6px; flex-wrap: wrap; }
+.filters button { border: 1px solid var(--line); background: var(--surface); padding: 5px 12px; border-radius: 999px; cursor: pointer; font-size: 14px; }
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.attempts { display: grid; gap: 8px; }
+.attempt { display: grid; grid-template-columns: minmax(0, 1fr) minmax(80px, 200px) auto; gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.attempt:last-child { border-bottom: 0; }
+.attempt .bar > span.neg { background: var(--red); }
+.exams-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.tl { color: inherit; text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent); text-underline-offset: 3px; }
+.tl:hover { color: var(--accent); text-decoration-color: var(--accent); }
+.topic-list { padding: 4px 20px; }
+.topic-row { display: grid; grid-template-columns: 2.2em minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.topic-row:last-child { border-bottom: 0; }
+.topic-row:hover strong { color: var(--accent); }
+.topic-row.done strong { color: var(--muted); }
+.subjects { display: grid; gap: 10px; }
+.subjects .s { display: grid; grid-template-columns: minmax(0, 170px) 1fr auto; gap: 12px; align-items: center; font-size: 14px; }
+.subjects .s .num { color: var(--muted); font-size: 13px; }
+.backlog a { display: flex; justify-content: space-between; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.backlog a:last-child { border-bottom: 0; }
+
+@media (max-width: 900px) {
+  .two { grid-template-columns: 1fr; }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .slots { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .day { grid-template-columns: 1fr; }
+  .day-meta { grid-template-columns: auto auto 1fr; align-items: baseline; gap: 8px; }
+  .slots { grid-template-columns: 1fr; }
+  .opts { grid-template-columns: 1fr; margin-left: 0; }
+  .explain { margin-left: 0; }
+  .subjects .s { grid-template-columns: minmax(0, 120px) 1fr auto; }
+  .attempt { grid-template-columns: minmax(0, 1fr) auto; }
+  .topic-row { grid-template-columns: 2em minmax(0, 1fr); }
+  .topic-row > .row { grid-column: 2; }
+  .attempt .bar { grid-column: 1 / -1; }
+  .timeline .seg b { font-size: 11px; padding: 0 4px; }
+  .sync { margin-left: 0; width: 100%; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .bar > span { transition: width .3s ease; }
+}
+</style>
+
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#today"><b>BCS <span>182</span></b><small>Preliminary plan · 1 Oct 2026 – 31 Mar 2027</small></a>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#today" data-nav="today">Today</a>
+      <a href="#routine" data-nav="routine">Routine</a>
+      <a href="#topics" data-nav="topics">Topics</a>
+      <a href="#exams" data-nav="exams">Exams</a>
+      <a href="#guide" data-nav="guide">Guide</a>
+    </nav>
+    <div class="sync" id="sync" data-s="local"><i></i><span>Saved on this device</span></div>
+  </div>
+</header>
+<main id="app"></main>
+<div id="modal"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/15.0.12/marked.min.js"></script>
+<script>/*__DATA__*/</script>
+<script>
+(function () {
+  const D = window.BCS_DATA;
+  const DAYS = D.routine.days;
+  const TOTAL = DAYS.length;
+  const EXAMS = Object.fromEntries(D.exams.map(e => [e.id, e]));
+  const TOPICS = D.topics;
+  const TOPIC = Object.fromEntries(TOPICS.map(t => [t.id, t]));
+  const CODES = [...new Set(TOPICS.map(t => t.code))];
+  const SUBJECTS = ['Bangla', 'English', 'Bangladesh Affairs', 'International Affairs', 'Geography & Disaster', 'General Science', 'Computer & ICT', 'Math', 'Mental Ability', 'Ethics & Governance'];
+  const ALIAS = { 'Bangla Lit': 'Bangla', 'English Lit': 'English', 'BD Affairs': 'Bangladesh Affairs', 'International': 'International Affairs', 'Science': 'General Science', 'ICT': 'Computer & ICT', 'Geography & Ethics': 'Geography & Disaster', 'Math & Mental': 'Math', 'Constitution': 'Bangladesh Affairs' };
+  const OTHER = 'Tests, review & current affairs';
+  const app = document.getElementById('app');
+
+  // ---------- helpers ----------
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const inline = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>');
+  const fmtDate = (iso, opts) => new Date(iso + 'T00:00:00Z').toLocaleDateString('en-GB', Object.assign({ timeZone: 'UTC' }, opts));
+  const shortDate = iso => fmtDate(iso, { weekday: 'short', day: '2-digit', month: 'short' });
+  const longDate = iso => fmtDate(iso, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+  const pct = (a, b) => (b ? Math.round((a / b) * 100) : 0);
+  const fmtNet = n => (Number.isInteger(n) ? String(n) : n.toFixed(1));
+  function parseSlot(s) {
+    const m = s.match(/^\*\*([^*:]+):\*\*\s*(.*)$/);
+    if (!m) return { subject: OTHER, html: inline(s) };
+    const name = m[1].trim();
+    const subject = SUBJECTS.includes(name) ? name : ALIAS[name] || OTHER;
+    return { subject, html: `<span class="subj">${esc(name)}:</span> ${inline(m[2])}` };
+  }
+  function todayN() {
+    const now = new Date();
+    const t = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+    return Math.floor((t - Date.parse(D.routine.start + 'T00:00:00Z')) / 864e5) + 1;
+  }
+  const monthKey = iso => iso.slice(0, 7);
+  const MONTHS = [...new Set(DAYS.map(d => monthKey(d.date)))];
+  const monthName = k => fmtDate(k + '-01', { month: 'long', year: 'numeric' });
+  const phaseOf = n => D.routine.phases.find(p => n >= p.from && n <= p.to);
+
+  // ---------- state & saving ----------
+  // state.slots: { "<day>": [0|1, 0|1, 0|1, 0|1] }, state.attempts: [ {examId, title, at, secs, answers, correct, wrong, skipped, net, total} ]
+  const state = { slots: {}, attempts: [], quiz: {} };
+  const LS = 'bcs182-state';
+  try { const saved = JSON.parse(localStorage.getItem(LS) || 'null'); if (saved) { state.slots = saved.slots || {}; state.attempts = saved.attempts || []; state.quiz = saved.quiz || {}; } } catch (e) {}
+  const saveLocal = () => { try { localStorage.setItem(LS, JSON.stringify(state)); } catch (e) {} };
+
+  let refs = null;
+  const pending = {}, writing = {}, timers = {};
+  function setSync(s, msg) {
+    const el = document.getElementById('sync');
+    el.dataset.s = s;
+    el.querySelector('span').textContent = msg || { saved: 'Saved to your account', saving: 'Saving…', local: 'Saved on this device', error: 'Could not save. Check your connection.' }[s];
+  }
+  function queueSave(which) {
+    saveLocal();
+    if (!refs) return setSync('local');
+    pending[which] = true;
+    setSync('saving');
+    clearTimeout(timers[which]);
+    timers[which] = setTimeout(() => flush(which), 500);
+  }
+  async function flush(which) {
+    if (writing[which]) { timers[which] = setTimeout(() => flush(which), 300); return; }
+    if (!pending[which]) return;
+    pending[which] = false;
+    writing[which] = true;
+    const at = new Date().toISOString();
+    const body = which === 'progress' ? { slots: state.slots, quiz: state.quiz, updatedAt: at } : { attempts: state.attempts, updatedAt: at };
+    try {
+      await refs[which].set(body);
+      if (!pending.progress && !pending.exams) setSync('saved');
+    } catch (e) {
+      if (e && e.code === 'unavailable') { pending[which] = true; setTimeout(() => flush(which), 1500 + Math.random() * 1000); }
+      else setSync('error', e && e.code === 'invalid_argument' ? 'Only people with edit access can save here. Progress is kept on this device.' : undefined);
+    } finally { writing[which] = false; }
+  }
+  async function connect() {
+    if (!window.claude || !window.claude.use) return;
+    try {
+      const [db, user] = await Promise.all([window.claude.use('db'), window.claude.use('user')]);
+      const uid = user ? await user.id() : null;
+      if (!db || !uid) return;
+      refs = { progress: db.doc(`data/users/${uid}/progress`), exams: db.doc(`data/users/${uid}/exams`) };
+      const [p, x] = await Promise.all([refs.progress.get(), refs.exams.get()]);
+      if (p.exists) { state.slots = p.data().slots || {}; state.quiz = p.data().quiz || {}; } else if (Object.keys(state.slots).length) queueSave('progress');
+      if (x.exists) state.attempts = x.data().attempts || []; else if (state.attempts.length) queueSave('exams');
+      saveLocal();
+      if (!pending.progress && !pending.exams) setSync('saved');
+      render();
+      // Keep other tabs and devices in step
+      refs.progress.onSnapshot(s => { if (s.exists && !s.metadata.hasPendingWrites && !pending.progress && !writing.progress) { state.slots = s.data().slots || {}; state.quiz = s.data().quiz || {}; saveLocal(); if ((!exam || exam.submitted) && !/^topic-/.test(route)) render(); } }, () => {});
+      refs.exams.onSnapshot(s => { if (s.exists && !s.metadata.hasPendingWrites && !pending.exams && !writing.exams) { state.attempts = s.data().attempts || []; saveLocal(); if (!exam || exam.submitted) render(); } }, () => {});
+    } catch (e) { refs = null; setSync('local'); }
+  }
+
+  const slotDone = (n, i) => !!(state.slots[n] && state.slots[n][i]);
+  const topicLink = t => `<a class="tl" href="#topic-${t.id}">${t.hot ? '🔥 ' : ''}${esc(t.title)}</a>`;
+  function slotHtml(day, i) {
+    const ids = (day.topics && day.topics[i]) || [];
+    const p = parseSlot(day.slots[i]);
+    if (!ids.length) return p.html;
+    const label = (day.slots[i].match(/^\*\*([^*:]+):\*\*/) || [, ''])[1];
+    const links = ids.map(id => TOPIC[id]).filter(Boolean).map(topicLink).join(' · ');
+    return `<span class="subj">${esc(label)}:</span> ${ids.length > 1 || day.phase === 2 ? '🔁 Revise + PYQ — ' : ''}${links}`;
+  }
+  const topicStudied = t => t.days.length > 0 && slotDone(t.days[0][0], t.days[0][1]);
+  const dayCount = n => (state.slots[n] || []).filter(Boolean).length;
+  const dayDone = n => dayCount(n) === 4;
+  function setSlot(n, i, v) {
+    const arr = (state.slots[n] || [0, 0, 0, 0]).slice();
+    arr[i] = v ? 1 : 0;
+    if (arr.some(Boolean)) state.slots[n] = arr; else delete state.slots[n];
+    queueSave('progress');
+  }
+
+  // ---------- pieces ----------
+  function taskList(day, big) {
+    return `<div class="tasks">${day.slots.map((s, i) => {
+      const on = slotDone(day.n, i);
+      return `<label class="task${on ? ' done' : ''}"><input type="checkbox" data-slot="${day.n}-${i}"${on ? ' checked' : ''} id="t-${day.n}-${i}${big ? '-b' : ''}"><span class="h">H${i + 1}</span><span class="t">${slotHtml(day, i)}</span></label>`;
+    }).join('')}</div>`;
+  }
+  function dayBadges(n) {
+    const m = D.materials[n];
+    let b = '';
+    if (m) b += `<span class="chip acc">Notes</span>`;
+    if (m && m.examId) b += `<span class="chip warn">Exam</span>`;
+    return b;
+  }
+  function examCard(id) {
+    const e = EXAMS[id];
+    if (!e) return '';
+    const tries = state.attempts.filter(a => a.examId === id);
+    const best = tries.length ? Math.max(...tries.map(a => a.net)) : null;
+    return `<div class="exam-cta"><div><div class="eyebrow">Day ${e.day} exam</div><h3>${esc(e.title)}</h3>
+      <div class="muted">${e.questions.length} MCQ · ${e.minutes} minutes · +1 correct, −0.5 wrong${best !== null ? ` · Best: <span class="num">${fmtNet(best)}/${e.questions.length}</span>` : ''}</div></div>
+      <a class="btn primary" href="#exam-${e.day}">${tries.length ? 'Take again' : 'Start exam'}</a></div>`;
+  }
+  function renderMd(md) {
+    let html = window.marked ? window.marked.parse(md) : `<pre>${esc(md)}</pre>`;
+    html = html.replace(/<table>/g, '<div class="tbl"><table>').replace(/<\/table>/g, '</table></div>');
+    html = html.replace(/href="([^"]*)"/g, (all, href) => {
+      const m = href.match(/Day_(\d{3})_[^"]*\.md$/);
+      if (m) return `href="#day-${+m[1]}"`;
+      if (/00_Study_Guideline\.md$/.test(href)) return 'href="#guide"';
+      if (/07_Hot_Topics_Checklist\.md$/.test(href)) return 'href="#hot"';
+      return all;
+    });
+    return html;
+  }
+  function attemptRow(a, i) {
+    const p = Math.max(0, a.net) / a.total * 100;
+    return `<a class="attempt" href="#result-${i}"><span><strong>${esc(a.title)}</strong><br><span class="muted" style="font-size:13px">${new Date(a.at).toLocaleString('en-GB', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })} · ${a.correct} right · ${a.wrong} wrong · ${a.skipped} skipped</span></span>
+      <span class="bar" title="${Math.round(p)}%"><span style="width:${p}%"${a.net < 0 ? ' class="neg"' : ''}></span></span>
+      <span class="num">${fmtNet(a.net)}/${a.total}</span></a>`;
+  }
+
+  // ---------- views ----------
+  function viewToday() {
+    const t = todayN();
+    const cur = Math.min(Math.max(t, 1), TOTAL);
+    const day = DAYS[cur - 1];
+    const doneDays = DAYS.filter(d => dayDone(d.n)).length;
+    const doneTasks = DAYS.reduce((s, d) => s + dayCount(d.n), 0);
+    const past = DAYS.filter(d => d.n < t);
+    const behind = past.reduce((s, d) => s + (4 - dayCount(d.n)), 0);
+    let streak = 0;
+    for (let n = dayDone(cur) ? cur : cur - 1; n >= 1 && dayDone(n); n--) streak++;
+    const backlog = past.filter(d => !dayDone(d.n));
+    const last = state.attempts[state.attempts.length - 1];
+
+    let heading, sub, chip;
+    if (t < 1) {
+      heading = `Starts in <span class="num">${1 - t}</span> day${1 - t === 1 ? '' : 's'}`;
+      sub = `Day 1 is ${longDate(DAYS[0].date)}. Here is your first day.`;
+      chip = `<span class="chip acc">Not started</span>`;
+    } else if (t > TOTAL) {
+      heading = 'Plan complete';
+      sub = `The 182 days ended on ${longDate(DAYS[TOTAL - 1].date)}.`;
+      chip = behind ? `<span class="chip warn">${behind} tasks left</span>` : `<span class="chip good">All done</span>`;
+    } else {
+      heading = `Day <span class="num">${t}</span> of ${TOTAL}`;
+      sub = `${longDate(day.date)} · Phase ${day.phase}: ${esc(phaseOf(t).name)}`;
+      chip = behind === 0 ? `<span class="chip good">On track</span>` : behind <= 4 ? `<span class="chip warn">Behind by ${behind} task${behind === 1 ? '' : 's'}</span>` : `<span class="chip bad">Behind by ${behind} tasks</span>`;
+    }
+
+    const segs = D.routine.phases.map(p => {
+      const len = p.to - p.from + 1;
+      const done = Math.min(Math.max(t - p.from, 0), len);
+      return `<div class="seg"><span style="width:${(done / len) * 100}%"></span><b>${p.n}. ${esc(p.name)}</b></div>`;
+    }).join('');
+    const markerLeft = t >= 1 && t <= TOTAL ? `<div class="marker" style="left:calc(${((t - 0.5) / TOTAL) * 100}% - 1px)" title="Today"></div>` : '';
+
+    const subj = {};
+    DAYS.forEach(d => d.slots.forEach((s, i) => {
+      const k = parseSlot(s).subject;
+      subj[k] = subj[k] || [0, 0];
+      subj[k][1]++;
+      if (slotDone(d.n, i)) subj[k][0]++;
+    }));
+    const subjRows = [...SUBJECTS, OTHER].filter(k => subj[k]).map(k => `<div class="s"><span>${esc(k)}</span><span class="bar"><span style="width:${pct(subj[k][0], subj[k][1])}%"></span></span><span class="num">${subj[k][0]}/${subj[k][1]}</span></div>`).join('');
+
+    const m = D.materials[cur];
+    return `
+      <section class="hero"><div><div class="eyebrow">Your status</div><h1>${heading}</h1><p>${sub}</p></div>${chip}</section>
+      <section class="stats">
+        <div class="stat"><div class="v">${doneDays}<small>/${TOTAL}</small></div><div class="l">Days complete</div></div>
+        <div class="stat"><div class="v">${doneTasks}<small>/${TOTAL * 4}</small></div><div class="l">Study hours done</div></div>
+        <div class="stat"><div class="v">${streak}<small> day${streak === 1 ? '' : 's'}</small></div><div class="l">Current streak</div></div>
+        <div class="stat"><div class="v">${last ? `${fmtNet(last.net)}<small>/${last.total}</small>` : '–'}</div><div class="l">${last ? 'Last exam (net)' : 'No exams taken yet'}</div></div>
+      </section>
+      <section class="card">
+        <div class="card-head"><h2>Where you are</h2><span class="muted">${pct(doneTasks, TOTAL * 4)}% of all study hours done</span></div>
+        <div class="timeline">${segs}${markerLeft}</div>
+        <div class="tl-scale"><span>1 Oct</span><span>21 Jan</span><span>4 Mar</span><span>31 Mar</span></div>
+      </section>
+      <div class="two">
+        <section class="card">
+          <div class="card-head"><div><div class="eyebrow">${t >= 1 && t <= TOTAL ? 'Today' : 'Day 1'} · ${shortDate(day.date)}</div><h2>Day ${day.n} tasks</h2></div><a class="btn small" href="#day-${day.n}">Open day</a></div>
+          ${taskList(day, true)}
+          ${m ? `<div class="row" style="margin-top:14px"><a class="btn primary" href="#day-${day.n}">Read today's notes</a>${m.examId ? `<a class="btn" href="#exam-${day.n}">Take today's exam</a>` : ''}</div>` : `<p class="muted" style="margin:14px 0 0">No notes added for this day yet.</p>`}
+        </section>
+        <div class="stack">
+          <section class="card backlog"><div class="card-head"><h2>Backlog</h2><span class="muted">${backlog.length} day${backlog.length === 1 ? '' : 's'}</span></div>
+            ${backlog.length ? backlog.slice(0, 6).map(d => `<a href="#day-${d.n}"><span>Day ${d.n} · ${shortDate(d.date)}</span><span class="num muted">${dayCount(d.n)}/4</span></a>`).join('') + (backlog.length > 6 ? `<p class="muted">and ${backlog.length - 6} more in Routine</p>` : '') : `<p class="empty">Nothing pending. Well done.</p>`}
+          </section>
+          <section class="card"><div class="card-head"><h2>Recent exams</h2><a href="#exams">All exams</a></div>
+            ${state.attempts.length ? `<div class="attempts">${state.attempts.map((a, i) => [a, i]).slice(-5).reverse().map(([a, i]) => attemptRow(a, i)).join('')}</div>` : `<p class="empty">Take your first exam on Day 2 (Friday).</p>`}
+          </section>
+        </div>
+      </div>
+      <section class="card"><div class="card-head"><h2>Progress by subject</h2><span class="muted">study hours done / planned</span></div><div class="subjects">${subjRows}</div></section>`;
+  }
+
+  function viewRoutine(mi) {
+    const t = todayN();
+    if (mi == null) mi = Math.max(0, MONTHS.indexOf(monthKey((DAYS[Math.min(Math.max(t, 1), TOTAL) - 1]).date)));
+    const key = MONTHS[mi];
+    const chips = MONTHS.map((k, i) => {
+      const ds = DAYS.filter(d => monthKey(d.date) === k);
+      const done = ds.reduce((s, d) => s + dayCount(d.n), 0);
+      return `<a href="#routine-${i + 1}"${i === mi ? ' aria-current="page"' : ''}><strong>${monthName(k)}</strong><small>Days ${ds[0].n}–${ds[ds.length - 1].n} · ${pct(done, ds.length * 4)}%</small><span class="bar"><span style="width:${pct(done, ds.length * 4)}%"></span></span></a>`;
+    }).join('');
+    const ds = DAYS.filter(d => monthKey(d.date) === key);
+    const weeks = [];
+    ds.forEach(d => { const w = weeks[weeks.length - 1]; if (w && w.n === d.week) w.days.push(d); else weeks.push({ n: d.week, days: [d] }); });
+    const body = weeks.map(w => `<section class="week"><h3>Week ${w.n} <small>Phase ${w.days[0].phase}: ${esc(phaseOf(w.days[0].n).name)}</small></h3><div class="days">${w.days.map(d => `
+      <div class="day${d.n === t ? ' today' : ''}${d.dow === 5 ? ' fri' : ''}" id="d${d.n}">
+        <div class="day-meta"><a href="#day-${d.n}"><span class="dn">DAY ${d.n}</span><br><span class="dd">${shortDate(d.date)}</span></a>
+          <span class="num muted" style="font-size:13px">${dayCount(d.n)}/4 done</span><span class="badges">${d.n === t ? '<span class="chip good">Today</span>' : ''}${dayBadges(d.n)}</span></div>
+        <div class="slots">${d.slots.map((s, i) => { const on = slotDone(d.n, i); return `<label class="slot${on ? ' done' : ''}"><input type="checkbox" data-slot="${d.n}-${i}"${on ? ' checked' : ''} id="r-${d.n}-${i}"><span>${slotHtml(d, i)}</span></label>`; }).join('')}</div>
+      </div>`).join('')}</div></section>`).join('');
+    return `<section class="hero"><div><div class="eyebrow">6-month routine</div><h1>${monthName(key)}</h1><p>Tick each hour when you finish it. Open a day to read its notes.</p></div></section>
+      <nav class="months" aria-label="Months">${chips}</nav>${body}`;
+  }
+
+  function viewDay(n) {
+    const d = DAYS[n - 1];
+    if (!d) return viewNotFound();
+    const m = D.materials[n];
+    let article = '';
+    if (m) {
+      const [a, b] = m.md.split('<!--EXAM-->');
+      article = `<article class="card article">${renderMd(a)}${m.examId ? examCard(m.examId) : ''}${b ? renderMd(b) : ''}</article>`;
+    } else {
+      article = `<section class="card"><h2>Notes</h2><p class="muted">Notes for Day ${n} have not been added yet. Study from your main books using the topics above.</p></section>`;
+    }
+    return `<section class="hero"><div><div class="eyebrow"><a href="#routine-${MONTHS.indexOf(monthKey(d.date)) + 1}">${monthName(monthKey(d.date))}</a> · Week ${d.week} · Phase ${d.phase}</div>
+        <h1>Day <span class="num">${n}</span> · ${esc(longDate(d.date))}</h1></div><span class="chip ${dayDone(n) ? 'good' : 'acc'}">${dayCount(n)}/4 done</span></section>
+      <section class="card"><div class="card-head"><h2>Tasks</h2><button class="btn small" data-action="day-all" data-day="${n}">${dayDone(n) ? 'Mark day not done' : 'Mark whole day done'}</button></div>${taskList(d, true)}</section>
+      ${article}
+      <nav class="pager">${n > 1 ? `<a class="btn" href="#day-${n - 1}">← Day ${n - 1}</a>` : '<span></span>'}${n < TOTAL ? `<a class="btn" href="#day-${n + 1}">Day ${n + 1} →</a>` : ''}</nav>`;
+  }
+
+  function viewExams() {
+    const list = D.exams.map(e => {
+      const tries = state.attempts.map((a, i) => [a, i]).filter(([a]) => a.examId === e.id);
+      return `<section class="card"><div class="eyebrow">Day ${e.day} · ${shortDate(DAYS[e.day - 1].date)}</div><h2 style="margin:4px 0 6px">${esc(e.title)}</h2>
+        <p class="muted" style="margin:0 0 12px">${e.questions.length} MCQ · ${e.minutes} min · ${[...new Set(e.questions.map(q => q.part))].map(esc).join(', ')}</p>
+        <div class="row"><a class="btn primary" href="#exam-${e.day}">${tries.length ? 'Take again' : 'Start exam'}</a><a class="btn" href="#day-${e.day}">Day ${e.day} plan</a></div>
+        ${tries.length ? `<div class="attempts" style="margin-top:12px">${tries.slice().reverse().map(([a, i]) => attemptRow(a, i)).join('')}</div>` : ''}</section>`;
+    }).join('');
+    return `<section class="hero"><div><div class="eyebrow">BCS marking: +1 correct · −0.5 wrong · 0 skipped</div><h1>Exams</h1><p>Each exam runs with a timer. Your answers are checked only when you submit.</p></div></section>
+      <div class="exams-list">${list || '<p class="empty">No exams added yet.</p>'}</div>`;
+  }
+
+  // ---------- exam session ----------
+  let exam = null; // {id, answers:{n:key}, endsAt, startedAt, submitted}
+  let tick = null;
+  try { const s = JSON.parse(sessionStorage.getItem('bcs182-exam') || 'null'); if (s && !s.submitted && EXAMS[s.id]) exam = s; } catch (e) {}
+  const saveExam = () => { try { sessionStorage.setItem('bcs182-exam', JSON.stringify(exam)); } catch (e) {} };
+
+  function viewExam(day) {
+    const e = EXAMS[`day-${day}`];
+    if (!e) return viewNotFound();
+    if (!exam || exam.id !== e.id || exam.submitted) {
+      const other = exam && !exam.submitted && exam.id !== e.id ? EXAMS[exam.id] : null;
+      const parts = [...new Set(e.questions.map(q => q.part))].map(p => `<li>${esc(p)}: ${e.questions.filter(q => q.part === p).length} questions</li>`).join('');
+      return `<section class="hero"><div><div class="eyebrow">Day ${e.day} exam</div><h1>${esc(e.title)}</h1></div></section>
+        <section class="card article"><h2 style="border:0;margin-top:0;padding-top:0">Before you start</h2>
+          <ul><li><strong>${e.questions.length} questions, ${e.minutes} minutes.</strong> The exam submits itself when time runs out.</li>
+          <li>+1 for each correct answer, −0.5 for each wrong answer, 0 for a skipped question.</li>
+          <li>Tap an option to mark it. Tap it again to clear it.</li><li>Don't open your notes until you submit.</li></ul>
+          <h3>Sections</h3><ul>${parts}</ul>
+          ${other ? `<p class="chip warn">You have "${esc(other.title)}" in progress. Starting this one ends it without saving.</p>` : ''}
+          <div class="row" style="margin-top:16px"><button class="btn primary" data-action="start" data-exam="${e.id}">Start the ${e.minutes}-minute timer</button><a class="btn" href="#day-${e.day}">Back to Day ${e.day}</a></div>
+        </section>`;
+    }
+    const answered = Object.keys(exam.answers).length;
+    let lastPart = null;
+    const qs = e.questions.map(q => {
+      const head = q.part !== lastPart ? `<h2 class="part-h">${esc(q.part)}</h2>` : '';
+      lastPart = q.part;
+      return `${head}<div class="q" id="q${q.n}"><div class="qt"><span class="n">${q.n}.</span><span>${inline(q.text)}</span></div>
+        <div class="opts">${q.options.map(o => `<button class="opt" data-q="${q.n}" data-opt="${esc(o.key)}" aria-pressed="${exam.answers[q.n] === o.key}"><span class="bub">${esc(o.key)}</span><span>${inline(o.text)}</span></button>`).join('')}</div></div>`;
+    }).join('');
+    return `<div class="exam-bar"><div><div class="title">${esc(e.title)}</div><div class="muted" style="font-size:13px"><span id="answered" class="num">${answered}</span>/${e.questions.length} answered</div></div>
+        <span class="spacer"></span><span class="timer" id="timer">--:--</span><button class="btn primary" data-action="submit-ask">Submit</button></div>
+      <section class="card"><div class="eyebrow" style="margin-bottom:8px">Answer sheet · tap a number to jump</div><div class="omr" id="omr">${e.questions.map(q => `<a href="#q${q.n}" data-jump="${q.n}" class="${exam.answers[q.n] ? 'on' : ''}">${q.n}</a>`).join('')}</div></section>
+      <div class="qs">${qs}</div>
+      <div class="row"><button class="btn primary" data-action="submit-ask">Submit answers</button></div>`;
+  }
+  function startTimer() {
+    clearInterval(tick);
+    if (!exam || exam.submitted) return;
+    const upd = () => {
+      const el = document.getElementById('timer');
+      if (!el) return;
+      const left = Math.max(0, Math.round((exam.endsAt - Date.now()) / 1000));
+      el.textContent = `${String(Math.floor(left / 60)).padStart(2, '0')}:${String(left % 60).padStart(2, '0')}`;
+      el.classList.toggle('low', left <= 300);
+      if (left <= 0) submitExam(true);
+    };
+    upd();
+    tick = setInterval(upd, 1000);
+  }
+  function submitExam(timeUp) {
+    if (!exam || exam.submitted) return;
+    clearInterval(tick);
+    const e = EXAMS[exam.id];
+    let correct = 0, wrong = 0;
+    e.questions.forEach(q => { const a = exam.answers[q.n]; if (!a) return; if (a === q.answer) correct++; else wrong++; });
+    const total = e.questions.length;
+    const attempt = { examId: e.id, title: e.title, at: new Date().toISOString(), secs: Math.min(e.minutes * 60, Math.round((Date.now() - exam.startedAt) / 1000)), answers: exam.answers, correct, wrong, skipped: total - correct - wrong, net: correct - wrong * 0.5, total, timeUp: !!timeUp };
+    state.attempts.push(attempt);
+    exam.submitted = true;
+    saveExam();
+    queueSave('exams');
+    closeModal();
+    location.hash = `#result-${state.attempts.length - 1}`;
+  }
+
+  function viewResult(i) {
+    const a = state.attempts[i];
+    if (!a) return viewNotFound();
+    const e = EXAMS[a.examId];
+    const acc = a.correct + a.wrong ? Math.round((a.correct / (a.correct + a.wrong)) * 100) : 0;
+    const verdict = a.net >= a.total * 0.8 && acc >= 85 ? ['good', 'Target met'] : acc < 80 && a.wrong ? ['bad', 'Too many guesses. Skip when unsure.'] : ['warn', 'Below the target of 80% net and 85% accuracy'];
+    let partRows = '', review = '';
+    if (e) {
+      const parts = [...new Set(e.questions.map(q => q.part))];
+      partRows = parts.map(p => {
+        const qs = e.questions.filter(q => q.part === p);
+        const c = qs.filter(q => a.answers[q.n] === q.answer).length;
+        const w = qs.filter(q => a.answers[q.n] && a.answers[q.n] !== q.answer).length;
+        return `<tr><td>${esc(p)}</td><td class="num">${c}</td><td class="num">${w}</td><td class="num">${qs.length - c - w}</td><td class="num">${fmtNet(c - w * 0.5)}/${qs.length}</td></tr>`;
+      }).join('');
+      let lastPart = null;
+      review = e.questions.map(q => {
+        const mine = a.answers[q.n];
+        const cls = !mine ? 'r-skip' : mine === q.answer ? 'r-right' : 'r-wrong';
+        const head = q.part !== lastPart ? `<h2 class="part-h" data-part>${esc(q.part)}</h2>` : '';
+        lastPart = q.part;
+        return `${head}<div class="q ${cls}" data-r="${cls}"><div class="qt"><span class="n">${q.n}.</span><span>${inline(q.text)} ${!mine ? '<span class="chip">Skipped</span>' : mine === q.answer ? '<span class="chip good">+1</span>' : '<span class="chip bad">−0.5</span>'}</span></div>
+          <div class="opts">${q.options.map(o => `<button class="opt${o.key === q.answer ? ' right' : o.key === mine ? ' wrong' : ''}" disabled><span class="bub">${esc(o.key)}</span><span>${inline(o.text)}</span></button>`).join('')}</div>
+          ${q.explain ? `<div class="explain">${inline(q.explain)}</div>` : ''}</div>`;
+      }).join('');
+    }
+    const mins = Math.floor(a.secs / 60), secs = a.secs % 60;
+    return `<section class="hero"><div><div class="eyebrow">Result · ${new Date(a.at).toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' })}${a.timeUp ? ' · time ran out' : ''}</div><h1>${esc(a.title)}</h1></div><span class="chip ${verdict[0]}">${verdict[1]}</span></section>
+      <section class="card"><div class="score"><div><div class="eyebrow">Net score</div><div class="big">${fmtNet(a.net)}<small>/${a.total}</small></div></div>
+        <div class="stats" style="flex:1;min-width:260px">
+          <div class="stat"><div class="v" style="color:var(--good)">${a.correct}</div><div class="l">Correct</div></div>
+          <div class="stat"><div class="v" style="color:var(--red)">${a.wrong}</div><div class="l">Wrong (−${fmtNet(a.wrong * 0.5)})</div></div>
+          <div class="stat"><div class="v">${a.skipped}</div><div class="l">Skipped</div></div>
+          <div class="stat"><div class="v">${acc}<small>%</small></div><div class="l">Accuracy · ${mins}m ${secs}s</div></div></div></div>
+        ${partRows ? `<div class="tbl" style="margin-top:16px"><table><thead><tr><th>Section</th><th>Right</th><th>Wrong</th><th>Skipped</th><th>Net</th></tr></thead><tbody>${partRows}</tbody></table></div>` : ''}
+        <div class="row" style="margin-top:14px">${e ? `<a class="btn primary" href="#exam-${e.day}">Take again</a><a class="btn" href="#day-${e.day}">Day ${e.day} plan</a>` : ''}<a class="btn" href="#exams">All exams</a></div>
+      </section>
+      ${review ? `<section class="card"><div class="card-head"><h2>Review answers</h2><div class="filters" id="filters">
+        <button data-filter="all" aria-pressed="true">All</button><button data-filter="r-wrong" aria-pressed="false">Wrong (${a.wrong})</button><button data-filter="r-skip" aria-pressed="false">Skipped (${a.skipped})</button><button data-filter="r-right" aria-pressed="false">Correct (${a.correct})</button></div></div>
+        <p class="muted" style="margin-top:0">Copy every wrong and skipped fact into your mistake notebook.</p><div class="qs" id="review">${review}</div></section>` : ''}`;
+  }
+
+  function viewGuide(hot) {
+    return `<nav class="months" aria-label="Guide pages"><a href="#guide"${hot ? '' : ' aria-current="page"'}><strong>Study guideline</strong><small>Exam pattern, strategy, books</small></a><a href="#hot"${hot ? ' aria-current="page"' : ''}><strong>Hot topics</strong><small>Most-asked topics by subject</small></a></nav>
+      <article class="card article">${renderMd(hot ? D.hot : D.guide)}</article>`;
+  }
+  // ---------- topics ----------
+  const bundles = {};
+  function loadBundle(code) {
+    if (!bundles[code]) bundles[code] = fetch(`topics/${code}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).catch(err => { delete bundles[code]; throw err; });
+    return bundles[code];
+  }
+  const dayRef = ([n, slot]) => `Day ${n} · ${shortDate(DAYS[n - 1].date)} · hour ${slot + 1}`;
+
+  function viewTopics(code) {
+    code = CODES.includes(code) ? code : CODES[0];
+    const chips = CODES.map(c => {
+      const ts = TOPICS.filter(t => t.code === c);
+      const done = ts.filter(topicStudied).length;
+      return `<a href="#topics-${c}"${c === code ? ' aria-current="page"' : ''}><strong>${esc(ts[0].subject)}</strong><small>${done}/${ts.length} studied</small><span class="bar"><span style="width:${pct(done, ts.length)}%"></span></span></a>`;
+    }).join('');
+    const rows = TOPICS.filter(t => t.code === code).map(t => {
+      const q = state.quiz[t.id];
+      const first = t.days[0];
+      return `<a class="topic-row${topicStudied(t) ? ' done' : ''}" href="#topic-${t.id}">
+        <span class="num muted">${t.id.split('-')[1]}</span>
+        <span><strong>${t.hot ? '🔥 ' : ''}${esc(t.title)}</strong><br><span class="muted" style="font-size:13px">${first ? dayRef(first) : 'Not scheduled'}${t.has ? '' : ' · notes coming soon'}</span></span>
+        <span class="row" style="gap:6px">${q ? `<span class="chip ${q.best >= q.total * 0.75 ? 'good' : 'warn'}">Quiz ${q.best}/${q.total}</span>` : ''}${topicStudied(t) ? '<span class="chip good">Studied</span>' : ''}</span></a>`;
+    }).join('');
+    return `<section class="hero"><div><div class="eyebrow">Study material</div><h1>Topics</h1><p>Every topic in the 6-month plan, in study order. 🔥 marks the most frequently asked ones.</p></div></section>
+      <nav class="months" aria-label="Subjects">${chips}</nav><section class="card topic-list">${rows}</section>`;
+  }
+
+  let tq = null; // topic quiz in progress: {id, answers:{n:key}}
+  function viewTopic(id) {
+    const t = TOPIC[id];
+    if (!t) return viewNotFound();
+    const list = TOPICS.filter(x => x.code === t.code);
+    const i = list.indexOf(t);
+    const occ = t.days.map(([n, slot], k) => {
+      const on = slotDone(n, slot);
+      return `<label class="task${on ? ' done' : ''}"><input type="checkbox" data-slot="${n}-${slot}"${on ? ' checked' : ''} id="tp-${n}-${slot}"><span class="h">${k === 0 ? 'STUDY' : 'REVISE'}</span><span class="t"><a href="#day-${n}">${dayRef([n, slot])}</a></span></label>`;
+    }).join('');
+    return `<section class="hero"><div><div class="eyebrow"><a href="#topics-${t.code}">${esc(t.subject)}</a> · Topic ${i + 1} of ${list.length}</div><h1>${esc(t.title)}</h1></div>
+        <span class="row">${t.hot ? '<span class="chip bad">🔥 Frequently asked</span>' : ''}${topicStudied(t) ? '<span class="chip good">Studied</span>' : ''}</span></section>
+      ${occ ? `<section class="card"><div class="card-head"><h2>In your routine</h2><span class="muted">Tick when done</span></div><div class="tasks">${occ}</div></section>` : ''}
+      <article class="card article" id="notes"><p class="muted">Loading notes…</p></article>
+      <section class="card" id="tquiz" hidden></section>
+      <nav class="pager">${i > 0 ? `<a class="btn" href="#topic-${list[i - 1].id}">← ${esc(list[i - 1].title)}</a>` : '<span></span>'}${i < list.length - 1 ? `<a class="btn" href="#topic-${list[i + 1].id}">${esc(list[i + 1].title)} →</a>` : ''}</nav>`;
+  }
+  function fillTopic(id) {
+    const t = TOPIC[id];
+    if (!t) return;
+    const notesEl = document.getElementById('notes');
+    if (!t.has) { notesEl.innerHTML = `<h2 style="border:0;margin:0;padding:0">Notes coming soon</h2><p class="muted">Notes for this topic have not been added yet. Study it from your main book for now.</p>`; return; }
+    loadBundle(t.code).then(b => {
+      if (route !== 'topic-' + id) return;
+      const entry = b[id];
+      if (!entry) { notesEl.innerHTML = '<p class="muted">Notes for this topic have not been added yet.</p>'; return; }
+      notesEl.innerHTML = renderMd(entry.notes);
+      if (!tq || tq.id !== id) tq = { id, answers: {} };
+      drawQuiz(entry.quiz);
+    }).catch(() => {
+      if (route !== 'topic-' + id) return;
+      notesEl.innerHTML = '<h2 style="border:0;margin:0;padding:0">Notes could not load</h2><p class="muted">Check your internet connection and reload the page.</p>';
+    });
+  }
+  function drawQuiz(quiz) {
+    const el = document.getElementById('tquiz');
+    if (!el || !quiz.length) return;
+    const done = Object.keys(tq.answers).length;
+    const right = quiz.filter(q => tq.answers[q.n] === q.answer).length;
+    const best = state.quiz[tq.id];
+    el.hidden = false;
+    el.innerHTML = `<div class="card-head"><div><div class="eyebrow">Check yourself</div><h2>Practice MCQ</h2></div>
+        <span class="row"><span class="num">${right}/${done} correct${done < quiz.length ? ` · ${quiz.length - done} left` : ''}</span>${best ? `<span class="chip">Best ${best.best}/${best.total}</span>` : ''}${done ? '<button class="btn small" data-action="tq-reset">Start over</button>' : ''}</span></div>
+      <p class="muted" style="margin-top:0">Tap an answer. It is checked at once and can't be changed.</p>
+      <div class="qs">${quiz.map(q => {
+        const mine = tq.answers[q.n];
+        return `<div class="q${mine ? (mine === q.answer ? ' r-right' : ' r-wrong') : ''}"><div class="qt"><span class="n">${q.n}.</span><span>${inline(q.text)}</span></div>
+          <div class="opts">${q.options.map(o => `<button class="opt${mine ? (o.key === q.answer ? ' right' : o.key === mine ? ' wrong' : '') : ''}" data-tq="${q.n}" data-opt="${esc(o.key)}"${mine ? ' disabled' : ''}><span class="bub">${esc(o.key)}</span><span>${inline(o.text)}</span></button>`).join('')}</div>
+          ${mine && q.explain ? `<div class="explain">${inline(q.explain)}</div>` : ''}</div>`;
+      }).join('')}</div>
+      ${done === quiz.length ? `<p class="chip ${right >= quiz.length * 0.75 ? 'good' : 'warn'}" style="margin:14px 0 0">Finished: ${right}/${quiz.length}. ${right >= quiz.length * 0.75 ? 'Good. Move on.' : 'Re-read the notes, then start over.'}</p>` : ''}`;
+  }
+  function answerTopicQuiz(n, key) {
+    const t = TOPIC[tq.id];
+    loadBundle(t.code).then(b => {
+      const quiz = b[tq.id].quiz;
+      if (tq.answers[n]) return;
+      tq.answers[n] = key;
+      if (Object.keys(tq.answers).length === quiz.length) {
+        const right = quiz.filter(q => tq.answers[q.n] === q.answer).length;
+        const prev = state.quiz[tq.id];
+        state.quiz[tq.id] = { best: Math.max(right, prev ? prev.best : 0), last: right, total: quiz.length, at: new Date().toISOString() };
+        queueSave('progress');
+      }
+      drawQuiz(quiz);
+    });
+  }
+
+  const viewNotFound = () => `<section class="card"><h2>Page not found</h2><p><a href="#today">Go to Today</a></p></section>`;
+
+  // ---------- modal ----------
+  const modal = document.getElementById('modal');
+  function closeModal() { modal.innerHTML = ''; }
+  function askSubmit() {
+    const e = EXAMS[exam.id];
+    const left = e.questions.length - Object.keys(exam.answers).length;
+    modal.innerHTML = `<div class="overlay"><div class="dialog" role="dialog" aria-modal="true" aria-labelledby="dlg-h"><h2 id="dlg-h">Submit your answers?</h2>
+      <p style="margin:0">${left ? `You have <strong>${left}</strong> unanswered question${left === 1 ? '' : 's'}. They count as skipped (0 marks).` : 'You have answered every question.'}</p>
+      <div class="row"><button class="btn primary" data-action="submit-confirm">Submit</button><button class="btn" data-action="submit-cancel">Keep working</button></div></div></div>`;
+    modal.querySelector('[data-action="submit-confirm"]').focus();
+  }
+
+  // ---------- router ----------
+  let route = '';
+  function render() {
+    const h = (location.hash || '#today').slice(1);
+    let html, nav = 'today', m;
+    clearInterval(tick);
+    if ((m = h.match(/^routine(?:-(\d+))?$/))) { nav = 'routine'; html = viewRoutine(m[1] ? Math.min(Math.max(+m[1], 1), MONTHS.length) - 1 : null); }
+    else if ((m = h.match(/^day-(\d+)$/))) { nav = 'routine'; html = viewDay(+m[1]); }
+    else if ((m = h.match(/^exam-(\d+)$/))) { nav = 'exams'; html = viewExam(+m[1]); }
+    else if ((m = h.match(/^result-(\d+)$/))) { nav = 'exams'; html = viewResult(+m[1]); }
+    else if (h === 'exams') { nav = 'exams'; html = viewExams(); }
+    else if ((m = h.match(/^topics(?:-([A-Z]+))?$/))) { nav = 'topics'; html = viewTopics(m[1]); }
+    else if ((m = h.match(/^topic-([A-Z]+-\d+)$/))) { nav = 'topics'; html = viewTopic(m[1]); }
+    else if (h === 'guide' || h === 'hot') { nav = 'guide'; html = viewGuide(h === 'hot'); }
+    else if (/^q\d+$/.test(h) && exam && !exam.submitted) { return; }
+    else html = viewToday();
+    const y = window.scrollY;
+    app.innerHTML = html;
+    document.querySelectorAll('[data-nav]').forEach(a => { if (a.dataset.nav === nav) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+    if (h === route) window.scrollTo(0, y); else window.scrollTo(0, 0);
+    route = h;
+    if (/^exam-/.test(h) && exam && !exam.submitted) startTimer();
+    if (m && /^topic-/.test(h)) fillTopic(m[1]);
+  }
+  window.addEventListener('hashchange', render);
+
+  app.addEventListener('change', ev => {
+    const el = ev.target.closest('input[data-slot]');
+    if (!el) return;
+    const [n, i] = el.dataset.slot.split('-').map(Number);
+    setSlot(n, i, el.checked);
+    render();
+  });
+  app.addEventListener('click', ev => {
+    const jump = ev.target.closest('[data-jump]');
+    if (jump) { ev.preventDefault(); const q = document.getElementById('q' + jump.dataset.jump); if (q) q.scrollIntoView({ block: 'center' }); return; }
+    const opt = ev.target.closest('.opt[data-q]');
+    if (opt && exam && !exam.submitted) {
+      const n = opt.dataset.q, k = opt.dataset.opt;
+      if (exam.answers[n] === k) delete exam.answers[n]; else exam.answers[n] = k;
+      saveExam();
+      opt.parentElement.querySelectorAll('.opt').forEach(b => b.setAttribute('aria-pressed', String(exam.answers[n] === b.dataset.opt)));
+      const cell = document.querySelector(`#omr [data-jump="${n}"]`);
+      if (cell) cell.classList.toggle('on', !!exam.answers[n]);
+      document.getElementById('answered').textContent = Object.keys(exam.answers).length;
+      return;
+    }
+    const tqb = ev.target.closest('[data-tq]');
+    if (tqb && tq) { answerTopicQuiz(tqb.dataset.tq, tqb.dataset.opt); return; }
+    const f = ev.target.closest('[data-filter]');
+    if (f) {
+      document.querySelectorAll('#filters button').forEach(b => b.setAttribute('aria-pressed', String(b === f)));
+      document.querySelectorAll('#review .q').forEach(q => { q.hidden = f.dataset.filter !== 'all' && q.dataset.r !== f.dataset.filter; });
+      document.querySelectorAll('#review [data-part]').forEach(h => { h.hidden = f.dataset.filter !== 'all'; });
+      return;
+    }
+    const act = ev.target.closest('[data-action]');
+    if (!act) return;
+    const a = act.dataset.action;
+    if (a === 'day-all') {
+      const n = +act.dataset.day, v = !dayDone(n);
+      for (let i = 0; i < 4; i++) setSlot(n, i, v);
+      render();
+    } else if (a === 'start') {
+      const e = EXAMS[act.dataset.exam];
+      exam = { id: e.id, answers: {}, startedAt: Date.now(), endsAt: Date.now() + e.minutes * 60000, submitted: false };
+      saveExam();
+      route = '';
+      render();
+    } else if (a === 'submit-ask') askSubmit();
+    else if (a === 'tq-reset' && tq) { tq = { id: tq.id, answers: {} }; loadBundle(TOPIC[tq.id].code).then(b => drawQuiz(b[tq.id].quiz)); }
+  });
+  modal.addEventListener('click', ev => {
+    const act = ev.target.closest('[data-action]');
+    if (act && act.dataset.action === 'submit-confirm') submitExam(false);
+    else if ((act && act.dataset.action === 'submit-cancel') || ev.target.classList.contains('overlay')) closeModal();
+  });
+  document.addEventListener('keydown', ev => { if (ev.key === 'Escape') closeModal(); });
+
+  render();
+  connect();
+})();
+</script>

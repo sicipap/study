@@ -1,0 +1,7010 @@
+{
+ "start": "2026-10-01",
+ "totalDays": 182,
+ "phases": [
+  {
+   "n": 1,
+   "name": "Foundation",
+   "from": 1,
+   "to": 112
+  },
+  {
+   "n": 2,
+   "name": "Revision + PYQ",
+   "from": 113,
+   "to": 154
+  },
+  {
+   "n": 3,
+   "name": "Model tests",
+   "from": 155,
+   "to": 182
+  }
+ ],
+ "days": [
+  {
+   "n": 1,
+   "date": "2026-10-01",
+   "dow": 4,
+   "phase": 1,
+   "week": 1,
+   "slots": [
+    "**Bangladesh Affairs:** Ancient Bengal: janapadas, Maurya, Gupta, Shashanka",
+    "**International Affairs:** 🔥 Concepts: state, sovereignty, geopolitics, balance of power",
+    "**Computer & ICT:** 🔥 History & generations of computers",
+    "**Ethics & Governance:** 🔥 Ethics & morality: concept, sources"
+   ],
+   "topics": [
+    [
+     "BD-01"
+    ],
+    [
+     "INT-01"
+    ],
+    [
+     "ICT-01"
+    ],
+    [
+     "ETH-01"
+    ]
+   ]
+  },
+  {
+   "n": 2,
+   "date": "2026-10-02",
+   "dow": 5,
+   "phase": 1,
+   "week": 1,
+   "slots": [
+    "📝 **Weekly Test #1:** 50 MCQ on this week's topics (35 min) + analysis",
+    "**Current affairs:** this week's newspaper notes",
+    "**Revision:** all 🔥 topics of this week; update short notes",
+    "**Backlog:** finish any missed topic (else extra PYQ practice)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 3,
+   "date": "2026-10-03",
+   "dow": 6,
+   "phase": 1,
+   "week": 2,
+   "slots": [
+    "**Math:** 🔥 Number system, divisibility rules",
+    "**Bangla:** 🔥 ভাষার উৎপত্তি, বাংলা ভাষার ইতিহাস ও উপভাষা",
+    "**English:** 🔥 Noun: kinds, number, gender",
+    "**Bangladesh Affairs:** 🔥 Pala & Sena dynasties"
+   ],
+   "topics": [
+    [
+     "MATH-01"
+    ],
+    [
+     "BAN-01"
+    ],
+    [
+     "ENG-01"
+    ],
+    [
+     "BD-02"
+    ]
+   ]
+  },
+  {
+   "n": 4,
+   "date": "2026-10-04",
+   "dow": 0,
+   "phase": 1,
+   "week": 2,
+   "slots": [
+    "**Mental Ability:** Verbal analogy",
+    "**English:** 🔥 Periods of English literature",
+    "**Bangla:** 🔥 সাহিত্যের যুগবিভাগ ও চর্যাপদ",
+    "**International Affairs:** Ancient civilizations"
+   ],
+   "topics": [
+    [
+     "MENT-01"
+    ],
+    [
+     "ENG-02"
+    ],
+    [
+     "BAN-02"
+    ],
+    [
+     "INT-02"
+    ]
+   ]
+  },
+  {
+   "n": 5,
+   "date": "2026-10-05",
+   "dow": 1,
+   "phase": 1,
+   "week": 2,
+   "slots": [
+    "**Math:** 🔥 LCM & HCF",
+    "**Bangla:** 🔥 ধ্বনি ও বর্ণ (স্বর/ব্যঞ্জন)",
+    "**General Science:** 🔥 Units, measurement, SI",
+    "**Computer & ICT:** Types of computers"
+   ],
+   "topics": [
+    [
+     "MATH-02"
+    ],
+    [
+     "BAN-03"
+    ],
+    [
+     "SCI-01"
+    ],
+    [
+     "ICT-02"
+    ]
+   ]
+  },
+  {
+   "n": 6,
+   "date": "2026-10-06",
+   "dow": 2,
+   "phase": 1,
+   "week": 2,
+   "slots": [
+    "**Mental Ability:** Word meaning based reasoning",
+    "**English:** Pronoun & its agreement",
+    "**Bangladesh Affairs:** 🔥 Sultanate: Bakhtiyar Khalji, Iliyas Shahi, Hussain Shahi",
+    "**Geography & Disaster:** 🔥 Earth: latitude, longitude, time zones"
+   ],
+   "topics": [
+    [
+     "MENT-02"
+    ],
+    [
+     "ENG-03"
+    ],
+    [
+     "BD-03"
+    ],
+    [
+     "GEO-01"
+    ]
+   ]
+  },
+  {
+   "n": 7,
+   "date": "2026-10-07",
+   "dow": 3,
+   "phase": 1,
+   "week": 2,
+   "slots": [
+    "**Math:** Fractions, decimals, simplification",
+    "**Bangla:** অন্ধকার যুগ, শ্রীকৃষ্ণকীর্তন (বড়ু চণ্ডীদাস)",
+    "**English:** 🔥 Old & Middle English: Beowulf, Chaucer",
+    "**General Science:** Motion, force, Newton's laws, gravity"
+   ],
+   "topics": [
+    [
+     "MATH-03"
+    ],
+    [
+     "BAN-04"
+    ],
+    [
+     "ENG-04"
+    ],
+    [
+     "SCI-02"
+    ]
+   ]
+  },
+  {
+   "n": 8,
+   "date": "2026-10-08",
+   "dow": 4,
+   "phase": 1,
+   "week": 2,
+   "slots": [
+    "**Bangladesh Affairs:** 🔥 Mughal era, Baro Bhuiyans, Subedars, Nawabs",
+    "**International Affairs:** Renaissance, American & French revolutions, Industrial Revolution",
+    "**Computer & ICT:** Hardware: CPU, ALU, registers",
+    "**Ethics & Governance:** 🔥 Values: types, social values, values education"
+   ],
+   "topics": [
+    [
+     "BD-04"
+    ],
+    [
+     "INT-03"
+    ],
+    [
+     "ICT-03"
+    ],
+    [
+     "ETH-02"
+    ]
+   ]
+  },
+  {
+   "n": 9,
+   "date": "2026-10-09",
+   "dow": 5,
+   "phase": 1,
+   "week": 2,
+   "slots": [
+    "📝 **Weekly Test #2:** 50 MCQ on this week's topics (35 min) + analysis",
+    "**Current affairs:** this week's newspaper notes",
+    "**Revision:** all 🔥 topics of this week; update short notes",
+    "**Backlog:** finish any missed topic (else extra PYQ practice)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 10,
+   "date": "2026-10-10",
+   "dow": 6,
+   "phase": 1,
+   "week": 3,
+   "slots": [
+    "**Math:** 🔥 Square/cube roots, surds & indices (সূচক)",
+    "**Bangla:** বর্ণের উচ্চারণ স্থান, যুক্তবর্ণ",
+    "**English:** Adjective & degrees of comparison",
+    "**Bangladesh Affairs:** 🔥 Plassey 1757, Buxar, Dewani"
+   ],
+   "topics": [
+    [
+     "MATH-04"
+    ],
+    [
+     "BAN-05"
+    ],
+    [
+     "ENG-05"
+    ],
+    [
+     "BD-05"
+    ]
+   ]
+  },
+  {
+   "n": 11,
+   "date": "2026-10-11",
+   "dow": 0,
+   "phase": 1,
+   "week": 3,
+   "slots": [
+    "**Mental Ability:** 🔥 Classification / odd one out",
+    "**English:** 🔥 Elizabethan: Spenser, Marlowe",
+    "**Bangla:** 🔥 মঙ্গলকাব্য (মনসা, চণ্ডী, অন্নদা)",
+    "**International Affairs:** 🔥 World War I, Versailles, League of Nations"
+   ],
+   "topics": [
+    [
+     "MENT-03"
+    ],
+    [
+     "ENG-06"
+    ],
+    [
+     "BAN-06"
+    ],
+    [
+     "INT-04"
+    ]
+   ]
+  },
+  {
+   "n": 12,
+   "date": "2026-10-12",
+   "dow": 1,
+   "phase": 1,
+   "week": 3,
+   "slots": [
+    "**Math:** 🔥 Percentage",
+    "**Bangla:** ধ্বনি পরিবর্তন (অপিনিহিতি, অভিশ্রুতি, স্বরসঙ্গতি)",
+    "**General Science:** Work, energy, power",
+    "**Computer & ICT:** 🔥 Memory: RAM, ROM, cache, storage units"
+   ],
+   "topics": [
+    [
+     "MATH-05"
+    ],
+    [
+     "BAN-07"
+    ],
+    [
+     "SCI-03"
+    ],
+    [
+     "ICT-04"
+    ]
+   ]
+  },
+  {
+   "n": 13,
+   "date": "2026-10-13",
+   "dow": 2,
+   "phase": 1,
+   "week": 3,
+   "slots": [
+    "**Mental Ability:** 🔥 Number series",
+    "**English:** 🔥 Verb: finite/non-finite (gerund, participle, infinitive)",
+    "**Bangladesh Affairs:** 🔥 British rule: Permanent Settlement, Titumir, Faraizi, Indigo, 1857",
+    "**Geography & Disaster:** 🔥 Atmosphere, winds, climate zones"
+   ],
+   "topics": [
+    [
+     "MENT-04"
+    ],
+    [
+     "ENG-07"
+    ],
+    [
+     "BD-06"
+    ],
+    [
+     "GEO-02"
+    ]
+   ]
+  },
+  {
+   "n": 14,
+   "date": "2026-10-14",
+   "dow": 3,
+   "phase": 1,
+   "week": 3,
+   "slots": [
+    "**Math:** 🔥 Profit & loss",
+    "**Bangla:** 🔥 বৈষ্ণব পদাবলি, অনুবাদ সাহিত্য, আরাকান রাজসভা (আলাওল, দৌলত কাজী)",
+    "**English:** 🔥 Shakespeare: tragedies",
+    "**General Science:** 🔥 Heat & temperature"
+   ],
+   "topics": [
+    [
+     "MATH-06"
+    ],
+    [
+     "BAN-08"
+    ],
+    [
+     "ENG-08"
+    ],
+    [
+     "SCI-04"
+    ]
+   ]
+  },
+  {
+   "n": 15,
+   "date": "2026-10-15",
+   "dow": 4,
+   "phase": 1,
+   "week": 3,
+   "slots": [
+    "**Bangladesh Affairs:** 🔥 1905 partition, Muslim League, Lahore Resolution 1940, 1947",
+    "**International Affairs:** 🔥 World War II & Cold War",
+    "**Computer & ICT:** 🔥 Input & output devices",
+    "**Ethics & Governance:** 🔥 Ethical theories: Kant, utilitarianism, virtue ethics"
+   ],
+   "topics": [
+    [
+     "BD-07"
+    ],
+    [
+     "INT-05"
+    ],
+    [
+     "ICT-05"
+    ],
+    [
+     "ETH-03"
+    ]
+   ]
+  },
+  {
+   "n": 16,
+   "date": "2026-10-16",
+   "dow": 5,
+   "phase": 1,
+   "week": 3,
+   "slots": [
+    "📝 **Weekly Test #3:** 50 MCQ on this week's topics (35 min) + analysis",
+    "**Current affairs:** this week's newspaper notes",
+    "**Revision:** all 🔥 topics of this week; update short notes",
+    "**Backlog:** finish any missed topic (else extra PYQ practice)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 17,
+   "date": "2026-10-17",
+   "dow": 6,
+   "phase": 1,
+   "week": 4,
+   "slots": [
+    "**Math:** Simple interest",
+    "**Bangla:** 🔥 সন্ধি: স্বরসন্ধি",
+    "**English:** 🔥 Tense",
+    "**Bangladesh Affairs:** 🔥 Language Movement 1948–1952"
+   ],
+   "topics": [
+    [
+     "MATH-07"
+    ],
+    [
+     "BAN-09"
+    ],
+    [
+     "ENG-09"
+    ],
+    [
+     "BD-08"
+    ]
+   ]
+  },
+  {
+   "n": 18,
+   "date": "2026-10-18",
+   "dow": 0,
+   "phase": 1,
+   "week": 4,
+   "slots": [
+    "**Mental Ability:** 🔥 Letter series & alphabet test",
+    "**English:** 🔥 Shakespeare: comedies, histories, sonnets",
+    "**Bangla:** পুঁথি সাহিত্য, মর্সিয়া, নাথ সাহিত্য, মৈমনসিংহ গীতিকা, কবিগান",
+    "**International Affairs:** 🔥 UN: formation, charter, organs"
+   ],
+   "topics": [
+    [
+     "MENT-05"
+    ],
+    [
+     "ENG-10"
+    ],
+    [
+     "BAN-10"
+    ],
+    [
+     "INT-06"
+    ]
+   ]
+  },
+  {
+   "n": 19,
+   "date": "2026-10-19",
+   "dow": 1,
+   "phase": 1,
+   "week": 4,
+   "slots": [
+    "**Math:** 🔥 Compound interest",
+    "**Bangla:** 🔥 সন্ধি: ব্যঞ্জন, বিসর্গ, নিপাতনে সিদ্ধ",
+    "**General Science:** 🔥 Sound",
+    "**Computer & ICT:** 🔥 Number systems & conversion"
+   ],
+   "topics": [
+    [
+     "MATH-08"
+    ],
+    [
+     "BAN-11"
+    ],
+    [
+     "SCI-05"
+    ],
+    [
+     "ICT-06"
+    ]
+   ]
+  },
+  {
+   "n": 20,
+   "date": "2026-10-20",
+   "dow": 2,
+   "phase": 1,
+   "week": 4,
+   "slots": [
+    "**Mental Ability:** 🔥 Coding-decoding",
+    "**English:** 🔥 Subject-verb agreement",
+    "**Bangladesh Affairs:** 1954 election, 1956 constitution, 1958 martial law, 1962",
+    "**Geography & Disaster:** Oceans, currents, tides"
+   ],
+   "topics": [
+    [
+     "MENT-06"
+    ],
+    [
+     "ENG-11"
+    ],
+    [
+     "BD-09"
+    ],
+    [
+     "GEO-03"
+    ]
+   ]
+  },
+  {
+   "n": 21,
+   "date": "2026-10-21",
+   "dow": 3,
+   "phase": 1,
+   "week": 4,
+   "slots": [
+    "**Math:** 🔥 Ratio & proportion",
+    "**Bangla:** 🔥 ফোর্ট উইলিয়াম কলেজ ও বাংলা গদ্যের বিকাশ",
+    "**English:** 🔥 Ben Jonson, John Donne (Metaphysical), Milton",
+    "**General Science:** 🔥 Light: reflection, refraction, lens, dispersion"
+   ],
+   "topics": [
+    [
+     "MATH-09"
+    ],
+    [
+     "BAN-12"
+    ],
+    [
+     "ENG-12"
+    ],
+    [
+     "SCI-06"
+    ]
+   ]
+  },
+  {
+   "n": 22,
+   "date": "2026-10-22",
+   "dow": 4,
+   "phase": 1,
+   "week": 4,
+   "slots": [
+    "**Bangladesh Affairs:** 🔥 Six-point 1966, Agartala case, 1969 uprising",
+    "**International Affairs:** 🔥 UN specialized agencies & HQs",
+    "**Computer & ICT:** 🔥 Boolean algebra & logic gates",
+    "**Ethics & Governance:** 🔥 Socrates, Plato, Aristotle & famous quotes"
+   ],
+   "topics": [
+    [
+     "BD-10"
+    ],
+    [
+     "INT-07"
+    ],
+    [
+     "ICT-07"
+    ],
+    [
+     "ETH-04"
+    ]
+   ]
+  },
+  {
+   "n": 23,
+   "date": "2026-10-23",
+   "dow": 5,
+   "phase": 1,
+   "week": 4,
+   "slots": [
+    "📝 **Weekly Test #4:** 50 MCQ on this week's topics (35 min) + analysis",
+    "**Current affairs:** this week's newspaper notes",
+    "**Revision:** all 🔥 topics of this week; update short notes",
+    "**Backlog:** finish any missed topic (else extra PYQ practice)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 24,
+   "date": "2026-10-24",
+   "dow": 6,
+   "phase": 1,
+   "week": 5,
+   "slots": [
+    "**Math:** Partnership (অংশীদারি কারবার)",
+    "**Bangla:** ণত্ব ও ষত্ব বিধান",
+    "**English:** 🔥 Right form of verbs",
+    "**Bangladesh Affairs:** 🔥 1970 election & 7 March speech"
+   ],
+   "topics": [
+    [
+     "MATH-10"
+    ],
+    [
+     "BAN-13"
+    ],
+    [
+     "ENG-13"
+    ],
+    [
+     "BD-11"
+    ]
+   ]
+  },
+  {
+   "n": 25,
+   "date": "2026-10-25",
+   "dow": 0,
+   "phase": 1,
+   "week": 5,
+   "slots": [
+    "**Mental Ability:** 🔥 Blood relations",
+    "**English:** Restoration & Neo-classical: Dryden, Pope, Swift, Defoe",
+    "**Bangla:** ঈশ্বরচন্দ্র বিদ্যাসাগর, প্যারীচাঁদ মিত্র",
+    "**International Affairs:** UN Secretaries-General & peacekeeping"
+   ],
+   "topics": [
+    [
+     "MENT-07"
+    ],
+    [
+     "ENG-14"
+    ],
+    [
+     "BAN-14"
+    ],
+    [
+     "INT-08"
+    ]
+   ]
+  },
+  {
+   "n": 26,
+   "date": "2026-10-26",
+   "dow": 1,
+   "phase": 1,
+   "week": 5,
+   "slots": [
+    "**Math:** 🔥 Average",
+    "**Bangla:** 🔥 শব্দের উৎস: তৎসম, তদ্ভব, দেশি, বিদেশি",
+    "**General Science:** 🔥 Electricity & magnetism",
+    "**Computer & ICT:** 🔥 Software & operating systems"
+   ],
+   "topics": [
+    [
+     "MATH-11"
+    ],
+    [
+     "BAN-15"
+    ],
+    [
+     "SCI-07"
+    ],
+    [
+     "ICT-08"
+    ]
+   ]
+  },
+  {
+   "n": 27,
+   "date": "2026-10-27",
+   "dow": 2,
+   "phase": 1,
+   "week": 5,
+   "slots": [
+    "**Mental Ability:** 🔥 Direction sense",
+    "**English:** Adverb",
+    "**Bangladesh Affairs:** 🔥 1971: Operation Searchlight, declaration, Mujibnagar Govt",
+    "**Geography & Disaster:** 🔥 World's largest/longest: rivers, mountains, deserts"
+   ],
+   "topics": [
+    [
+     "MENT-08"
+    ],
+    [
+     "ENG-15"
+    ],
+    [
+     "BD-12"
+    ],
+    [
+     "GEO-04"
+    ]
+   ]
+  },
+  {
+   "n": 28,
+   "date": "2026-10-28",
+   "dow": 3,
+   "phase": 1,
+   "week": 5,
+   "slots": [
+    "**Math:** Age problems",
+    "**Bangla:** 🔥 মাইকেল মধুসূদন দত্ত",
+    "**English:** 18th-century novel: Richardson, Fielding, Johnson, Goldsmith",
+    "**General Science:** 🔥 Atom, radioactivity, fission & fusion"
+   ],
+   "topics": [
+    [
+     "MATH-12"
+    ],
+    [
+     "BAN-16"
+    ],
+    [
+     "ENG-16"
+    ],
+    [
+     "SCI-08"
+    ]
+   ]
+  },
+  {
+   "n": 29,
+   "date": "2026-10-29",
+   "dow": 4,
+   "phase": 1,
+   "week": 5,
+   "slots": [
+    "**Bangladesh Affairs:** 🔥 1971: sectors, commanders, forces, Bir Sreshtho",
+    "**International Affairs:** 🔥 SAARC, ASEAN, BIMSTEC, EU, AU",
+    "**Computer & ICT:** Programming languages, compiler, algorithm, flowchart",
+    "**Ethics & Governance:** 🔥 Good governance: concept & indicators"
+   ],
+   "topics": [
+    [
+     "BD-13"
+    ],
+    [
+     "INT-09"
+    ],
+    [
+     "ICT-09"
+    ],
+    [
+     "ETH-05"
+    ]
+   ]
+  },
+  {
+   "n": 30,
+   "date": "2026-10-30",
+   "dow": 5,
+   "phase": 1,
+   "week": 5,
+   "slots": [
+    "📝 **Monthly Model Test #1:** 200 MCQ, 2 hours, syllabus covered so far (hours 1–2)",
+    "↑ (test continues)",
+    "**Test analysis:** check every wrong & guessed answer, note weak topics",
+    "**Current affairs:** monthly magazine + key news of the month"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 31,
+   "date": "2026-10-31",
+   "dow": 6,
+   "phase": 1,
+   "week": 6,
+   "slots": [
+    "**Math:** 🔥 Work & time",
+    "**Bangla:** পদ: বিশেষ্য, বিশেষণ, সর্বনাম",
+    "**English:** 🔥 Preposition & appropriate preposition",
+    "**Bangladesh Affairs:** 🔥 1971: victory, surrender, martyred intellectuals, foreign role"
+   ],
+   "topics": [
+    [
+     "MATH-13"
+    ],
+    [
+     "BAN-17"
+    ],
+    [
+     "ENG-17"
+    ],
+    [
+     "BD-14"
+    ]
+   ]
+  },
+  {
+   "n": 32,
+   "date": "2026-11-01",
+   "dow": 0,
+   "phase": 1,
+   "week": 6,
+   "slots": [
+    "**Mental Ability:** Ranking & ordering",
+    "**English:** 🔥 Romantic: Wordsworth, Coleridge",
+    "**Bangla:** বঙ্কিমচন্দ্র চট্টোপাধ্যায়, দীনবন্ধু মিত্র",
+    "**International Affairs:** 🔥 WTO, IMF, World Bank, ADB, AIIB, NDB"
+   ],
+   "topics": [
+    [
+     "MENT-09"
+    ],
+    [
+     "ENG-18"
+    ],
+    [
+     "BAN-18"
+    ],
+    [
+     "INT-10"
+    ]
+   ]
+  },
+  {
+   "n": 33,
+   "date": "2026-11-02",
+   "dow": 1,
+   "phase": 1,
+   "week": 6,
+   "slots": [
+    "**Math:** Pipes & cisterns",
+    "**Bangla:** পদ: ক্রিয়া, অব্যয়",
+    "**General Science:** 🔥 Matter, atomic structure, periodic table",
+    "**Computer & ICT:** 🔥 Database: DBMS, SQL, keys"
+   ],
+   "topics": [
+    [
+     "MATH-14"
+    ],
+    [
+     "BAN-19"
+    ],
+    [
+     "SCI-09"
+    ],
+    [
+     "ICT-10"
+    ]
+   ]
+  },
+  {
+   "n": 34,
+   "date": "2026-11-03",
+   "dow": 2,
+   "phase": 1,
+   "week": 6,
+   "slots": [
+    "**Mental Ability:** Seating arrangement (linear & circular)",
+    "**English:** Conjunction",
+    "**Bangladesh Affairs:** Post-1971 political history",
+    "**Geography & Disaster:** 🔥 Physiography & soils of Bangladesh"
+   ],
+   "topics": [
+    [
+     "MENT-10"
+    ],
+    [
+     "ENG-19"
+    ],
+    [
+     "BD-15"
+    ],
+    [
+     "GEO-05"
+    ]
+   ]
+  },
+  {
+   "n": 35,
+   "date": "2026-11-04",
+   "dow": 3,
+   "phase": 1,
+   "week": 6,
+   "slots": [
+    "**Math:** 🔥 Time, speed & distance",
+    "**Bangla:** মীর মশাররফ হোসেন, কায়কোবাদ",
+    "**English:** 🔥 Romantic: Byron, Shelley, Keats",
+    "**General Science:** 🔥 Acids, bases, salts, pH"
+   ],
+   "topics": [
+    [
+     "MATH-15"
+    ],
+    [
+     "BAN-20"
+    ],
+    [
+     "ENG-20"
+    ],
+    [
+     "SCI-10"
+    ]
+   ]
+  },
+  {
+   "n": 36,
+   "date": "2026-11-05",
+   "dow": 4,
+   "phase": 1,
+   "week": 6,
+   "slots": [
+    "**Bangladesh Affairs:** 🔥 Constitution: making, preamble, fundamental principles",
+    "**International Affairs:** 🔥 NATO, QUAD, AUKUS, SCO",
+    "**Computer & ICT:** 🔥 Networks: LAN/MAN/WAN, topologies",
+    "**Ethics & Governance:** 🔥 Rule of law, accountability, transparency"
+   ],
+   "topics": [
+    [
+     "BD-16"
+    ],
+    [
+     "INT-11"
+    ],
+    [
+     "ICT-11"
+    ],
+    [
+     "ETH-06"
+    ]
+   ]
+  },
+  {
+   "n": 37,
+   "date": "2026-11-06",
+   "dow": 5,
+   "phase": 1,
+   "week": 6,
+   "slots": [
+    "📝 **Weekly Test #5:** 50 MCQ on this week's topics (35 min) + analysis",
+    "**Current affairs:** this week's newspaper notes",
+    "**Revision:** all 🔥 topics of this week; update short notes",
+    "**Backlog:** finish any missed topic (else extra PYQ practice)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 38,
+   "date": "2026-11-07",
+   "dow": 6,
+   "phase": 1,
+   "week": 7,
+   "slots": [
+    "**Math:** Boats & streams, trains",
+    "**Bangla:** 🔥 সমাস: দ্বন্দ্ব, কর্মধারয়",
+    "**English:** Articles",
+    "**Bangladesh Affairs:** 🔥 Constitution: fundamental rights (Art. 26–47)"
+   ],
+   "topics": [
+    [
+     "MATH-16"
+    ],
+    [
+     "BAN-21"
+    ],
+    [
+     "ENG-21"
+    ],
+    [
+     "BD-17"
+    ]
+   ]
+  },
+  {
+   "n": 39,
+   "date": "2026-11-08",
+   "dow": 0,
+   "phase": 1,
+   "week": 7,
+   "slots": [
+    "**Mental Ability:** 🔥 Clock problems",
+    "**English:** Victorian poets: Tennyson, Browning, Arnold",
+    "**Bangla:** 🔥 রবীন্দ্রনাথ: জীবনী ও কাব্য",
+    "**International Affairs:** 🔥 OIC, OPEC, GCC, Commonwealth, G7, G20, BRICS"
+   ],
+   "topics": [
+    [
+     "MENT-11"
+    ],
+    [
+     "ENG-22"
+    ],
+    [
+     "BAN-22"
+    ],
+    [
+     "INT-12"
+    ]
+   ]
+  },
+  {
+   "n": 40,
+   "date": "2026-11-09",
+   "dow": 1,
+   "phase": 1,
+   "week": 7,
+   "slots": [
+    "**Math:** Mixture & alligation",
+    "**Bangla:** 🔥 সমাস: তৎপুরুষ, বহুব্রীহি, দ্বিগু, অব্যয়ীভাব",
+    "**General Science:** 🔥 Metals, non-metals, alloys, ores",
+    "**Computer & ICT:** 🔥 Network devices; OSI & TCP/IP"
+   ],
+   "topics": [
+    [
+     "MATH-17"
+    ],
+    [
+     "BAN-23"
+    ],
+    [
+     "SCI-11"
+    ],
+    [
+     "ICT-12"
+    ]
+   ]
+  },
+  {
+   "n": 41,
+   "date": "2026-11-10",
+   "dow": 2,
+   "phase": 1,
+   "week": 7,
+   "slots": [
+    "**Mental Ability:** 🔥 Calendar problems",
+    "**English:** 🔥 Voice change",
+    "**Bangladesh Affairs:** 🔥 Constitution: amendments",
+    "**Geography & Disaster:** 🔥 Ecosystem, biodiversity, protected areas of BD"
+   ],
+   "topics": [
+    [
+     "MENT-12"
+    ],
+    [
+     "ENG-23"
+    ],
+    [
+     "BD-18"
+    ],
+    [
+     "GEO-06"
+    ]
+   ]
+  },
+  {
+   "n": 42,
+   "date": "2026-11-11",
+   "dow": 3,
+   "phase": 1,
+   "week": 7,
+   "slots": [
+    "**Math:** 🔥 Algebraic formulas & identities",
+    "**Bangla:** 🔥 রবীন্দ্রনাথ: উপন্যাস, ছোটগল্প, নাটক",
+    "**English:** 🔥 Victorian novel: Dickens, Brontës, Hardy, George Eliot",
+    "**General Science:** 🔥 Carbon compounds, polymers, fuels"
+   ],
+   "topics": [
+    [
+     "MATH-18"
+    ],
+    [
+     "BAN-24"
+    ],
+    [
+     "ENG-24"
+    ],
+    [
+     "SCI-12"
+    ]
+   ]
+  },
+  {
+   "n": 43,
+   "date": "2026-11-12",
+   "dow": 4,
+   "phase": 1,
+   "week": 7,
+   "slots": [
+    "**Bangladesh Affairs:** 🔥 Constitution: key articles (President, PM, Parliament, Judiciary, EC, PSC, CAG)",
+    "**International Affairs:** 🔥 Israel–Palestine & Middle East",
+    "**Computer & ICT:** 🔥 Internet: IP, DNS, HTTP, FTP, SMTP",
+    "**Ethics & Governance:** 🔥 Law, liberty & equality"
+   ],
+   "topics": [
+    [
+     "BD-19"
+    ],
+    [
+     "INT-13"
+    ],
+    [
+     "ICT-13"
+    ],
+    [
+     "ETH-07"
+    ]
+   ]
+  },
+  {
+   "n": 44,
+   "date": "2026-11-13",
+   "dow": 5,
+   "phase": 1,
+   "week": 7,
+   "slots": [
+    "📝 **Weekly Test #6:** 50 MCQ on this week's topics (35 min) + analysis",
+    "**Current affairs:** this week's newspaper notes",
+    "**Revision:** all 🔥 topics of this week; update short notes",
+    "**Backlog:** finish any missed topic (else extra PYQ practice)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 45,
+   "date": "2026-11-14",
+   "dow": 6,
+   "phase": 1,
+   "week": 8,
+   "slots": [
+    "**Math:** 🔥 Factorization",
+    "**Bangla:** 🔥 উপসর্গ",
+    "**English:** 🔥 Narration",
+    "**Bangladesh Affairs:** Executive: President, PM, cabinet"
+   ],
+   "topics": [
+    [
+     "MATH-19"
+    ],
+    [
+     "BAN-25"
+    ],
+    [
+     "ENG-25"
+    ],
+    [
+     "BD-20"
+    ]
+   ]
+  },
+  {
+   "n": 46,
+   "date": "2026-11-15",
+   "dow": 0,
+   "phase": 1,
+   "week": 8,
+   "slots": [
+    "**Mental Ability:** 🔥 Syllogism / logical deduction",
+    "**English:** 🔥 Modern: Yeats, T. S. Eliot",
+    "**Bangla:** 🔥 কাজী নজরুল ইসলাম: কাব্য",
+    "**International Affairs:** 🔥 Russia–Ukraine war"
+   ],
+   "topics": [
+    [
+     "MENT-13"
+    ],
+    [
+     "ENG-26"
+    ],
+    [
+     "BAN-26"
+    ],
+    [
+     "INT-14"
+    ]
+   ]
+  },
+  {
+   "n": 47,
+   "date": "2026-11-16",
+   "dow": 1,
+   "phase": 1,
+   "week": 8,
+   "slots": [
+    "**Math:** Linear equations (1 & 2 variables)",
+    "**Bangla:** প্রত্যয় (কৃৎ ও তদ্ধিত)",
+    "**General Science:** 🔥 Everyday chemistry: fertilizer, soap, glass, cement, common names",
+    "**Computer & ICT:** Email, WWW, browsers, search engines"
+   ],
+   "topics": [
+    [
+     "MATH-20"
+    ],
+    [
+     "BAN-27"
+    ],
+    [
+     "SCI-13"
+    ],
+    [
+     "ICT-14"
+    ]
+   ]
+  },
+  {
+   "n": 48,
+   "date": "2026-11-17",
+   "dow": 2,
+   "phase": 1,
+   "week": 8,
+   "slots": [
+    "**Mental Ability:** Statement & conclusion / assumption",
+    "**English:** 🔥 Transformation of sentences",
+    "**Bangladesh Affairs:** Legislature: Jatiya Sangsad, Speaker, committees",
+    "**Geography & Disaster:** 🔥 Climate change, global warming, ozone"
+   ],
+   "topics": [
+    [
+     "MENT-14"
+    ],
+    [
+     "ENG-27"
+    ],
+    [
+     "BD-21"
+    ],
+    [
+     "GEO-07"
+    ]
+   ]
+  },
+  {
+   "n": 49,
+   "date": "2026-11-18",
+   "dow": 3,
+   "phase": 1,
+   "week": 8,
+   "slots": [
+    "**Math:** Quadratic equations & roots",
+    "**Bangla:** 🔥 নজরুল: গদ্য, নাটক, পত্রিকা",
+    "**English:** Modern: Joyce, Woolf, Lawrence, Conrad, Orwell",
+    "**General Science:** Cell & tissue"
+   ],
+   "topics": [
+    [
+     "MATH-21"
+    ],
+    [
+     "BAN-28"
+    ],
+    [
+     "ENG-28"
+    ],
+    [
+     "SCI-14"
+    ]
+   ]
+  },
+  {
+   "n": 50,
+   "date": "2026-11-19",
+   "dow": 4,
+   "phase": 1,
+   "week": 8,
+   "slots": [
+    "**Bangladesh Affairs:** Judiciary, Ombudsman, ACC",
+    "**International Affairs:** 🔥 South China Sea, Taiwan, Indo-Pacific",
+    "**Computer & ICT:** 🔥 Fiber optics, satellite, 1G–5G",
+    "**Ethics & Governance:** 🔥 National Integrity Strategy (NIS) 2012"
+   ],
+   "topics": [
+    [
+     "BD-22"
+    ],
+    [
+     "INT-15"
+    ],
+    [
+     "ICT-15"
+    ],
+    [
+     "ETH-08"
+    ]
+   ]
+  },
+  {
+   "n": 51,
+   "date": "2026-11-20",
+   "dow": 5,
+   "phase": 1,
+   "week": 8,
+   "slots": [
+    "📝 **Weekly Test #7:** 50 MCQ on this week's topics (35 min) + analysis",
+    "**Current affairs:** this week's newspaper notes",
+    "**Revision:** all 🔥 topics of this week; update short notes",
+    "**Backlog:** finish any missed topic (else extra PYQ practice)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 52,
+   "date": "2026-11-21",
+   "dow": 6,
+   "phase": 1,
+   "week": 9,
+   "slots": [
+    "**Math:** Inequalities",
+    "**Bangla:** 🔥 কারক ও বিভক্তি",
+    "**English:** 🔥 Conditional sentences",
+    "**Bangladesh Affairs:** Local government structure"
+   ],
+   "topics": [
+    [
+     "MATH-22"
+    ],
+    [
+     "BAN-29"
+    ],
+    [
+     "ENG-29"
+    ],
+    [
+     "BD-23"
+    ]
+   ]
+  },
+  {
+   "n": 53,
+   "date": "2026-11-22",
+   "dow": 0,
+   "phase": 1,
+   "week": 9,
+   "slots": [
+    "**Mental Ability:** 🔥 Mirror & water images",
+    "**English:** Drama: Shaw, Wilde, Beckett, Osborne",
+    "**Bangla:** শরৎচন্দ্র ও বেগম রোকেয়া",
+    "**International Affairs:** Kashmir, India–Pakistan, Afghanistan"
+   ],
+   "topics": [
+    [
+     "MENT-15"
+    ],
+    [
+     "ENG-30"
+    ],
+    [
+     "BAN-30"
+    ],
+    [
+     "INT-16"
+    ]
+   ]
+  },
+  {
+   "n": 54,
+   "date": "2026-11-23",
+   "dow": 1,
+   "phase": 1,
+   "week": 9,
+   "slots": [
+    "**Math:** 🔥 Logarithm",
+    "**Bangla:** বচন, লিঙ্গ, পুরুষ",
+    "**General Science:** 🔥 Plants & photosynthesis",
+    "**Computer & ICT:** 🔥 Wi-Fi, Bluetooth, NFC, RFID"
+   ],
+   "topics": [
+    [
+     "MATH-23"
+    ],
+    [
+     "BAN-31"
+    ],
+    [
+     "SCI-15"
+    ],
+    [
+     "ICT-16"
+    ]
+   ]
+  },
+  {
+   "n": 55,
+   "date": "2026-11-24",
+   "dow": 2,
+   "phase": 1,
+   "week": 9,
+   "slots": [
+    "**Mental Ability:** Paper folding & cutting",
+    "**English:** 🔥 Correction of sentences / error detection",
+    "**Bangladesh Affairs:** 🔥 Administration: divisions, districts; CHT Accord 1997",
+    "**Geography & Disaster:** 🔥 Disasters: cyclone, flood, earthquake, landslide, drought"
+   ],
+   "topics": [
+    [
+     "MENT-16"
+    ],
+    [
+     "ENG-31"
+    ],
+    [
+     "BD-24"
+    ],
+    [
+     "GEO-08"
+    ]
+   ]
+  },
+  {
+   "n": 56,
+   "date": "2026-11-25",
+   "dow": 3,
+   "phase": 1,
+   "week": 9,
+   "slots": [
+    "**Math:** 🔥 Sets & Venn diagram",
+    "**Bangla:** 🔥 জীবনানন্দ দাশ ও জসীমউদ্দীন",
+    "**English:** 🔥 American literature: Whitman, Frost, Hemingway, Arthur Miller",
+    "**General Science:** 🔥 Animal classification"
+   ],
+   "topics": [
+    [
+     "MATH-24"
+    ],
+    [
+     "BAN-32"
+    ],
+    [
+     "ENG-32"
+    ],
+    [
+     "SCI-16"
+    ]
+   ]
+  },
+  {
+   "n": 57,
+   "date": "2026-11-26",
+   "dow": 4,
+   "phase": 1,
+   "week": 9,
+   "slots": [
+    "**Bangladesh Affairs:** 🔥 Location, area, borders, enclaves (2015), maritime boundary",
+    "**International Affairs:** 🔥 Myanmar & Rohingya",
+    "**Computer & ICT:** 🔥 Cyber security: malware, phishing, firewall, encryption",
+    "**Ethics & Governance:** 🔥 RTI Act 2009, Citizen Charter, Ombudsman"
+   ],
+   "topics": [
+    [
+     "BD-25"
+    ],
+    [
+     "INT-17"
+    ],
+    [
+     "ICT-17"
+    ],
+    [
+     "ETH-09"
+    ]
+   ]
+  },
+  {
+   "n": 58,
+   "date": "2026-11-27",
+   "dow": 5,
+   "phase": 1,
+   "week": 9,
+   "slots": [
+    "📝 **Monthly Model Test #2:** 200 MCQ, 2 hours, syllabus covered so far (hours 1–2)",
+    "↑ (test continues)",
+    "**Test analysis:** check every wrong & guessed answer, note weak topics",
+    "**Current affairs:** monthly magazine + key news of the month"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 59,
+   "date": "2026-11-28",
+   "dow": 6,
+   "phase": 1,
+   "week": 10,
+   "slots": [
+    "**Math:** 🔥 Arithmetic progression (সমান্তর ধারা)",
+    "**Bangla:** ক্রিয়ার কাল ও ভাব",
+    "**English:** Sentence completion",
+    "**Bangladesh Affairs:** 🔥 Rivers & bridges (Padma Bridge etc.)"
+   ],
+   "topics": [
+    [
+     "MATH-25"
+    ],
+    [
+     "BAN-33"
+    ],
+    [
+     "ENG-33"
+    ],
+    [
+     "BD-26"
+    ]
+   ]
+  },
+  {
+   "n": 60,
+   "date": "2026-11-29",
+   "dow": 0,
+   "phase": 1,
+   "week": 10,
+   "slots": [
+    "**Mental Ability:** 🔥 Counting figures (triangles, squares)",
+    "**English:** 🔥 Literary terms: sonnet, ode, elegy, epic, ballad",
+    "**Bangla:** তিরিশের কবি, ফররুখ আহমদ, সুকান্ত",
+    "**International Affairs:** 🔥 Climate: UNFCCC, Kyoto, Paris Agreement, COPs"
+   ],
+   "topics": [
+    [
+     "MENT-17"
+    ],
+    [
+     "ENG-34"
+    ],
+    [
+     "BAN-34"
+    ],
+    [
+     "INT-18"
+    ]
+   ]
+  },
+  {
+   "n": 61,
+   "date": "2026-11-30",
+   "dow": 1,
+   "phase": 1,
+   "week": 10,
+   "slots": [
+    "**Math:** Geometric progression & series",
+    "**Bangla:** বাচ্য ও বাচ্য পরিবর্তন",
+    "**General Science:** 🔥 Human body: digestion, blood, circulation",
+    "**Computer & ICT:** 🔥 Cloud computing, IoT, Big data"
+   ],
+   "topics": [
+    [
+     "MATH-26"
+    ],
+    [
+     "BAN-35"
+    ],
+    [
+     "SCI-17"
+    ],
+    [
+     "ICT-18"
+    ]
+   ]
+  },
+  {
+   "n": 62,
+   "date": "2026-12-01",
+   "dow": 2,
+   "phase": 1,
+   "week": 10,
+   "slots": [
+    "**Mental Ability:** Figure series & pattern completion",
+    "**English:** 🔥 Phrases & idioms",
+    "**Bangladesh Affairs:** 🔥 Hills, islands, Sundarbans, haors",
+    "**Geography & Disaster:** 🔥 Disaster management in BD: cycle, SOD, early warning"
+   ],
+   "topics": [
+    [
+     "MENT-18"
+    ],
+    [
+     "ENG-35"
+    ],
+    [
+     "BD-27"
+    ],
+    [
+     "GEO-09"
+    ]
+   ]
+  },
+  {
+   "n": 63,
+   "date": "2026-12-02",
+   "dow": 3,
+   "phase": 1,
+   "week": 10,
+   "slots": [
+    "**Math:** Lines, angles, parallel lines",
+    "**Bangla:** প্রমথ চৌধুরী (সবুজপত্র), সত্যেন্দ্রনাথ দত্ত",
+    "**English:** 🔥 Literary terms: allegory, satire, figures of speech",
+    "**General Science:** 🔥 Human body: nervous, respiratory, excretory, hormones"
+   ],
+   "topics": [
+    [
+     "MATH-27"
+    ],
+    [
+     "BAN-36"
+    ],
+    [
+     "ENG-36"
+    ],
+    [
+     "SCI-18"
+    ]
+   ]
+  },
+  {
+   "n": 64,
+   "date": "2026-12-03",
+   "dow": 4,
+   "phase": 1,
+   "week": 10,
+   "slots": [
+    "**Bangladesh Affairs:** Climate & seasons of Bangladesh",
+    "**International Affairs:** Nuclear treaties: NPT, CTBT, TPNW",
+    "**Computer & ICT:** 🔥 AI, machine learning, LLMs, robotics",
+    "**Ethics & Governance:** Corruption & ACC, e-governance"
+   ],
+   "topics": [
+    [
+     "BD-28"
+    ],
+    [
+     "INT-19"
+    ],
+    [
+     "ICT-19"
+    ],
+    [
+     "ETH-10"
+    ]
+   ]
+  },
+  {
+   "n": 65,
+   "date": "2026-12-04",
+   "dow": 5,
+   "phase": 1,
+   "week": 10,
+   "slots": [
+    "📝 **Weekly Test #8:** 50 MCQ on this week's topics (35 min) + analysis",
+    "**Current affairs:** this week's newspaper notes",
+    "**Revision:** all 🔥 topics of this week; update short notes",
+    "**Backlog:** finish any missed topic (else extra PYQ practice)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 66,
+   "date": "2026-12-05",
+   "dow": 6,
+   "phase": 1,
+   "week": 11,
+   "slots": [
+    "**Math:** 🔥 Triangles & Pythagoras theorem",
+    "**Bangla:** বাক্য: সরল, জটিল, যৌগিক ও রূপান্তর",
+    "**English:** 🔥 Group verbs",
+    "**Bangladesh Affairs:** 🔥 Economy: GDP, per capita, budget, Economic Review"
+   ],
+   "topics": [
+    [
+     "MATH-28"
+    ],
+    [
+     "BAN-37"
+    ],
+    [
+     "ENG-37"
+    ],
+    [
+     "BD-29"
+    ]
+   ]
+  },
+  {
+   "n": 67,
+   "date": "2026-12-06",
+   "dow": 0,
+   "phase": 1,
+   "week": 11,
+   "slots": [
+    "**Mental Ability:** 🔥 Dice & cube",
+    "**English:** 🔥 Famous quotations & lines",
+    "**Bangla:** বিভূতিভূষণ, তারাশঙ্কর, মানিক বন্দ্যোপাধ্যায়",
+    "**International Affairs:** 🔥 International law: ICJ, ICC, UNCLOS"
+   ],
+   "topics": [
+    [
+     "MENT-19"
+    ],
+    [
+     "ENG-38"
+    ],
+    [
+     "BAN-38"
+    ],
+    [
+     "INT-20"
+    ]
+   ]
+  },
+  {
+   "n": 68,
+   "date": "2026-12-07",
+   "dow": 1,
+   "phase": 1,
+   "week": 11,
+   "slots": [
+    "**Math:** 🔥 Quadrilaterals & polygons (interior/exterior angles)",
+    "**Bangla:** 🔥 বানান শুদ্ধি (প্রমিত বানান রীতি)",
+    "**General Science:** 🔥 Vitamins, minerals & deficiency diseases",
+    "**Computer & ICT:** 🔥 Blockchain, crypto, VR/AR, metaverse"
+   ],
+   "topics": [
+    [
+     "MATH-29"
+    ],
+    [
+     "BAN-39"
+    ],
+    [
+     "SCI-19"
+    ],
+    [
+     "ICT-20"
+    ]
+   ]
+  },
+  {
+   "n": 69,
+   "date": "2026-12-08",
+   "dow": 2,
+   "phase": 1,
+   "week": 11,
+   "slots": [
+    "**Mental Ability:** Embedded figures / spatial ability",
+    "**English:** 🔥 Synonyms",
+    "**Bangladesh Affairs:** 🔥 Agriculture: crops, varieties, research institutes",
+    "**Geography & Disaster:** 🔥 Environmental conventions: Ramsar, CBD, Montreal"
+   ],
+   "topics": [
+    [
+     "MENT-20"
+    ],
+    [
+     "ENG-39"
+    ],
+    [
+     "BD-30"
+    ],
+    [
+     "GEO-10"
+    ]
+   ]
+  },
+  {
+   "n": 70,
+   "date": "2026-12-09",
+   "dow": 3,
+   "phase": 1,
+   "week": 11,
+   "slots": [
+    "**Math:** 🔥 Circle: chord, tangent, arc, angles",
+    "**Bangla:** 🔥 শামসুর রাহমান, আল মাহমুদ, সৈয়দ শামসুল হক",
+    "**English:** 🔥 Famous characters & pen names",
+    "**General Science:** 🔥 Diseases (viral/bacterial) & vaccines"
+   ],
+   "topics": [
+    [
+     "MATH-30"
+    ],
+    [
+     "BAN-40"
+    ],
+    [
+     "ENG-40"
+    ],
+    [
+     "SCI-20"
+    ]
+   ]
+  },
+  {
+   "n": 71,
+   "date": "2026-12-10",
+   "dow": 4,
+   "phase": 1,
+   "week": 11,
+   "slots": [
+    "**Bangladesh Affairs:** 🔥 Industry: RMG, jute, EPZ, economic zones",
+    "**International Affairs:** Human rights: UDHR, CEDAW, CRC",
+    "**Computer & ICT:** 🔥 MS Office: Word, Excel, PowerPoint",
+    "**Ethics & Governance:** Civil service values & code of conduct"
+   ],
+   "topics": [
+    [
+     "BD-31"
+    ],
+    [
+     "INT-21"
+    ],
+    [
+     "ICT-21"
+    ],
+    [
+     "ETH-11"
+    ]
+   ]
+  },
+  {
+   "n": 72,
+   "date": "2026-12-11",
+   "dow": 5,
+   "phase": 1,
+   "week": 11,
+   "slots": [
+    "📝 **Weekly Test #9:** 50 MCQ on this week's topics (35 min) + analysis",
+    "**Current affairs:** this week's newspaper notes",
+    "**Revision:** all 🔥 topics of this week; update short notes",
+    "**Backlog:** finish any missed topic (else extra PYQ practice)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 73,
+   "date": "2026-12-12",
+   "dow": 6,
+   "phase": 1,
+   "week": 12,
+   "slots": [
+    "**Math:** 🔥 Mensuration: triangle, rectangle, square",
+    "**Bangla:** 🔥 বাক্য শুদ্ধি ও অপপ্রয়োগ",
+    "**English:** 🔥 Antonyms",
+    "**Bangladesh Affairs:** 🔥 Mineral resources: gas fields, coal, limestone"
+   ],
+   "topics": [
+    [
+     "MATH-31"
+    ],
+    [
+     "BAN-41"
+    ],
+    [
+     "ENG-41"
+    ],
+    [
+     "BD-32"
+    ]
+   ]
+  },
+  {
+   "n": 74,
+   "date": "2026-12-13",
+   "dow": 0,
+   "phase": 1,
+   "week": 12,
+   "slots": [
+    "**Mental Ability:** 🔥 Mechanical: gears, pulleys, levers",
+    "**English:** Nobel laureates in literature",
+    "**Bangla:** 🔥 মুনীর চৌধুরী, সৈয়দ ওয়ালীউল্লাহ, শহীদুল্লা কায়সার",
+    "**International Affairs:** 🔥 Countries: capitals, currencies, parliaments"
+   ],
+   "topics": [
+    [
+     "MENT-21"
+    ],
+    [
+     "ENG-42"
+    ],
+    [
+     "BAN-42"
+    ],
+    [
+     "INT-22"
+    ]
+   ]
+  },
+  {
+   "n": 75,
+   "date": "2026-12-14",
+   "dow": 1,
+   "phase": 1,
+   "week": 12,
+   "slots": [
+    "**Math:** Mensuration: circle & sector",
+    "**Bangla:** 🔥 সমার্থক শব্দ",
+    "**General Science:** 🔥 Genetics, DNA, biotechnology",
+    "**Computer & ICT:** 🔥 E-commerce & e-governance"
+   ],
+   "topics": [
+    [
+     "MATH-32"
+    ],
+    [
+     "BAN-43"
+    ],
+    [
+     "SCI-21"
+    ],
+    [
+     "ICT-22"
+    ]
+   ]
+  },
+  {
+   "n": 76,
+   "date": "2026-12-15",
+   "dow": 2,
+   "phase": 1,
+   "week": 12,
+   "slots": [
+    "**Mental Ability:** Mechanical: force, motion, basic physics",
+    "**English:** 🔥 Spelling (correctly spelt words)",
+    "**Bangladesh Affairs:** 🔥 Power & energy: Rooppur NPP, renewables",
+    "**Geography & Disaster:** Population, urbanization, migration"
+   ],
+   "topics": [
+    [
+     "MENT-22"
+    ],
+    [
+     "ENG-43"
+    ],
+    [
+     "BD-33"
+    ],
+    [
+     "GEO-11"
+    ]
+   ]
+  },
+  {
+   "n": 77,
+   "date": "2026-12-16",
+   "dow": 3,
+   "phase": 1,
+   "week": 12,
+   "slots": [
+    "**Math:** Mensuration: cube, cuboid, cylinder, cone, sphere",
+    "**Bangla:** হুমায়ূন আহমেদ, আখতারুজ্জামান ইলিয়াস, সেলিনা হোসেন",
+    "**English:** World literature: Greek, Russian, French classics",
+    "**General Science:** Food science & preservation"
+   ],
+   "topics": [
+    [
+     "MATH-33"
+    ],
+    [
+     "BAN-44"
+    ],
+    [
+     "ENG-44"
+    ],
+    [
+     "SCI-22"
+    ]
+   ]
+  },
+  {
+   "n": 78,
+   "date": "2026-12-17",
+   "dow": 4,
+   "phase": 1,
+   "week": 12,
+   "slots": [
+    "**Bangladesh Affairs:** 🔥 Mega projects: Metro rail, Karnaphuli tunnel, Matarbari",
+    "**International Affairs:** 🔥 Borders, straits, canals; Durand, McMahon, Radcliffe lines",
+    "**Computer & ICT:** 🔥 ICT in Bangladesh: satellite, submarine cables, cyber law",
+    "**Ethics & Governance:** Human rights & gender equality"
+   ],
+   "topics": [
+    [
+     "BD-34"
+    ],
+    [
+     "INT-23"
+    ],
+    [
+     "ICT-23"
+    ],
+    [
+     "ETH-12"
+    ]
+   ]
+  },
+  {
+   "n": 79,
+   "date": "2026-12-18",
+   "dow": 5,
+   "phase": 1,
+   "week": 12,
+   "slots": [
+    "📝 **Weekly Test #10:** 50 MCQ on this week's topics (35 min) + analysis",
+    "**Current affairs:** this week's newspaper notes",
+    "**Revision:** all 🔥 topics of this week; update short notes",
+    "**Backlog:** finish any missed topic (else extra PYQ practice)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 80,
+   "date": "2026-12-19",
+   "dow": 6,
+   "phase": 1,
+   "week": 13,
+   "slots": [
+    "**Math:** 🔥 Trigonometric ratios & identities",
+    "**Bangla:** 🔥 বিপরীতার্থক শব্দ",
+    "**English:** 🔥 One-word substitution",
+    "**Bangladesh Affairs:** Transport: ports, airports, railways"
+   ],
+   "topics": [
+    [
+     "MATH-34"
+    ],
+    [
+     "BAN-45"
+    ],
+    [
+     "ENG-45"
+    ],
+    [
+     "BD-35"
+    ]
+   ]
+  },
+  {
+   "n": 81,
+   "date": "2026-12-20",
+   "dow": 0,
+   "phase": 1,
+   "week": 13,
+   "slots": [
+    "**Mental Ability:** Puzzles & problem solving",
+    "**English:** South Asian & postcolonial writers in English",
+    "**Bangla:** 🔥 ভাষা আন্দোলন ও মুক্তিযুদ্ধভিত্তিক সাহিত্য",
+    "**International Affairs:** World leaders (current heads of state/govt)"
+   ],
+   "topics": [
+    [
+     "MENT-23"
+    ],
+    [
+     "ENG-46"
+    ],
+    [
+     "BAN-46"
+    ],
+    [
+     "INT-24"
+    ]
+   ]
+  },
+  {
+   "n": 82,
+   "date": "2026-12-21",
+   "dow": 1,
+   "phase": 1,
+   "week": 13,
+   "slots": [
+    "**Math:** Heights & distances",
+    "**Bangla:** 🔥 বাগধারা ও প্রবাদ",
+    "**General Science:** 🔥 Environment, pollution, greenhouse effect",
+    "**Computer & ICT:** 🔥 Abbreviations & full forms"
+   ],
+   "topics": [
+    [
+     "MATH-35"
+    ],
+    [
+     "BAN-47"
+    ],
+    [
+     "SCI-23"
+    ],
+    [
+     "ICT-24"
+    ]
+   ]
+  },
+  {
+   "n": 83,
+   "date": "2026-12-22",
+   "dow": 2,
+   "phase": 1,
+   "week": 13,
+   "slots": [
+    "**Mental Ability:** Spelling & sentence rearrangement",
+    "**English:** Analogy",
+    "**Bangladesh Affairs:** 🔥 Population & Census 2022, literacy",
+    "**Geography & Disaster:** Rocks, volcanoes, plate tectonics"
+   ],
+   "topics": [
+    [
+     "MENT-24"
+    ],
+    [
+     "ENG-47"
+    ],
+    [
+     "BD-36"
+    ],
+    [
+     "GEO-12"
+    ]
+   ]
+  },
+  {
+   "n": 84,
+   "date": "2026-12-23",
+   "dow": 3,
+   "phase": 1,
+   "week": 13,
+   "slots": [
+    "**Math:** 🔥 Permutation",
+    "**Bangla:** 🔥 ছদ্মনাম ও উপাধি",
+    "**English:** Clauses (noun, adjective, adverb)",
+    "**General Science:** 🔥 Solar system & space missions"
+   ],
+   "topics": [
+    [
+     "MATH-36"
+    ],
+    [
+     "BAN-48"
+    ],
+    [
+     "ENG-48"
+    ],
+    [
+     "SCI-24"
+    ]
+   ]
+  },
+  {
+   "n": 85,
+   "date": "2026-12-24",
+   "dow": 4,
+   "phase": 1,
+   "week": 13,
+   "slots": [
+    "**Bangladesh Affairs:** Education, health & SDG indicators",
+    "**International Affairs:** 🔥 Nobel Prizes (latest)",
+    "**Computer & ICT:** IT companies, founders & inventions",
+    "**Ethics & Governance:** Social justice, public interest, conflict of interest"
+   ],
+   "topics": [
+    [
+     "BD-37"
+    ],
+    [
+     "INT-25"
+    ],
+    [
+     "ICT-25"
+    ],
+    [
+     "ETH-13"
+    ]
+   ]
+  },
+  {
+   "n": 86,
+   "date": "2026-12-25",
+   "dow": 5,
+   "phase": 1,
+   "week": 13,
+   "slots": [
+    "📝 **Monthly Model Test #3:** 200 MCQ, 2 hours, syllabus covered so far (hours 1–2)",
+    "↑ (test continues)",
+    "**Test analysis:** check every wrong & guessed answer, note weak topics",
+    "**Current affairs:** monthly magazine + key news of the month"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 87,
+   "date": "2026-12-26",
+   "dow": 6,
+   "phase": 1,
+   "week": 14,
+   "slots": [
+    "**Math:** 🔥 Combination",
+    "**Bangla:** 🔥 এক কথায় প্রকাশ",
+    "**English:** Modals & causative verbs",
+    "**Bangladesh Affairs:** 🔥 Ethnic groups (ক্ষুদ্র নৃগোষ্ঠী)"
+   ],
+   "topics": [
+    [
+     "MATH-37"
+    ],
+    [
+     "BAN-49"
+    ],
+    [
+     "ENG-49"
+    ],
+    [
+     "BD-38"
+    ]
+   ]
+  },
+  {
+   "n": 88,
+   "date": "2026-12-27",
+   "dow": 0,
+   "phase": 1,
+   "week": 14,
+   "slots": [
+    "**Mental Ability:** Data sufficiency",
+    "**English:** Punctuation & capitalization",
+    "**Bangla:** 🔥 পত্রপত্রিকা ও সম্পাদক",
+    "**International Affairs:** International sports events"
+   ],
+   "topics": [
+    [
+     "MENT-25"
+    ],
+    [
+     "ENG-50"
+    ],
+    [
+     "BAN-50"
+    ],
+    [
+     "INT-26"
+    ]
+   ]
+  },
+  {
+   "n": 89,
+   "date": "2026-12-28",
+   "dow": 1,
+   "phase": 1,
+   "week": 14,
+   "slots": [
+    "**Math:** 🔥 Probability",
+    "**Bangla:** 🔥 পারিভাষিক শব্দ",
+    "**General Science:** Atmosphere layers, rocks, earthquakes",
+    "**Computer & ICT:** Multimedia & file formats"
+   ],
+   "topics": [
+    [
+     "MATH-38"
+    ],
+    [
+     "BAN-51"
+    ],
+    [
+     "SCI-25"
+    ],
+    [
+     "ICT-26"
+    ]
+   ]
+  },
+  {
+   "n": 90,
+   "date": "2026-12-29",
+   "dow": 2,
+   "phase": 1,
+   "week": 14,
+   "slots": [
+    "**Mental Ability:** Numerical ability shortcuts",
+    "**English:** 🔥 Foreign words & phrases (Latin, French)",
+    "**Bangladesh Affairs:** Culture: festivals, music, art, cinema",
+    "**Geography & Disaster:** Maps, GIS & remote sensing"
+   ],
+   "topics": [
+    [
+     "MENT-26"
+    ],
+    [
+     "ENG-51"
+    ],
+    [
+     "BD-39"
+    ],
+    [
+     "GEO-13"
+    ]
+   ]
+  },
+  {
+   "n": 91,
+   "date": "2026-12-30",
+   "dow": 3,
+   "phase": 1,
+   "week": 14,
+   "slots": [
+    "**Math:** Statistics: mean, median, mode",
+    "**Bangla:** বিখ্যাত পঙক্তি ও প্রথম রচনা",
+    "**English:** Word formation: prefix & suffix",
+    "**General Science:** 🔥 Inventions & inventors"
+   ],
+   "topics": [
+    [
+     "MATH-39"
+    ],
+    [
+     "BAN-52"
+    ],
+    [
+     "ENG-52"
+    ],
+    [
+     "SCI-26"
+    ]
+   ]
+  },
+  {
+   "n": 92,
+   "date": "2026-12-31",
+   "dow": 4,
+   "phase": 1,
+   "week": 14,
+   "slots": [
+    "**Bangladesh Affairs:** 🔥 Archaeological & World Heritage sites",
+    "**International Affairs:** 🔥 International days & years",
+    "**Computer & ICT:** PYQ: Computer & ICT (last 10 BCS)",
+    "**Ethics & Governance:** Emotional intelligence & professional integrity"
+   ],
+   "topics": [
+    [
+     "BD-40"
+    ],
+    [
+     "INT-27"
+    ],
+    [],
+    [
+     "ETH-14"
+    ]
+   ]
+  },
+  {
+   "n": 93,
+   "date": "2027-01-01",
+   "dow": 5,
+   "phase": 1,
+   "week": 14,
+   "slots": [
+    "📝 **Weekly Test #11:** 50 MCQ on this week's topics (35 min) + analysis",
+    "**Current affairs:** this week's newspaper notes",
+    "**Revision:** all 🔥 topics of this week; update short notes",
+    "**Backlog:** finish any missed topic (else extra PYQ practice)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 94,
+   "date": "2027-01-02",
+   "dow": 6,
+   "phase": 1,
+   "week": 15,
+   "slots": [
+    "**Math:** Functions & relations (domain, range)",
+    "**Bangla:** যতিচিহ্ন, সাধু ও চলিত রীতি",
+    "**English:** Vocabulary from newspapers",
+    "**Bangladesh Affairs:** 🔥 National symbols, anthem, flag, emblem"
+   ],
+   "topics": [
+    [
+     "MATH-40"
+    ],
+    [
+     "BAN-53"
+    ],
+    [
+     "ENG-53"
+    ],
+    [
+     "BD-41"
+    ]
+   ]
+  },
+  {
+   "n": 95,
+   "date": "2027-01-03",
+   "dow": 0,
+   "phase": 1,
+   "week": 15,
+   "slots": [
+    "**Mental Ability:** PYQ: Mental Ability (all BCS)",
+    "**English:** PYQ: English grammar (last 10 BCS)",
+    "**Bangla:** মুসলিম সাহিত্য সমাজ (শিখা গোষ্ঠী), বাংলা একাডেমি",
+    "**International Affairs:** 🔥 Global indices & Bangladesh's rank"
+   ],
+   "topics": [
+    [],
+    [],
+    [
+     "BAN-54"
+    ],
+    [
+     "INT-28"
+    ]
+   ]
+  },
+  {
+   "n": 96,
+   "date": "2027-01-04",
+   "dow": 1,
+   "phase": 1,
+   "week": 15,
+   "slots": [
+    "**Math:** Coordinate geometry basics (distance, slope)",
+    "**Bangla:** অলংকার ও ছন্দ (মৌলিক)",
+    "**General Science:** Renewable energy & nanotechnology",
+    "**Computer & ICT:** Revise 🔥 ICT topics + abbreviations"
+   ],
+   "topics": [
+    [
+     "MATH-41"
+    ],
+    [
+     "BAN-55"
+    ],
+    [
+     "SCI-27"
+    ],
+    []
+   ]
+  },
+  {
+   "n": 97,
+   "date": "2027-01-05",
+   "dow": 2,
+   "phase": 1,
+   "week": 15,
+   "slots": [
+    "**Mental Ability:** Speed drill: 30 reasoning MCQ in 25 min",
+    "**English:** PYQ: English literature (last 10 BCS)",
+    "**Bangladesh Affairs:** Sports & national awards",
+    "**Geography & Disaster:** PYQ: Geography & Disaster Management"
+   ],
+   "topics": [
+    [],
+    [],
+    [
+     "BD-42"
+    ],
+    []
+   ]
+  },
+  {
+   "n": 98,
+   "date": "2027-01-06",
+   "dow": 3,
+   "phase": 1,
+   "week": 15,
+   "slots": [
+    "**Math:** PYQ: Arithmetic (10th–47th BCS)",
+    "**Bangla:** শব্দ গঠন, দ্বিরুক্ত শব্দ",
+    "**English:** Vocabulary: 40 new words + revision",
+    "**General Science:** 🔥 Medical technology: X-ray, CT, MRI, ECG"
+   ],
+   "topics": [
+    [],
+    [
+     "BAN-56"
+    ],
+    [],
+    [
+     "SCI-28"
+    ]
+   ]
+  },
+  {
+   "n": 99,
+   "date": "2027-01-07",
+   "dow": 4,
+   "phase": 1,
+   "week": 15,
+   "slots": [
+    "**Bangladesh Affairs:** 🔥 Bangladesh in UN, OIC, SAARC, BIMSTEC; peacekeeping",
+    "**International Affairs:** 🔥 Major treaties: Westphalia, Camp David, Oslo, Simla",
+    "**Computer & ICT:** PYQ: Computer & ICT (last 10 BCS)",
+    "**Ethics & Governance:** PYQ: Ethics, Values & Good Governance"
+   ],
+   "topics": [
+    [
+     "BD-43"
+    ],
+    [
+     "INT-29"
+    ],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 100,
+   "date": "2027-01-08",
+   "dow": 5,
+   "phase": 1,
+   "week": 15,
+   "slots": [
+    "📝 **Weekly Test #12:** 50 MCQ on this week's topics (35 min) + analysis",
+    "**Current affairs:** this week's newspaper notes",
+    "**Revision:** all 🔥 topics of this week; update short notes",
+    "**Backlog:** finish any missed topic (else extra PYQ practice)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 101,
+   "date": "2027-01-09",
+   "dow": 6,
+   "phase": 1,
+   "week": 16,
+   "slots": [
+    "**Math:** PYQ: Algebra",
+    "**Bangla:** সংখ্যাবাচক ও ক্রমবাচক শব্দ",
+    "**English:** PYQ: English grammar (last 10 BCS)",
+    "**Bangladesh Affairs:** 🔥 Foreign policy & Rohingya crisis"
+   ],
+   "topics": [
+    [],
+    [
+     "BAN-57"
+    ],
+    [],
+    [
+     "BD-44"
+    ]
+   ]
+  },
+  {
+   "n": 102,
+   "date": "2027-01-10",
+   "dow": 0,
+   "phase": 1,
+   "week": 16,
+   "slots": [
+    "**Mental Ability:** PYQ: Mental Ability (all BCS)",
+    "**English:** PYQ: English literature (last 10 BCS)",
+    "**Bangla:** PYQ: বাংলা ব্যাকরণ (last 10 BCS)",
+    "**International Affairs:** International current affairs (last 12 months)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    [
+     "INT-30"
+    ]
+   ]
+  },
+  {
+   "n": 103,
+   "date": "2027-01-11",
+   "dow": 1,
+   "phase": 1,
+   "week": 16,
+   "slots": [
+    "**Math:** PYQ: Geometry & Mensuration",
+    "**Bangla:** PYQ: বাংলা সাহিত্য (last 10 BCS)",
+    "**General Science:** PYQ: General Science (last 10 BCS)",
+    "**Computer & ICT:** Revise 🔥 ICT topics + abbreviations"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 104,
+   "date": "2027-01-12",
+   "dow": 2,
+   "phase": 1,
+   "week": 16,
+   "slots": [
+    "**Mental Ability:** Speed drill: 30 reasoning MCQ in 25 min",
+    "**English:** Vocabulary: 40 new words + revision",
+    "**Bangladesh Affairs:** 🔥 Blue economy, climate change, Delta Plan 2100",
+    "**Geography & Disaster:** PYQ: Geography & Disaster Management"
+   ],
+   "topics": [
+    [],
+    [],
+    [
+     "BD-45"
+    ],
+    []
+   ]
+  },
+  {
+   "n": 105,
+   "date": "2027-01-13",
+   "dow": 3,
+   "phase": 1,
+   "week": 16,
+   "slots": [
+    "**Math:** Speed drill: 25 mixed MCQ in 25 min",
+    "**Bangla:** PYQ: বাংলা ব্যাকরণ (last 10 BCS)",
+    "**English:** PYQ: English grammar (last 10 BCS)",
+    "**General Science:** Revise 🔥 Physics/Chemistry/Biology topics"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 106,
+   "date": "2027-01-14",
+   "dow": 4,
+   "phase": 1,
+   "week": 16,
+   "slots": [
+    "**Bangladesh Affairs:** 🔥 Recent history 2024–26: July uprising, interim govt, reform commissions, 13th election",
+    "**International Affairs:** Chinese & Russian revolutions, Arab Spring",
+    "**Computer & ICT:** PYQ: Computer & ICT (last 10 BCS)",
+    "**Ethics & Governance:** PYQ: Ethics, Values & Good Governance"
+   ],
+   "topics": [
+    [
+     "BD-46"
+    ],
+    [
+     "INT-31"
+    ],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 107,
+   "date": "2027-01-15",
+   "dow": 5,
+   "phase": 1,
+   "week": 16,
+   "slots": [
+    "📝 **Weekly Test #13:** 50 MCQ on this week's topics (35 min) + analysis",
+    "**Current affairs:** this week's newspaper notes",
+    "**Revision:** all 🔥 topics of this week; update short notes",
+    "**Backlog:** finish any missed topic (else extra PYQ practice)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 108,
+   "date": "2027-01-16",
+   "dow": 6,
+   "phase": 1,
+   "week": 17,
+   "slots": [
+    "**Math:** PYQ: Arithmetic (10th–47th BCS)",
+    "**Bangla:** PYQ: বাংলা সাহিত্য (last 10 BCS)",
+    "**English:** PYQ: English literature (last 10 BCS)",
+    "**Bangladesh Affairs:** Bangladesh current affairs (last 12 months)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    [
+     "BD-47"
+    ]
+   ]
+  },
+  {
+   "n": 109,
+   "date": "2027-01-17",
+   "dow": 0,
+   "phase": 1,
+   "week": 17,
+   "slots": [
+    "**Mental Ability:** PYQ: Mental Ability (all BCS)",
+    "**English:** Vocabulary: 40 new words + revision",
+    "**Bangla:** PYQ: বাংলা ব্যাকরণ (last 10 BCS)",
+    "**International Affairs:** 🔥 Soft/hard power, diplomacy, terrorism, Belt & Road"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    [
+     "INT-32"
+    ]
+   ]
+  },
+  {
+   "n": 110,
+   "date": "2027-01-18",
+   "dow": 1,
+   "phase": 1,
+   "week": 17,
+   "slots": [
+    "**Math:** PYQ: Algebra",
+    "**Bangla:** PYQ: বাংলা সাহিত্য (last 10 BCS)",
+    "**General Science:** PYQ: General Science (last 10 BCS)",
+    "**Computer & ICT:** Revise 🔥 ICT topics + abbreviations"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 111,
+   "date": "2027-01-19",
+   "dow": 2,
+   "phase": 1,
+   "week": 17,
+   "slots": [
+    "**Mental Ability:** Speed drill: 30 reasoning MCQ in 25 min",
+    "**English:** PYQ: English grammar (last 10 BCS)",
+    "**Bangladesh Affairs:** 🔥 Important dates & \"firsts\" of Bangladesh",
+    "**Geography & Disaster:** PYQ: Geography & Disaster Management"
+   ],
+   "topics": [
+    [],
+    [],
+    [
+     "BD-48"
+    ],
+    []
+   ]
+  },
+  {
+   "n": 112,
+   "date": "2027-01-20",
+   "dow": 3,
+   "phase": 1,
+   "week": 17,
+   "slots": [
+    "**Math:** PYQ: Geometry & Mensuration",
+    "**Bangla:** PYQ: বাংলা ব্যাকরণ (last 10 BCS)",
+    "**English:** PYQ: English literature (last 10 BCS)",
+    "**General Science:** Revise 🔥 Physics/Chemistry/Biology topics"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 113,
+   "date": "2027-01-21",
+   "dow": 4,
+   "phase": 2,
+   "week": 17,
+   "slots": [
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — Ancient Bengal: janapadas, Maurya, Gupta, Shashanka · Pala & Sena dynasties",
+    "**International Affairs:** 🔁 Revise + PYQ — Concepts: state, sovereignty, geopolitics, balance of power · Ancient civilizations",
+    "**Computer & ICT:** 🔁 Revise + PYQ — History & generations of computers · Types of computers",
+    "**Ethics & Governance:** 🔁 Revise + PYQ — Ethics & morality: concept, sources · Values: types, social values, values education"
+   ],
+   "topics": [
+    [
+     "BD-01",
+     "BD-02"
+    ],
+    [
+     "INT-01",
+     "INT-02"
+    ],
+    [
+     "ICT-01",
+     "ICT-02"
+    ],
+    [
+     "ETH-01",
+     "ETH-02"
+    ]
+   ]
+  },
+  {
+   "n": 114,
+   "date": "2027-01-22",
+   "dow": 5,
+   "phase": 2,
+   "week": 17,
+   "slots": [
+    "📝 **Subject Test:** 100 MCQ on this week's revised topics (1 hr)",
+    "**Test analysis** + correct your notes",
+    "**Current affairs:** weekly news + monthly magazine",
+    "**Weak area:** redo the 20 hardest questions of the week"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 115,
+   "date": "2027-01-23",
+   "dow": 6,
+   "phase": 2,
+   "week": 18,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Number system, divisibility rules · LCM & HCF",
+    "**Bangla:** 🔁 Revise + PYQ — ভাষার উৎপত্তি, বাংলা ভাষার ইতিহাস ও উপভাষা · সাহিত্যের যুগবিভাগ ও চর্যাপদ",
+    "**English:** 🔁 Revise + PYQ — Noun: kinds, number, gender · Periods of English literature",
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — Sultanate: Bakhtiyar Khalji, Iliyas Shahi, Hussain Shahi · Mughal era, Baro Bhuiyans, Subedars, Nawabs · Plassey 1757, Buxar, Dewani"
+   ],
+   "topics": [
+    [
+     "MATH-01",
+     "MATH-02"
+    ],
+    [
+     "BAN-01",
+     "BAN-02"
+    ],
+    [
+     "ENG-01",
+     "ENG-02"
+    ],
+    [
+     "BD-03",
+     "BD-04",
+     "BD-05"
+    ]
+   ]
+  },
+  {
+   "n": 116,
+   "date": "2027-01-24",
+   "dow": 0,
+   "phase": 2,
+   "week": 18,
+   "slots": [
+    "**Mental Ability:** 🔁 Revise + PYQ — Verbal analogy · Word meaning based reasoning",
+    "**English:** 🔁 Revise + PYQ — Pronoun & its agreement · Old & Middle English: Beowulf, Chaucer",
+    "**Bangla:** 🔁 Revise + PYQ — ধ্বনি ও বর্ণ (স্বর/ব্যঞ্জন) · অন্ধকার যুগ, শ্রীকৃষ্ণকীর্তন (বড়ু চণ্ডীদাস)",
+    "**International Affairs:** 🔁 Revise + PYQ — Renaissance, American & French revolutions, Industrial Revolution · World War I, Versailles, League of Nations · World War II & Cold War"
+   ],
+   "topics": [
+    [
+     "MENT-01",
+     "MENT-02"
+    ],
+    [
+     "ENG-03",
+     "ENG-04"
+    ],
+    [
+     "BAN-03",
+     "BAN-04"
+    ],
+    [
+     "INT-03",
+     "INT-04",
+     "INT-05"
+    ]
+   ]
+  },
+  {
+   "n": 117,
+   "date": "2027-01-25",
+   "dow": 1,
+   "phase": 2,
+   "week": 18,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Fractions, decimals, simplification · Square/cube roots, surds & indices (সূচক)",
+    "**Bangla:** 🔁 Revise + PYQ — বর্ণের উচ্চারণ স্থান, যুক্তবর্ণ · মঙ্গলকাব্য (মনসা, চণ্ডী, অন্নদা) · ধ্বনি পরিবর্তন (অপিনিহিতি, অভিশ্রুতি, স্বরসঙ্গতি)",
+    "**General Science:** 🔁 Revise + PYQ — Units, measurement, SI · Motion, force, Newton's laws, gravity",
+    "**Computer & ICT:** 🔁 Revise + PYQ — Hardware: CPU, ALU, registers · Memory: RAM, ROM, cache, storage units"
+   ],
+   "topics": [
+    [
+     "MATH-03",
+     "MATH-04"
+    ],
+    [
+     "BAN-05",
+     "BAN-06",
+     "BAN-07"
+    ],
+    [
+     "SCI-01",
+     "SCI-02"
+    ],
+    [
+     "ICT-03",
+     "ICT-04"
+    ]
+   ]
+  },
+  {
+   "n": 118,
+   "date": "2027-01-26",
+   "dow": 2,
+   "phase": 2,
+   "week": 18,
+   "slots": [
+    "**Mental Ability:** 🔁 Revise + PYQ — Classification / odd one out · Number series",
+    "**English:** 🔁 Revise + PYQ — Adjective & degrees of comparison · Elizabethan: Spenser, Marlowe",
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — British rule: Permanent Settlement, Titumir, Faraizi, Indigo, 1857 · 1905 partition, Muslim League, Lahore Resolution 1940, 1947 · Language Movement 1948–1952",
+    "**Geography & Disaster:** 🔁 Revise + PYQ — Earth: latitude, longitude, time zones · Atmosphere, winds, climate zones"
+   ],
+   "topics": [
+    [
+     "MENT-03",
+     "MENT-04"
+    ],
+    [
+     "ENG-05",
+     "ENG-06"
+    ],
+    [
+     "BD-06",
+     "BD-07",
+     "BD-08"
+    ],
+    [
+     "GEO-01",
+     "GEO-02"
+    ]
+   ]
+  },
+  {
+   "n": 119,
+   "date": "2027-01-27",
+   "dow": 3,
+   "phase": 2,
+   "week": 18,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Percentage · Profit & loss",
+    "**Bangla:** 🔁 Revise + PYQ — বৈষ্ণব পদাবলি, অনুবাদ সাহিত্য, আরাকান রাজসভা (আলাওল, দৌলত কাজী) · সন্ধি: স্বরসন্ধি",
+    "**English:** 🔁 Revise + PYQ — Verb: finite/non-finite (gerund, participle, infinitive) · Shakespeare: tragedies",
+    "**General Science:** 🔁 Revise + PYQ — Work, energy, power · Heat & temperature"
+   ],
+   "topics": [
+    [
+     "MATH-05",
+     "MATH-06"
+    ],
+    [
+     "BAN-08",
+     "BAN-09"
+    ],
+    [
+     "ENG-07",
+     "ENG-08"
+    ],
+    [
+     "SCI-03",
+     "SCI-04"
+    ]
+   ]
+  },
+  {
+   "n": 120,
+   "date": "2027-01-28",
+   "dow": 4,
+   "phase": 2,
+   "week": 18,
+   "slots": [
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — 1954 election, 1956 constitution, 1958 martial law, 1962 · Six-point 1966, Agartala case, 1969 uprising",
+    "**International Affairs:** 🔁 Revise + PYQ — UN: formation, charter, organs · UN specialized agencies & HQs · UN Secretaries-General & peacekeeping",
+    "**Computer & ICT:** 🔁 Revise + PYQ — Input & output devices · Number systems & conversion",
+    "**Ethics & Governance:** 🔁 Revise + PYQ — Ethical theories: Kant, utilitarianism, virtue ethics · Socrates, Plato, Aristotle & famous quotes"
+   ],
+   "topics": [
+    [
+     "BD-09",
+     "BD-10"
+    ],
+    [
+     "INT-06",
+     "INT-07",
+     "INT-08"
+    ],
+    [
+     "ICT-05",
+     "ICT-06"
+    ],
+    [
+     "ETH-03",
+     "ETH-04"
+    ]
+   ]
+  },
+  {
+   "n": 121,
+   "date": "2027-01-29",
+   "dow": 5,
+   "phase": 2,
+   "week": 18,
+   "slots": [
+    "📝 **Subject Test:** 100 MCQ on this week's revised topics (1 hr)",
+    "**Test analysis** + correct your notes",
+    "**Current affairs:** weekly news + monthly magazine",
+    "**Weak area:** redo the 20 hardest questions of the week"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 122,
+   "date": "2027-01-30",
+   "dow": 6,
+   "phase": 2,
+   "week": 19,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Simple interest · Compound interest · Ratio & proportion",
+    "**Bangla:** 🔁 Revise + PYQ — পুঁথি সাহিত্য, মর্সিয়া, নাথ সাহিত্য, মৈমনসিংহ গীতিকা, কবিগান · সন্ধি: ব্যঞ্জন, বিসর্গ, নিপাতনে সিদ্ধ",
+    "**English:** 🔁 Revise + PYQ — Tense · Shakespeare: comedies, histories, sonnets · Subject-verb agreement",
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — 1970 election & 7 March speech · 1971: Operation Searchlight, declaration, Mujibnagar Govt · 1971: sectors, commanders, forces, Bir Sreshtho"
+   ],
+   "topics": [
+    [
+     "MATH-07",
+     "MATH-08",
+     "MATH-09"
+    ],
+    [
+     "BAN-10",
+     "BAN-11"
+    ],
+    [
+     "ENG-09",
+     "ENG-10",
+     "ENG-11"
+    ],
+    [
+     "BD-11",
+     "BD-12",
+     "BD-13"
+    ]
+   ]
+  },
+  {
+   "n": 123,
+   "date": "2027-01-31",
+   "dow": 0,
+   "phase": 2,
+   "week": 19,
+   "slots": [
+    "**Mental Ability:** 🔁 Revise + PYQ — Letter series & alphabet test · Coding-decoding",
+    "**English:** 🔁 Revise + PYQ — Ben Jonson, John Donne (Metaphysical), Milton · Right form of verbs",
+    "**Bangla:** 🔁 Revise + PYQ — ফোর্ট উইলিয়াম কলেজ ও বাংলা গদ্যের বিকাশ · ণত্ব ও ষত্ব বিধান · ঈশ্বরচন্দ্র বিদ্যাসাগর, প্যারীচাঁদ মিত্র",
+    "**International Affairs:** 🔁 Revise + PYQ — SAARC, ASEAN, BIMSTEC, EU, AU · WTO, IMF, World Bank, ADB, AIIB, NDB"
+   ],
+   "topics": [
+    [
+     "MENT-05",
+     "MENT-06"
+    ],
+    [
+     "ENG-12",
+     "ENG-13"
+    ],
+    [
+     "BAN-12",
+     "BAN-13",
+     "BAN-14"
+    ],
+    [
+     "INT-09",
+     "INT-10"
+    ]
+   ]
+  },
+  {
+   "n": 124,
+   "date": "2027-02-01",
+   "dow": 1,
+   "phase": 2,
+   "week": 19,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Partnership (অংশীদারি কারবার) · Average",
+    "**Bangla:** 🔁 Revise + PYQ — শব্দের উৎস: তৎসম, তদ্ভব, দেশি, বিদেশি · মাইকেল মধুসূদন দত্ত",
+    "**General Science:** 🔁 Revise + PYQ — Sound · Light: reflection, refraction, lens, dispersion · Electricity & magnetism",
+    "**Computer & ICT:** 🔁 Revise + PYQ — Boolean algebra & logic gates · Software & operating systems"
+   ],
+   "topics": [
+    [
+     "MATH-10",
+     "MATH-11"
+    ],
+    [
+     "BAN-15",
+     "BAN-16"
+    ],
+    [
+     "SCI-05",
+     "SCI-06",
+     "SCI-07"
+    ],
+    [
+     "ICT-07",
+     "ICT-08"
+    ]
+   ]
+  },
+  {
+   "n": 125,
+   "date": "2027-02-02",
+   "dow": 2,
+   "phase": 2,
+   "week": 19,
+   "slots": [
+    "**Mental Ability:** 🔁 Revise + PYQ — Blood relations · Direction sense",
+    "**English:** 🔁 Revise + PYQ — Restoration & Neo-classical: Dryden, Pope, Swift, Defoe · Adverb",
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — 1971: victory, surrender, martyred intellectuals, foreign role · Post-1971 political history · Constitution: making, preamble, fundamental principles",
+    "**Geography & Disaster:** 🔁 Revise + PYQ — Oceans, currents, tides · World's largest/longest: rivers, mountains, deserts"
+   ],
+   "topics": [
+    [
+     "MENT-07",
+     "MENT-08"
+    ],
+    [
+     "ENG-14",
+     "ENG-15"
+    ],
+    [
+     "BD-14",
+     "BD-15",
+     "BD-16"
+    ],
+    [
+     "GEO-03",
+     "GEO-04"
+    ]
+   ]
+  },
+  {
+   "n": 126,
+   "date": "2027-02-03",
+   "dow": 3,
+   "phase": 2,
+   "week": 19,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Age problems · Work & time",
+    "**Bangla:** 🔁 Revise + PYQ — পদ: বিশেষ্য, বিশেষণ, সর্বনাম · বঙ্কিমচন্দ্র চট্টোপাধ্যায়, দীনবন্ধু মিত্র · পদ: ক্রিয়া, অব্যয়",
+    "**English:** 🔁 Revise + PYQ — 18th-century novel: Richardson, Fielding, Johnson, Goldsmith · Preposition & appropriate preposition",
+    "**General Science:** 🔁 Revise + PYQ — Atom, radioactivity, fission & fusion · Matter, atomic structure, periodic table"
+   ],
+   "topics": [
+    [
+     "MATH-12",
+     "MATH-13"
+    ],
+    [
+     "BAN-17",
+     "BAN-18",
+     "BAN-19"
+    ],
+    [
+     "ENG-16",
+     "ENG-17"
+    ],
+    [
+     "SCI-08",
+     "SCI-09"
+    ]
+   ]
+  },
+  {
+   "n": 127,
+   "date": "2027-02-04",
+   "dow": 4,
+   "phase": 2,
+   "week": 19,
+   "slots": [
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — Constitution: fundamental rights (Art. 26–47) · Constitution: amendments",
+    "**International Affairs:** 🔁 Revise + PYQ — NATO, QUAD, AUKUS, SCO · OIC, OPEC, GCC, Commonwealth, G7, G20, BRICS · Israel–Palestine & Middle East",
+    "**Computer & ICT:** 🔁 Revise + PYQ — Programming languages, compiler, algorithm, flowchart · Database: DBMS, SQL, keys",
+    "**Ethics & Governance:** 🔁 Revise + PYQ — Good governance: concept & indicators · Rule of law, accountability, transparency · Law, liberty & equality"
+   ],
+   "topics": [
+    [
+     "BD-17",
+     "BD-18"
+    ],
+    [
+     "INT-11",
+     "INT-12",
+     "INT-13"
+    ],
+    [
+     "ICT-09",
+     "ICT-10"
+    ],
+    [
+     "ETH-05",
+     "ETH-06",
+     "ETH-07"
+    ]
+   ]
+  },
+  {
+   "n": 128,
+   "date": "2027-02-05",
+   "dow": 5,
+   "phase": 2,
+   "week": 19,
+   "slots": [
+    "📝 **Subject Test:** 100 MCQ on this week's revised topics (1 hr)",
+    "**Test analysis** + correct your notes",
+    "**Current affairs:** weekly news + monthly magazine",
+    "**Weak area:** redo the 20 hardest questions of the week"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 129,
+   "date": "2027-02-06",
+   "dow": 6,
+   "phase": 2,
+   "week": 20,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Pipes & cisterns · Time, speed & distance",
+    "**Bangla:** 🔁 Revise + PYQ — মীর মশাররফ হোসেন, কায়কোবাদ · সমাস: দ্বন্দ্ব, কর্মধারয়",
+    "**English:** 🔁 Revise + PYQ — Romantic: Wordsworth, Coleridge · Conjunction",
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — Constitution: key articles (President, PM, Parliament, Judiciary, EC, PSC, CAG) · Executive: President, PM, cabinet · Legislature: Jatiya Sangsad, Speaker, committees"
+   ],
+   "topics": [
+    [
+     "MATH-14",
+     "MATH-15"
+    ],
+    [
+     "BAN-20",
+     "BAN-21"
+    ],
+    [
+     "ENG-18",
+     "ENG-19"
+    ],
+    [
+     "BD-19",
+     "BD-20",
+     "BD-21"
+    ]
+   ]
+  },
+  {
+   "n": 130,
+   "date": "2027-02-07",
+   "dow": 0,
+   "phase": 2,
+   "week": 20,
+   "slots": [
+    "**Mental Ability:** 🔁 Revise + PYQ — Ranking & ordering · Seating arrangement (linear & circular)",
+    "**English:** 🔁 Revise + PYQ — Romantic: Byron, Shelley, Keats · Articles · Victorian poets: Tennyson, Browning, Arnold",
+    "**Bangla:** 🔁 Revise + PYQ — রবীন্দ্রনাথ: জীবনী ও কাব্য · সমাস: তৎপুরুষ, বহুব্রীহি, দ্বিগু, অব্যয়ীভাব",
+    "**International Affairs:** 🔁 Revise + PYQ — Russia–Ukraine war · South China Sea, Taiwan, Indo-Pacific · Kashmir, India–Pakistan, Afghanistan"
+   ],
+   "topics": [
+    [
+     "MENT-09",
+     "MENT-10"
+    ],
+    [
+     "ENG-20",
+     "ENG-21",
+     "ENG-22"
+    ],
+    [
+     "BAN-22",
+     "BAN-23"
+    ],
+    [
+     "INT-14",
+     "INT-15",
+     "INT-16"
+    ]
+   ]
+  },
+  {
+   "n": 131,
+   "date": "2027-02-08",
+   "dow": 1,
+   "phase": 2,
+   "week": 20,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Boats & streams, trains · Mixture & alligation · Algebraic formulas & identities",
+    "**Bangla:** 🔁 Revise + PYQ — রবীন্দ্রনাথ: উপন্যাস, ছোটগল্প, নাটক · উপসর্গ · কাজী নজরুল ইসলাম: কাব্য",
+    "**General Science:** 🔁 Revise + PYQ — Acids, bases, salts, pH · Metals, non-metals, alloys, ores",
+    "**Computer & ICT:** 🔁 Revise + PYQ — Networks: LAN/MAN/WAN, topologies · Network devices; OSI & TCP/IP · Internet: IP, DNS, HTTP, FTP, SMTP"
+   ],
+   "topics": [
+    [
+     "MATH-16",
+     "MATH-17",
+     "MATH-18"
+    ],
+    [
+     "BAN-24",
+     "BAN-25",
+     "BAN-26"
+    ],
+    [
+     "SCI-10",
+     "SCI-11"
+    ],
+    [
+     "ICT-11",
+     "ICT-12",
+     "ICT-13"
+    ]
+   ]
+  },
+  {
+   "n": 132,
+   "date": "2027-02-09",
+   "dow": 2,
+   "phase": 2,
+   "week": 20,
+   "slots": [
+    "**Mental Ability:** 🔁 Revise + PYQ — Clock problems · Calendar problems · Syllogism / logical deduction",
+    "**English:** 🔁 Revise + PYQ — Voice change · Victorian novel: Dickens, Brontës, Hardy, George Eliot",
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — Judiciary, Ombudsman, ACC · Local government structure · Administration: divisions, districts; CHT Accord 1997",
+    "**Geography & Disaster:** 🔁 Revise + PYQ — Physiography & soils of Bangladesh · Ecosystem, biodiversity, protected areas of BD"
+   ],
+   "topics": [
+    [
+     "MENT-11",
+     "MENT-12",
+     "MENT-13"
+    ],
+    [
+     "ENG-23",
+     "ENG-24"
+    ],
+    [
+     "BD-22",
+     "BD-23",
+     "BD-24"
+    ],
+    [
+     "GEO-05",
+     "GEO-06"
+    ]
+   ]
+  },
+  {
+   "n": 133,
+   "date": "2027-02-10",
+   "dow": 3,
+   "phase": 2,
+   "week": 20,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Factorization · Linear equations (1 & 2 variables)",
+    "**Bangla:** 🔁 Revise + PYQ — প্রত্যয় (কৃৎ ও তদ্ধিত) · নজরুল: গদ্য, নাটক, পত্রিকা",
+    "**English:** 🔁 Revise + PYQ — Narration · Modern: Yeats, T. S. Eliot",
+    "**General Science:** 🔁 Revise + PYQ — Carbon compounds, polymers, fuels · Everyday chemistry: fertilizer, soap, glass, cement, common names · Cell & tissue"
+   ],
+   "topics": [
+    [
+     "MATH-19",
+     "MATH-20"
+    ],
+    [
+     "BAN-27",
+     "BAN-28"
+    ],
+    [
+     "ENG-25",
+     "ENG-26"
+    ],
+    [
+     "SCI-12",
+     "SCI-13",
+     "SCI-14"
+    ]
+   ]
+  },
+  {
+   "n": 134,
+   "date": "2027-02-11",
+   "dow": 4,
+   "phase": 2,
+   "week": 20,
+   "slots": [
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — Location, area, borders, enclaves (2015), maritime boundary · Rivers & bridges (Padma Bridge etc.)",
+    "**International Affairs:** 🔁 Revise + PYQ — Myanmar & Rohingya · Climate: UNFCCC, Kyoto, Paris Agreement, COPs",
+    "**Computer & ICT:** 🔁 Revise + PYQ — Email, WWW, browsers, search engines · Fiber optics, satellite, 1G–5G",
+    "**Ethics & Governance:** 🔁 Revise + PYQ — National Integrity Strategy (NIS) 2012 · RTI Act 2009, Citizen Charter, Ombudsman"
+   ],
+   "topics": [
+    [
+     "BD-25",
+     "BD-26"
+    ],
+    [
+     "INT-17",
+     "INT-18"
+    ],
+    [
+     "ICT-14",
+     "ICT-15"
+    ],
+    [
+     "ETH-08",
+     "ETH-09"
+    ]
+   ]
+  },
+  {
+   "n": 135,
+   "date": "2027-02-12",
+   "dow": 5,
+   "phase": 2,
+   "week": 20,
+   "slots": [
+    "📝 **Subject Test:** 100 MCQ on this week's revised topics (1 hr)",
+    "**Test analysis** + correct your notes",
+    "**Current affairs:** weekly news + monthly magazine",
+    "**Weak area:** redo the 20 hardest questions of the week"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 136,
+   "date": "2027-02-13",
+   "dow": 6,
+   "phase": 2,
+   "week": 21,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Quadratic equations & roots · Inequalities",
+    "**Bangla:** 🔁 Revise + PYQ — কারক ও বিভক্তি · শরৎচন্দ্র ও বেগম রোকেয়া",
+    "**English:** 🔁 Revise + PYQ — Transformation of sentences · Modern: Joyce, Woolf, Lawrence, Conrad, Orwell",
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — Hills, islands, Sundarbans, haors · Climate & seasons of Bangladesh · Economy: GDP, per capita, budget, Economic Review"
+   ],
+   "topics": [
+    [
+     "MATH-21",
+     "MATH-22"
+    ],
+    [
+     "BAN-29",
+     "BAN-30"
+    ],
+    [
+     "ENG-27",
+     "ENG-28"
+    ],
+    [
+     "BD-27",
+     "BD-28",
+     "BD-29"
+    ]
+   ]
+  },
+  {
+   "n": 137,
+   "date": "2027-02-14",
+   "dow": 0,
+   "phase": 2,
+   "week": 21,
+   "slots": [
+    "**Mental Ability:** 🔁 Revise + PYQ — Statement & conclusion / assumption · Mirror & water images",
+    "**English:** 🔁 Revise + PYQ — Conditional sentences · Drama: Shaw, Wilde, Beckett, Osborne",
+    "**Bangla:** 🔁 Revise + PYQ — বচন, লিঙ্গ, পুরুষ · জীবনানন্দ দাশ ও জসীমউদ্দীন · ক্রিয়ার কাল ও ভাব",
+    "**International Affairs:** 🔁 Revise + PYQ — Nuclear treaties: NPT, CTBT, TPNW · International law: ICJ, ICC, UNCLOS · Human rights: UDHR, CEDAW, CRC"
+   ],
+   "topics": [
+    [
+     "MENT-14",
+     "MENT-15"
+    ],
+    [
+     "ENG-29",
+     "ENG-30"
+    ],
+    [
+     "BAN-31",
+     "BAN-32",
+     "BAN-33"
+    ],
+    [
+     "INT-19",
+     "INT-20",
+     "INT-21"
+    ]
+   ]
+  },
+  {
+   "n": 138,
+   "date": "2027-02-15",
+   "dow": 1,
+   "phase": 2,
+   "week": 21,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Logarithm · Sets & Venn diagram · Arithmetic progression (সমান্তর ধারা)",
+    "**Bangla:** 🔁 Revise + PYQ — তিরিশের কবি, ফররুখ আহমদ, সুকান্ত · বাচ্য ও বাচ্য পরিবর্তন",
+    "**General Science:** 🔁 Revise + PYQ — Plants & photosynthesis · Animal classification",
+    "**Computer & ICT:** 🔁 Revise + PYQ — Wi-Fi, Bluetooth, NFC, RFID · Cyber security: malware, phishing, firewall, encryption"
+   ],
+   "topics": [
+    [
+     "MATH-23",
+     "MATH-24",
+     "MATH-25"
+    ],
+    [
+     "BAN-34",
+     "BAN-35"
+    ],
+    [
+     "SCI-15",
+     "SCI-16"
+    ],
+    [
+     "ICT-16",
+     "ICT-17"
+    ]
+   ]
+  },
+  {
+   "n": 139,
+   "date": "2027-02-16",
+   "dow": 2,
+   "phase": 2,
+   "week": 21,
+   "slots": [
+    "**Mental Ability:** 🔁 Revise + PYQ — Paper folding & cutting · Counting figures (triangles, squares)",
+    "**English:** 🔁 Revise + PYQ — Correction of sentences / error detection · American literature: Whitman, Frost, Hemingway, Arthur Miller · Sentence completion",
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — Agriculture: crops, varieties, research institutes · Industry: RMG, jute, EPZ, economic zones · Mineral resources: gas fields, coal, limestone",
+    "**Geography & Disaster:** 🔁 Revise + PYQ — Climate change, global warming, ozone · Disasters: cyclone, flood, earthquake, landslide, drought"
+   ],
+   "topics": [
+    [
+     "MENT-16",
+     "MENT-17"
+    ],
+    [
+     "ENG-31",
+     "ENG-32",
+     "ENG-33"
+    ],
+    [
+     "BD-30",
+     "BD-31",
+     "BD-32"
+    ],
+    [
+     "GEO-07",
+     "GEO-08"
+    ]
+   ]
+  },
+  {
+   "n": 140,
+   "date": "2027-02-17",
+   "dow": 3,
+   "phase": 2,
+   "week": 21,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Geometric progression & series · Lines, angles, parallel lines",
+    "**Bangla:** 🔁 Revise + PYQ — প্রমথ চৌধুরী (সবুজপত্র), সত্যেন্দ্রনাথ দত্ত · বাক্য: সরল, জটিল, যৌগিক ও রূপান্তর · বিভূতিভূষণ, তারাশঙ্কর, মানিক বন্দ্যোপাধ্যায়",
+    "**English:** 🔁 Revise + PYQ — Literary terms: sonnet, ode, elegy, epic, ballad · Phrases & idioms",
+    "**General Science:** 🔁 Revise + PYQ — Human body: digestion, blood, circulation · Human body: nervous, respiratory, excretory, hormones"
+   ],
+   "topics": [
+    [
+     "MATH-26",
+     "MATH-27"
+    ],
+    [
+     "BAN-36",
+     "BAN-37",
+     "BAN-38"
+    ],
+    [
+     "ENG-34",
+     "ENG-35"
+    ],
+    [
+     "SCI-17",
+     "SCI-18"
+    ]
+   ]
+  },
+  {
+   "n": 141,
+   "date": "2027-02-18",
+   "dow": 4,
+   "phase": 2,
+   "week": 21,
+   "slots": [
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — Power & energy: Rooppur NPP, renewables · Mega projects: Metro rail, Karnaphuli tunnel, Matarbari",
+    "**International Affairs:** 🔁 Revise + PYQ — Countries: capitals, currencies, parliaments · Borders, straits, canals; Durand, McMahon, Radcliffe lines · World leaders (current heads of state/govt)",
+    "**Computer & ICT:** 🔁 Revise + PYQ — Cloud computing, IoT, Big data · AI, machine learning, LLMs, robotics",
+    "**Ethics & Governance:** 🔁 Revise + PYQ — Corruption & ACC, e-governance · Civil service values & code of conduct"
+   ],
+   "topics": [
+    [
+     "BD-33",
+     "BD-34"
+    ],
+    [
+     "INT-22",
+     "INT-23",
+     "INT-24"
+    ],
+    [
+     "ICT-18",
+     "ICT-19"
+    ],
+    [
+     "ETH-10",
+     "ETH-11"
+    ]
+   ]
+  },
+  {
+   "n": 142,
+   "date": "2027-02-19",
+   "dow": 5,
+   "phase": 2,
+   "week": 21,
+   "slots": [
+    "📝 **Subject Test:** 100 MCQ on this week's revised topics (1 hr)",
+    "**Test analysis** + correct your notes",
+    "**Current affairs:** weekly news + monthly magazine",
+    "**Weak area:** redo the 20 hardest questions of the week"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 143,
+   "date": "2027-02-20",
+   "dow": 6,
+   "phase": 2,
+   "week": 22,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Triangles & Pythagoras theorem · Quadrilaterals & polygons (interior/exterior angles)",
+    "**Bangla:** 🔁 Revise + PYQ — বানান শুদ্ধি (প্রমিত বানান রীতি) · শামসুর রাহমান, আল মাহমুদ, সৈয়দ শামসুল হক",
+    "**English:** 🔁 Revise + PYQ — Literary terms: allegory, satire, figures of speech · Group verbs",
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — Transport: ports, airports, railways · Population & Census 2022, literacy · Education, health & SDG indicators"
+   ],
+   "topics": [
+    [
+     "MATH-28",
+     "MATH-29"
+    ],
+    [
+     "BAN-39",
+     "BAN-40"
+    ],
+    [
+     "ENG-36",
+     "ENG-37"
+    ],
+    [
+     "BD-35",
+     "BD-36",
+     "BD-37"
+    ]
+   ]
+  },
+  {
+   "n": 144,
+   "date": "2027-02-21",
+   "dow": 0,
+   "phase": 2,
+   "week": 22,
+   "slots": [
+    "**Mental Ability:** 🔁 Revise + PYQ — Figure series & pattern completion · Dice & cube",
+    "**English:** 🔁 Revise + PYQ — Famous quotations & lines · Synonyms",
+    "**Bangla:** 🔁 Revise + PYQ — বাক্য শুদ্ধি ও অপপ্রয়োগ · মুনীর চৌধুরী, সৈয়দ ওয়ালীউল্লাহ, শহীদুল্লা কায়সার",
+    "**International Affairs:** 🔁 Revise + PYQ — Nobel Prizes (latest) · International sports events"
+   ],
+   "topics": [
+    [
+     "MENT-18",
+     "MENT-19"
+    ],
+    [
+     "ENG-38",
+     "ENG-39"
+    ],
+    [
+     "BAN-41",
+     "BAN-42"
+    ],
+    [
+     "INT-25",
+     "INT-26"
+    ]
+   ]
+  },
+  {
+   "n": 145,
+   "date": "2027-02-22",
+   "dow": 1,
+   "phase": 2,
+   "week": 22,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Circle: chord, tangent, arc, angles · Mensuration: triangle, rectangle, square",
+    "**Bangla:** 🔁 Revise + PYQ — সমার্থক শব্দ · হুমায়ূন আহমেদ, আখতারুজ্জামান ইলিয়াস, সেলিনা হোসেন · বিপরীতার্থক শব্দ",
+    "**General Science:** 🔁 Revise + PYQ — Vitamins, minerals & deficiency diseases · Diseases (viral/bacterial) & vaccines · Genetics, DNA, biotechnology",
+    "**Computer & ICT:** 🔁 Revise + PYQ — Blockchain, crypto, VR/AR, metaverse · MS Office: Word, Excel, PowerPoint"
+   ],
+   "topics": [
+    [
+     "MATH-30",
+     "MATH-31"
+    ],
+    [
+     "BAN-43",
+     "BAN-44",
+     "BAN-45"
+    ],
+    [
+     "SCI-19",
+     "SCI-20",
+     "SCI-21"
+    ],
+    [
+     "ICT-20",
+     "ICT-21"
+    ]
+   ]
+  },
+  {
+   "n": 146,
+   "date": "2027-02-23",
+   "dow": 2,
+   "phase": 2,
+   "week": 22,
+   "slots": [
+    "**Mental Ability:** 🔁 Revise + PYQ — Embedded figures / spatial ability · Mechanical: gears, pulleys, levers",
+    "**English:** 🔁 Revise + PYQ — Famous characters & pen names · Antonyms",
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — Ethnic groups (ক্ষুদ্র নৃগোষ্ঠী) · Culture: festivals, music, art, cinema · Archaeological & World Heritage sites",
+    "**Geography & Disaster:** 🔁 Revise + PYQ — Disaster management in BD: cycle, SOD, early warning · Environmental conventions: Ramsar, CBD, Montreal"
+   ],
+   "topics": [
+    [
+     "MENT-20",
+     "MENT-21"
+    ],
+    [
+     "ENG-40",
+     "ENG-41"
+    ],
+    [
+     "BD-38",
+     "BD-39",
+     "BD-40"
+    ],
+    [
+     "GEO-09",
+     "GEO-10"
+    ]
+   ]
+  },
+  {
+   "n": 147,
+   "date": "2027-02-24",
+   "dow": 3,
+   "phase": 2,
+   "week": 22,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Mensuration: circle & sector · Mensuration: cube, cuboid, cylinder, cone, sphere · Trigonometric ratios & identities",
+    "**Bangla:** 🔁 Revise + PYQ — ভাষা আন্দোলন ও মুক্তিযুদ্ধভিত্তিক সাহিত্য · বাগধারা ও প্রবাদ",
+    "**English:** 🔁 Revise + PYQ — Nobel laureates in literature · Spelling (correctly spelt words) · World literature: Greek, Russian, French classics",
+    "**General Science:** 🔁 Revise + PYQ — Food science & preservation · Environment, pollution, greenhouse effect"
+   ],
+   "topics": [
+    [
+     "MATH-32",
+     "MATH-33",
+     "MATH-34"
+    ],
+    [
+     "BAN-46",
+     "BAN-47"
+    ],
+    [
+     "ENG-42",
+     "ENG-43",
+     "ENG-44"
+    ],
+    [
+     "SCI-22",
+     "SCI-23"
+    ]
+   ]
+  },
+  {
+   "n": 148,
+   "date": "2027-02-25",
+   "dow": 4,
+   "phase": 2,
+   "week": 22,
+   "slots": [
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — National symbols, anthem, flag, emblem · Sports & national awards",
+    "**International Affairs:** 🔁 Revise + PYQ — International days & years · Global indices & Bangladesh's rank · Major treaties: Westphalia, Camp David, Oslo, Simla",
+    "**Computer & ICT:** 🔁 Revise + PYQ — E-commerce & e-governance · ICT in Bangladesh: satellite, submarine cables, cyber law",
+    "**Ethics & Governance:** 🔁 Revise + PYQ — Human rights & gender equality · Social justice, public interest, conflict of interest · Emotional intelligence & professional integrity"
+   ],
+   "topics": [
+    [
+     "BD-41",
+     "BD-42"
+    ],
+    [
+     "INT-27",
+     "INT-28",
+     "INT-29"
+    ],
+    [
+     "ICT-22",
+     "ICT-23"
+    ],
+    [
+     "ETH-12",
+     "ETH-13",
+     "ETH-14"
+    ]
+   ]
+  },
+  {
+   "n": 149,
+   "date": "2027-02-26",
+   "dow": 5,
+   "phase": 2,
+   "week": 22,
+   "slots": [
+    "📝 **Subject Test:** 100 MCQ on this week's revised topics (1 hr)",
+    "**Test analysis** + correct your notes",
+    "**Current affairs:** weekly news + monthly magazine",
+    "**Weak area:** redo the 20 hardest questions of the week"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 150,
+   "date": "2027-02-27",
+   "dow": 6,
+   "phase": 2,
+   "week": 23,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Heights & distances · Permutation",
+    "**Bangla:** 🔁 Revise + PYQ — ছদ্মনাম ও উপাধি · এক কথায় প্রকাশ",
+    "**English:** 🔁 Revise + PYQ — One-word substitution · South Asian & postcolonial writers in English",
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — Bangladesh in UN, OIC, SAARC, BIMSTEC; peacekeeping · Foreign policy & Rohingya crisis · Blue economy, climate change, Delta Plan 2100"
+   ],
+   "topics": [
+    [
+     "MATH-35",
+     "MATH-36"
+    ],
+    [
+     "BAN-48",
+     "BAN-49"
+    ],
+    [
+     "ENG-45",
+     "ENG-46"
+    ],
+    [
+     "BD-43",
+     "BD-44",
+     "BD-45"
+    ]
+   ]
+  },
+  {
+   "n": 151,
+   "date": "2027-02-28",
+   "dow": 0,
+   "phase": 2,
+   "week": 23,
+   "slots": [
+    "**Mental Ability:** 🔁 Revise + PYQ — Mechanical: force, motion, basic physics · Puzzles & problem solving",
+    "**English:** 🔁 Revise + PYQ — Analogy · Clauses (noun, adjective, adverb)",
+    "**Bangla:** 🔁 Revise + PYQ — পত্রপত্রিকা ও সম্পাদক · পারিভাষিক শব্দ · বিখ্যাত পঙক্তি ও প্রথম রচনা",
+    "**International Affairs:** 🔁 Revise + PYQ — International current affairs (last 12 months) · Chinese & Russian revolutions, Arab Spring · Soft/hard power, diplomacy, terrorism, Belt & Road"
+   ],
+   "topics": [
+    [
+     "MENT-22",
+     "MENT-23"
+    ],
+    [
+     "ENG-47",
+     "ENG-48"
+    ],
+    [
+     "BAN-50",
+     "BAN-51",
+     "BAN-52"
+    ],
+    [
+     "INT-30",
+     "INT-31",
+     "INT-32"
+    ]
+   ]
+  },
+  {
+   "n": 152,
+   "date": "2027-03-01",
+   "dow": 1,
+   "phase": 2,
+   "week": 23,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Combination · Probability",
+    "**Bangla:** 🔁 Revise + PYQ — যতিচিহ্ন, সাধু ও চলিত রীতি · মুসলিম সাহিত্য সমাজ (শিখা গোষ্ঠী), বাংলা একাডেমি",
+    "**General Science:** 🔁 Revise + PYQ — Solar system & space missions · Atmosphere layers, rocks, earthquakes",
+    "**Computer & ICT:** 🔁 Revise + PYQ — Abbreviations & full forms · IT companies, founders & inventions · Multimedia & file formats"
+   ],
+   "topics": [
+    [
+     "MATH-37",
+     "MATH-38"
+    ],
+    [
+     "BAN-53",
+     "BAN-54"
+    ],
+    [
+     "SCI-24",
+     "SCI-25"
+    ],
+    [
+     "ICT-24",
+     "ICT-25",
+     "ICT-26"
+    ]
+   ]
+  },
+  {
+   "n": 153,
+   "date": "2027-03-02",
+   "dow": 2,
+   "phase": 2,
+   "week": 23,
+   "slots": [
+    "**Mental Ability:** 🔁 Revise + PYQ — Spelling & sentence rearrangement · Data sufficiency · Numerical ability shortcuts",
+    "**English:** 🔁 Revise + PYQ — Modals & causative verbs · Punctuation & capitalization",
+    "**Bangladesh Affairs:** 🔁 Revise + PYQ — Recent history 2024–26: July uprising, interim govt, reform commissions, 13th election · Bangladesh current affairs (last 12 months) · Important dates & \"firsts\" of Bangladesh",
+    "**Geography & Disaster:** 🔁 Revise + PYQ — Population, urbanization, migration · Rocks, volcanoes, plate tectonics · Maps, GIS & remote sensing"
+   ],
+   "topics": [
+    [
+     "MENT-24",
+     "MENT-25",
+     "MENT-26"
+    ],
+    [
+     "ENG-49",
+     "ENG-50"
+    ],
+    [
+     "BD-46",
+     "BD-47",
+     "BD-48"
+    ],
+    [
+     "GEO-11",
+     "GEO-12",
+     "GEO-13"
+    ]
+   ]
+  },
+  {
+   "n": 154,
+   "date": "2027-03-03",
+   "dow": 3,
+   "phase": 2,
+   "week": 23,
+   "slots": [
+    "**Math:** 🔁 Revise + PYQ — Statistics: mean, median, mode · Functions & relations (domain, range) · Coordinate geometry basics (distance, slope)",
+    "**Bangla:** 🔁 Revise + PYQ — অলংকার ও ছন্দ (মৌলিক) · শব্দ গঠন, দ্বিরুক্ত শব্দ · সংখ্যাবাচক ও ক্রমবাচক শব্দ",
+    "**English:** 🔁 Revise + PYQ — Foreign words & phrases (Latin, French) · Word formation: prefix & suffix · Vocabulary from newspapers",
+    "**General Science:** 🔁 Revise + PYQ — Inventions & inventors · Renewable energy & nanotechnology · Medical technology: X-ray, CT, MRI, ECG"
+   ],
+   "topics": [
+    [
+     "MATH-39",
+     "MATH-40",
+     "MATH-41"
+    ],
+    [
+     "BAN-55",
+     "BAN-56",
+     "BAN-57"
+    ],
+    [
+     "ENG-51",
+     "ENG-52",
+     "ENG-53"
+    ],
+    [
+     "SCI-26",
+     "SCI-27",
+     "SCI-28"
+    ]
+   ]
+  },
+  {
+   "n": 155,
+   "date": "2027-03-04",
+   "dow": 4,
+   "phase": 3,
+   "week": 23,
+   "slots": [
+    "**Bangla:** বানান, বাক্য শুদ্ধি, সমাস, সন্ধি, বাগধারা, এক কথায় প্রকাশ",
+    "**English:** right form of verbs, correction, idioms, group verbs, synonyms/antonyms",
+    "**BD Affairs:** 1952–1971 timeline, Constitution articles & amendments",
+    "**Math:** formula sheet + 20 mixed MCQ (timed)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 156,
+   "date": "2027-03-05",
+   "dow": 5,
+   "phase": 3,
+   "week": 23,
+   "slots": [
+    "**Current affairs:** final round (BD + international)",
+    "**Constitution:** important articles & amendments quick read",
+    "**Math & Mental:** formula sheet + 30 mixed MCQ",
+    "**Light review** of the week's mistake notebook"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 157,
+   "date": "2027-03-06",
+   "dow": 6,
+   "phase": 3,
+   "week": 24,
+   "slots": [
+    "📝 **Full Model Test #1:** 200 MCQ, 2 hours, strict timing, OMR sheet (hours 1–2)",
+    "↑ (test continues)",
+    "**Analysis:** mark wrong/guessed answers, calculate score after −0.5 negative",
+    "**Fix mistakes:** re-read the topics you got wrong today"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 158,
+   "date": "2027-03-07",
+   "dow": 0,
+   "phase": 3,
+   "week": 24,
+   "slots": [
+    "**Bangla Lit:** মধুসূদন, রবীন্দ্রনাথ, নজরুল, ছদ্মনাম, পত্রিকা",
+    "**English Lit:** periods, Shakespeare, Romantics, Victorians, famous quotes",
+    "**International:** UN & organizations, HQs, current conflicts, treaties",
+    "**Mental Ability:** series, coding, blood relation, clock/calendar, mechanical"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 159,
+   "date": "2027-03-08",
+   "dow": 1,
+   "phase": 3,
+   "week": 24,
+   "slots": [
+    "📝 **Full Model Test #2:** 200 MCQ, 2 hours, strict timing, OMR sheet (hours 1–2)",
+    "↑ (test continues)",
+    "**Analysis:** mark wrong/guessed answers, calculate score after −0.5 negative",
+    "**Fix mistakes:** re-read the topics you got wrong today"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 160,
+   "date": "2027-03-09",
+   "dow": 2,
+   "phase": 3,
+   "week": 24,
+   "slots": [
+    "**Science:** human body, vitamins, diseases, chemical names, light/sound/heat",
+    "**ICT:** number system, logic gates, networking, security, abbreviations",
+    "**Geography & Ethics:** disaster management, climate treaties, NIS, RTI, governance",
+    "**Current affairs:** last 6 months BD + world, budget, indices, Nobel"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 161,
+   "date": "2027-03-10",
+   "dow": 3,
+   "phase": 3,
+   "week": 24,
+   "slots": [
+    "📝 **Full Model Test #3:** 200 MCQ, 2 hours, strict timing, OMR sheet (hours 1–2)",
+    "↑ (test continues)",
+    "**Analysis:** mark wrong/guessed answers, calculate score after −0.5 negative",
+    "**Fix mistakes:** re-read the topics you got wrong today"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 162,
+   "date": "2027-03-11",
+   "dow": 4,
+   "phase": 3,
+   "week": 24,
+   "slots": [
+    "**Bangla:** বানান, বাক্য শুদ্ধি, সমাস, সন্ধি, বাগধারা, এক কথায় প্রকাশ",
+    "**English:** right form of verbs, correction, idioms, group verbs, synonyms/antonyms",
+    "**BD Affairs:** 1952–1971 timeline, Constitution articles & amendments",
+    "**Math:** formula sheet + 20 mixed MCQ (timed)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 163,
+   "date": "2027-03-12",
+   "dow": 5,
+   "phase": 3,
+   "week": 24,
+   "slots": [
+    "**Current affairs:** final round (BD + international)",
+    "**Constitution:** important articles & amendments quick read",
+    "**Math & Mental:** formula sheet + 30 mixed MCQ",
+    "**Light review** of the week's mistake notebook"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 164,
+   "date": "2027-03-13",
+   "dow": 6,
+   "phase": 3,
+   "week": 25,
+   "slots": [
+    "📝 **Full Model Test #4:** 200 MCQ, 2 hours, strict timing, OMR sheet (hours 1–2)",
+    "↑ (test continues)",
+    "**Analysis:** mark wrong/guessed answers, calculate score after −0.5 negative",
+    "**Fix mistakes:** re-read the topics you got wrong today"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 165,
+   "date": "2027-03-14",
+   "dow": 0,
+   "phase": 3,
+   "week": 25,
+   "slots": [
+    "**Bangla Lit:** মধুসূদন, রবীন্দ্রনাথ, নজরুল, ছদ্মনাম, পত্রিকা",
+    "**English Lit:** periods, Shakespeare, Romantics, Victorians, famous quotes",
+    "**International:** UN & organizations, HQs, current conflicts, treaties",
+    "**Mental Ability:** series, coding, blood relation, clock/calendar, mechanical"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 166,
+   "date": "2027-03-15",
+   "dow": 1,
+   "phase": 3,
+   "week": 25,
+   "slots": [
+    "📝 **Full Model Test #5:** 200 MCQ, 2 hours, strict timing, OMR sheet (hours 1–2)",
+    "↑ (test continues)",
+    "**Analysis:** mark wrong/guessed answers, calculate score after −0.5 negative",
+    "**Fix mistakes:** re-read the topics you got wrong today"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 167,
+   "date": "2027-03-16",
+   "dow": 2,
+   "phase": 3,
+   "week": 25,
+   "slots": [
+    "**Science:** human body, vitamins, diseases, chemical names, light/sound/heat",
+    "**ICT:** number system, logic gates, networking, security, abbreviations",
+    "**Geography & Ethics:** disaster management, climate treaties, NIS, RTI, governance",
+    "**Current affairs:** last 6 months BD + world, budget, indices, Nobel"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 168,
+   "date": "2027-03-17",
+   "dow": 3,
+   "phase": 3,
+   "week": 25,
+   "slots": [
+    "📝 **Full Model Test #6:** 200 MCQ, 2 hours, strict timing, OMR sheet (hours 1–2)",
+    "↑ (test continues)",
+    "**Analysis:** mark wrong/guessed answers, calculate score after −0.5 negative",
+    "**Fix mistakes:** re-read the topics you got wrong today"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 169,
+   "date": "2027-03-18",
+   "dow": 4,
+   "phase": 3,
+   "week": 25,
+   "slots": [
+    "**Bangla:** বানান, বাক্য শুদ্ধি, সমাস, সন্ধি, বাগধারা, এক কথায় প্রকাশ",
+    "**English:** right form of verbs, correction, idioms, group verbs, synonyms/antonyms",
+    "**BD Affairs:** 1952–1971 timeline, Constitution articles & amendments",
+    "**Math:** formula sheet + 20 mixed MCQ (timed)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 170,
+   "date": "2027-03-19",
+   "dow": 5,
+   "phase": 3,
+   "week": 25,
+   "slots": [
+    "**Current affairs:** final round (BD + international)",
+    "**Constitution:** important articles & amendments quick read",
+    "**Math & Mental:** formula sheet + 30 mixed MCQ",
+    "**Light review** of the week's mistake notebook"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 171,
+   "date": "2027-03-20",
+   "dow": 6,
+   "phase": 3,
+   "week": 26,
+   "slots": [
+    "📝 **Full Model Test #7:** 200 MCQ, 2 hours, strict timing, OMR sheet (hours 1–2)",
+    "↑ (test continues)",
+    "**Analysis:** mark wrong/guessed answers, calculate score after −0.5 negative",
+    "**Fix mistakes:** re-read the topics you got wrong today"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 172,
+   "date": "2027-03-21",
+   "dow": 0,
+   "phase": 3,
+   "week": 26,
+   "slots": [
+    "**Bangla Lit:** মধুসূদন, রবীন্দ্রনাথ, নজরুল, ছদ্মনাম, পত্রিকা",
+    "**English Lit:** periods, Shakespeare, Romantics, Victorians, famous quotes",
+    "**International:** UN & organizations, HQs, current conflicts, treaties",
+    "**Mental Ability:** series, coding, blood relation, clock/calendar, mechanical"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 173,
+   "date": "2027-03-22",
+   "dow": 1,
+   "phase": 3,
+   "week": 26,
+   "slots": [
+    "📝 **Full Model Test #8:** 200 MCQ, 2 hours, strict timing, OMR sheet (hours 1–2)",
+    "↑ (test continues)",
+    "**Analysis:** mark wrong/guessed answers, calculate score after −0.5 negative",
+    "**Fix mistakes:** re-read the topics you got wrong today"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 174,
+   "date": "2027-03-23",
+   "dow": 2,
+   "phase": 3,
+   "week": 26,
+   "slots": [
+    "**Science:** human body, vitamins, diseases, chemical names, light/sound/heat",
+    "**ICT:** number system, logic gates, networking, security, abbreviations",
+    "**Geography & Ethics:** disaster management, climate treaties, NIS, RTI, governance",
+    "**Current affairs:** last 6 months BD + world, budget, indices, Nobel"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 175,
+   "date": "2027-03-24",
+   "dow": 3,
+   "phase": 3,
+   "week": 26,
+   "slots": [
+    "📝 **Full Model Test #9:** 200 MCQ, 2 hours, strict timing, OMR sheet (hours 1–2)",
+    "↑ (test continues)",
+    "**Analysis:** mark wrong/guessed answers, calculate score after −0.5 negative",
+    "**Fix mistakes:** re-read the topics you got wrong today"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 176,
+   "date": "2027-03-25",
+   "dow": 4,
+   "phase": 3,
+   "week": 26,
+   "slots": [
+    "**Bangla:** বানান, বাক্য শুদ্ধি, সমাস, সন্ধি, বাগধারা, এক কথায় প্রকাশ",
+    "**English:** right form of verbs, correction, idioms, group verbs, synonyms/antonyms",
+    "**BD Affairs:** 1952–1971 timeline, Constitution articles & amendments",
+    "**Math:** formula sheet + 20 mixed MCQ (timed)"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 177,
+   "date": "2027-03-26",
+   "dow": 5,
+   "phase": 3,
+   "week": 26,
+   "slots": [
+    "**Current affairs:** final round (BD + international)",
+    "**Constitution:** important articles & amendments quick read",
+    "**Math & Mental:** formula sheet + 30 mixed MCQ",
+    "**Light review** of the week's mistake notebook"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 178,
+   "date": "2027-03-27",
+   "dow": 6,
+   "phase": 3,
+   "week": 27,
+   "slots": [
+    "📝 **Full Model Test #10:** 200 MCQ, 2 hours, strict timing, OMR sheet (hours 1–2)",
+    "↑ (test continues)",
+    "**Analysis:** mark wrong/guessed answers, calculate score after −0.5 negative",
+    "**Fix mistakes:** re-read the topics you got wrong today"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 179,
+   "date": "2027-03-28",
+   "dow": 0,
+   "phase": 3,
+   "week": 27,
+   "slots": [
+    "**Bangla Lit:** মধুসূদন, রবীন্দ্রনাথ, নজরুল, ছদ্মনাম, পত্রিকা",
+    "**English Lit:** periods, Shakespeare, Romantics, Victorians, famous quotes",
+    "**International:** UN & organizations, HQs, current conflicts, treaties",
+    "**Mental Ability:** series, coding, blood relation, clock/calendar, mechanical"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 180,
+   "date": "2027-03-29",
+   "dow": 1,
+   "phase": 3,
+   "week": 27,
+   "slots": [
+    "📝 **Full Model Test #11:** 200 MCQ, 2 hours, strict timing, OMR sheet (hours 1–2)",
+    "↑ (test continues)",
+    "**Analysis:** mark wrong/guessed answers, calculate score after −0.5 negative",
+    "**Fix mistakes:** re-read the topics you got wrong today"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 181,
+   "date": "2027-03-30",
+   "dow": 2,
+   "phase": 3,
+   "week": 27,
+   "slots": [
+    "**Final look:** your own short notes only (no new topics)",
+    "**Final look:** formula sheet & Constitution key articles",
+    "**Final look:** current affairs one-pager",
+    "**Rest:** prepare admit card, pen, sleep 7–8 hours"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "n": 182,
+   "date": "2027-03-31",
+   "dow": 3,
+   "phase": 3,
+   "week": 27,
+   "slots": [
+    "**Final look:** your own short notes only (no new topics)",
+    "**Final look:** formula sheet & Constitution key articles",
+    "**Final look:** current affairs one-pager",
+    "**Rest:** prepare admit card, pen, sleep 7–8 hours"
+   ],
+   "topics": [
+    [],
+    [],
+    [],
+    []
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "id": "MATH-01",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Number system, divisibility rules",
+   "hot": true
+  },
+  {
+   "id": "MATH-02",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "LCM & HCF",
+   "hot": true
+  },
+  {
+   "id": "MATH-03",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Fractions, decimals, simplification",
+   "hot": false
+  },
+  {
+   "id": "MATH-04",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Square/cube roots, surds & indices (সূচক)",
+   "hot": true
+  },
+  {
+   "id": "MATH-05",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Percentage",
+   "hot": true
+  },
+  {
+   "id": "MATH-06",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Profit & loss",
+   "hot": true
+  },
+  {
+   "id": "MATH-07",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Simple interest",
+   "hot": false
+  },
+  {
+   "id": "MATH-08",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Compound interest",
+   "hot": true
+  },
+  {
+   "id": "MATH-09",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Ratio & proportion",
+   "hot": true
+  },
+  {
+   "id": "MATH-10",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Partnership (অংশীদারি কারবার)",
+   "hot": false
+  },
+  {
+   "id": "MATH-11",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Average",
+   "hot": true
+  },
+  {
+   "id": "MATH-12",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Age problems",
+   "hot": false
+  },
+  {
+   "id": "MATH-13",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Work & time",
+   "hot": true
+  },
+  {
+   "id": "MATH-14",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Pipes & cisterns",
+   "hot": false
+  },
+  {
+   "id": "MATH-15",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Time, speed & distance",
+   "hot": true
+  },
+  {
+   "id": "MATH-16",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Boats & streams, trains",
+   "hot": false
+  },
+  {
+   "id": "MATH-17",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Mixture & alligation",
+   "hot": false
+  },
+  {
+   "id": "MATH-18",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Algebraic formulas & identities",
+   "hot": true
+  },
+  {
+   "id": "MATH-19",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Factorization",
+   "hot": true
+  },
+  {
+   "id": "MATH-20",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Linear equations (1 & 2 variables)",
+   "hot": false
+  },
+  {
+   "id": "MATH-21",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Quadratic equations & roots",
+   "hot": false
+  },
+  {
+   "id": "MATH-22",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Inequalities",
+   "hot": false
+  },
+  {
+   "id": "MATH-23",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Logarithm",
+   "hot": true
+  },
+  {
+   "id": "MATH-24",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Sets & Venn diagram",
+   "hot": true
+  },
+  {
+   "id": "MATH-25",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Arithmetic progression (সমান্তর ধারা)",
+   "hot": true
+  },
+  {
+   "id": "MATH-26",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Geometric progression & series",
+   "hot": false
+  },
+  {
+   "id": "MATH-27",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Lines, angles, parallel lines",
+   "hot": false
+  },
+  {
+   "id": "MATH-28",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Triangles & Pythagoras theorem",
+   "hot": true
+  },
+  {
+   "id": "MATH-29",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Quadrilaterals & polygons (interior/exterior angles)",
+   "hot": true
+  },
+  {
+   "id": "MATH-30",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Circle: chord, tangent, arc, angles",
+   "hot": true
+  },
+  {
+   "id": "MATH-31",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Mensuration: triangle, rectangle, square",
+   "hot": true
+  },
+  {
+   "id": "MATH-32",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Mensuration: circle & sector",
+   "hot": false
+  },
+  {
+   "id": "MATH-33",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Mensuration: cube, cuboid, cylinder, cone, sphere",
+   "hot": false
+  },
+  {
+   "id": "MATH-34",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Trigonometric ratios & identities",
+   "hot": true
+  },
+  {
+   "id": "MATH-35",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Heights & distances",
+   "hot": false
+  },
+  {
+   "id": "MATH-36",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Permutation",
+   "hot": true
+  },
+  {
+   "id": "MATH-37",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Combination",
+   "hot": true
+  },
+  {
+   "id": "MATH-38",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Probability",
+   "hot": true
+  },
+  {
+   "id": "MATH-39",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Statistics: mean, median, mode",
+   "hot": false
+  },
+  {
+   "id": "MATH-40",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Functions & relations (domain, range)",
+   "hot": false
+  },
+  {
+   "id": "MATH-41",
+   "code": "MATH",
+   "subject": "Math",
+   "title": "Coordinate geometry basics (distance, slope)",
+   "hot": false
+  },
+  {
+   "id": "MENT-01",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Verbal analogy",
+   "hot": false
+  },
+  {
+   "id": "MENT-02",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Word meaning based reasoning",
+   "hot": false
+  },
+  {
+   "id": "MENT-03",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Classification / odd one out",
+   "hot": true
+  },
+  {
+   "id": "MENT-04",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Number series",
+   "hot": true
+  },
+  {
+   "id": "MENT-05",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Letter series & alphabet test",
+   "hot": true
+  },
+  {
+   "id": "MENT-06",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Coding-decoding",
+   "hot": true
+  },
+  {
+   "id": "MENT-07",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Blood relations",
+   "hot": true
+  },
+  {
+   "id": "MENT-08",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Direction sense",
+   "hot": true
+  },
+  {
+   "id": "MENT-09",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Ranking & ordering",
+   "hot": false
+  },
+  {
+   "id": "MENT-10",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Seating arrangement (linear & circular)",
+   "hot": false
+  },
+  {
+   "id": "MENT-11",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Clock problems",
+   "hot": true
+  },
+  {
+   "id": "MENT-12",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Calendar problems",
+   "hot": true
+  },
+  {
+   "id": "MENT-13",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Syllogism / logical deduction",
+   "hot": true
+  },
+  {
+   "id": "MENT-14",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Statement & conclusion / assumption",
+   "hot": false
+  },
+  {
+   "id": "MENT-15",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Mirror & water images",
+   "hot": true
+  },
+  {
+   "id": "MENT-16",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Paper folding & cutting",
+   "hot": false
+  },
+  {
+   "id": "MENT-17",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Counting figures (triangles, squares)",
+   "hot": true
+  },
+  {
+   "id": "MENT-18",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Figure series & pattern completion",
+   "hot": false
+  },
+  {
+   "id": "MENT-19",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Dice & cube",
+   "hot": true
+  },
+  {
+   "id": "MENT-20",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Embedded figures / spatial ability",
+   "hot": false
+  },
+  {
+   "id": "MENT-21",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Mechanical: gears, pulleys, levers",
+   "hot": true
+  },
+  {
+   "id": "MENT-22",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Mechanical: force, motion, basic physics",
+   "hot": false
+  },
+  {
+   "id": "MENT-23",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Puzzles & problem solving",
+   "hot": false
+  },
+  {
+   "id": "MENT-24",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Spelling & sentence rearrangement",
+   "hot": false
+  },
+  {
+   "id": "MENT-25",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Data sufficiency",
+   "hot": false
+  },
+  {
+   "id": "MENT-26",
+   "code": "MENT",
+   "subject": "Mental Ability",
+   "title": "Numerical ability shortcuts",
+   "hot": false
+  },
+  {
+   "id": "BAN-01",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "ভাষার উৎপত্তি, বাংলা ভাষার ইতিহাস ও উপভাষা",
+   "hot": true
+  },
+  {
+   "id": "BAN-02",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "সাহিত্যের যুগবিভাগ ও চর্যাপদ",
+   "hot": true
+  },
+  {
+   "id": "BAN-03",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "ধ্বনি ও বর্ণ (স্বর/ব্যঞ্জন)",
+   "hot": true
+  },
+  {
+   "id": "BAN-04",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "অন্ধকার যুগ, শ্রীকৃষ্ণকীর্তন (বড়ু চণ্ডীদাস)",
+   "hot": false
+  },
+  {
+   "id": "BAN-05",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "বর্ণের উচ্চারণ স্থান, যুক্তবর্ণ",
+   "hot": false
+  },
+  {
+   "id": "BAN-06",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "মঙ্গলকাব্য (মনসা, চণ্ডী, অন্নদা)",
+   "hot": true
+  },
+  {
+   "id": "BAN-07",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "ধ্বনি পরিবর্তন (অপিনিহিতি, অভিশ্রুতি, স্বরসঙ্গতি)",
+   "hot": false
+  },
+  {
+   "id": "BAN-08",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "বৈষ্ণব পদাবলি, অনুবাদ সাহিত্য, আরাকান রাজসভা (আলাওল, দৌলত কাজী)",
+   "hot": true
+  },
+  {
+   "id": "BAN-09",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "সন্ধি: স্বরসন্ধি",
+   "hot": true
+  },
+  {
+   "id": "BAN-10",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "পুঁথি সাহিত্য, মর্সিয়া, নাথ সাহিত্য, মৈমনসিংহ গীতিকা, কবিগান",
+   "hot": false
+  },
+  {
+   "id": "BAN-11",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "সন্ধি: ব্যঞ্জন, বিসর্গ, নিপাতনে সিদ্ধ",
+   "hot": true
+  },
+  {
+   "id": "BAN-12",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "ফোর্ট উইলিয়াম কলেজ ও বাংলা গদ্যের বিকাশ",
+   "hot": true
+  },
+  {
+   "id": "BAN-13",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "ণত্ব ও ষত্ব বিধান",
+   "hot": false
+  },
+  {
+   "id": "BAN-14",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "ঈশ্বরচন্দ্র বিদ্যাসাগর, প্যারীচাঁদ মিত্র",
+   "hot": false
+  },
+  {
+   "id": "BAN-15",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "শব্দের উৎস: তৎসম, তদ্ভব, দেশি, বিদেশি",
+   "hot": true
+  },
+  {
+   "id": "BAN-16",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "মাইকেল মধুসূদন দত্ত",
+   "hot": true
+  },
+  {
+   "id": "BAN-17",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "পদ: বিশেষ্য, বিশেষণ, সর্বনাম",
+   "hot": false
+  },
+  {
+   "id": "BAN-18",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "বঙ্কিমচন্দ্র চট্টোপাধ্যায়, দীনবন্ধু মিত্র",
+   "hot": false
+  },
+  {
+   "id": "BAN-19",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "পদ: ক্রিয়া, অব্যয়",
+   "hot": false
+  },
+  {
+   "id": "BAN-20",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "মীর মশাররফ হোসেন, কায়কোবাদ",
+   "hot": false
+  },
+  {
+   "id": "BAN-21",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "সমাস: দ্বন্দ্ব, কর্মধারয়",
+   "hot": true
+  },
+  {
+   "id": "BAN-22",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "রবীন্দ্রনাথ: জীবনী ও কাব্য",
+   "hot": true
+  },
+  {
+   "id": "BAN-23",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "সমাস: তৎপুরুষ, বহুব্রীহি, দ্বিগু, অব্যয়ীভাব",
+   "hot": true
+  },
+  {
+   "id": "BAN-24",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "রবীন্দ্রনাথ: উপন্যাস, ছোটগল্প, নাটক",
+   "hot": true
+  },
+  {
+   "id": "BAN-25",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "উপসর্গ",
+   "hot": true
+  },
+  {
+   "id": "BAN-26",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "কাজী নজরুল ইসলাম: কাব্য",
+   "hot": true
+  },
+  {
+   "id": "BAN-27",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "প্রত্যয় (কৃৎ ও তদ্ধিত)",
+   "hot": false
+  },
+  {
+   "id": "BAN-28",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "নজরুল: গদ্য, নাটক, পত্রিকা",
+   "hot": true
+  },
+  {
+   "id": "BAN-29",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "কারক ও বিভক্তি",
+   "hot": true
+  },
+  {
+   "id": "BAN-30",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "শরৎচন্দ্র ও বেগম রোকেয়া",
+   "hot": false
+  },
+  {
+   "id": "BAN-31",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "বচন, লিঙ্গ, পুরুষ",
+   "hot": false
+  },
+  {
+   "id": "BAN-32",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "জীবনানন্দ দাশ ও জসীমউদ্দীন",
+   "hot": true
+  },
+  {
+   "id": "BAN-33",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "ক্রিয়ার কাল ও ভাব",
+   "hot": false
+  },
+  {
+   "id": "BAN-34",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "তিরিশের কবি, ফররুখ আহমদ, সুকান্ত",
+   "hot": false
+  },
+  {
+   "id": "BAN-35",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "বাচ্য ও বাচ্য পরিবর্তন",
+   "hot": false
+  },
+  {
+   "id": "BAN-36",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "প্রমথ চৌধুরী (সবুজপত্র), সত্যেন্দ্রনাথ দত্ত",
+   "hot": false
+  },
+  {
+   "id": "BAN-37",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "বাক্য: সরল, জটিল, যৌগিক ও রূপান্তর",
+   "hot": false
+  },
+  {
+   "id": "BAN-38",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "বিভূতিভূষণ, তারাশঙ্কর, মানিক বন্দ্যোপাধ্যায়",
+   "hot": false
+  },
+  {
+   "id": "BAN-39",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "বানান শুদ্ধি (প্রমিত বানান রীতি)",
+   "hot": true
+  },
+  {
+   "id": "BAN-40",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "শামসুর রাহমান, আল মাহমুদ, সৈয়দ শামসুল হক",
+   "hot": true
+  },
+  {
+   "id": "BAN-41",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "বাক্য শুদ্ধি ও অপপ্রয়োগ",
+   "hot": true
+  },
+  {
+   "id": "BAN-42",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "মুনীর চৌধুরী, সৈয়দ ওয়ালীউল্লাহ, শহীদুল্লা কায়সার",
+   "hot": true
+  },
+  {
+   "id": "BAN-43",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "সমার্থক শব্দ",
+   "hot": true
+  },
+  {
+   "id": "BAN-44",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "হুমায়ূন আহমেদ, আখতারুজ্জামান ইলিয়াস, সেলিনা হোসেন",
+   "hot": false
+  },
+  {
+   "id": "BAN-45",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "বিপরীতার্থক শব্দ",
+   "hot": true
+  },
+  {
+   "id": "BAN-46",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "ভাষা আন্দোলন ও মুক্তিযুদ্ধভিত্তিক সাহিত্য",
+   "hot": true
+  },
+  {
+   "id": "BAN-47",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "বাগধারা ও প্রবাদ",
+   "hot": true
+  },
+  {
+   "id": "BAN-48",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "ছদ্মনাম ও উপাধি",
+   "hot": true
+  },
+  {
+   "id": "BAN-49",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "এক কথায় প্রকাশ",
+   "hot": true
+  },
+  {
+   "id": "BAN-50",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "পত্রপত্রিকা ও সম্পাদক",
+   "hot": true
+  },
+  {
+   "id": "BAN-51",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "পারিভাষিক শব্দ",
+   "hot": true
+  },
+  {
+   "id": "BAN-52",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "বিখ্যাত পঙক্তি ও প্রথম রচনা",
+   "hot": false
+  },
+  {
+   "id": "BAN-53",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "যতিচিহ্ন, সাধু ও চলিত রীতি",
+   "hot": false
+  },
+  {
+   "id": "BAN-54",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "মুসলিম সাহিত্য সমাজ (শিখা গোষ্ঠী), বাংলা একাডেমি",
+   "hot": false
+  },
+  {
+   "id": "BAN-55",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "অলংকার ও ছন্দ (মৌলিক)",
+   "hot": false
+  },
+  {
+   "id": "BAN-56",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "শব্দ গঠন, দ্বিরুক্ত শব্দ",
+   "hot": false
+  },
+  {
+   "id": "BAN-57",
+   "code": "BAN",
+   "subject": "Bangla",
+   "title": "সংখ্যাবাচক ও ক্রমবাচক শব্দ",
+   "hot": false
+  },
+  {
+   "id": "ENG-01",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Noun: kinds, number, gender",
+   "hot": true
+  },
+  {
+   "id": "ENG-02",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Periods of English literature",
+   "hot": true
+  },
+  {
+   "id": "ENG-03",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Pronoun & its agreement",
+   "hot": false
+  },
+  {
+   "id": "ENG-04",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Old & Middle English: Beowulf, Chaucer",
+   "hot": true
+  },
+  {
+   "id": "ENG-05",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Adjective & degrees of comparison",
+   "hot": false
+  },
+  {
+   "id": "ENG-06",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Elizabethan: Spenser, Marlowe",
+   "hot": true
+  },
+  {
+   "id": "ENG-07",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Verb: finite/non-finite (gerund, participle, infinitive)",
+   "hot": true
+  },
+  {
+   "id": "ENG-08",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Shakespeare: tragedies",
+   "hot": true
+  },
+  {
+   "id": "ENG-09",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Tense",
+   "hot": true
+  },
+  {
+   "id": "ENG-10",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Shakespeare: comedies, histories, sonnets",
+   "hot": true
+  },
+  {
+   "id": "ENG-11",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Subject-verb agreement",
+   "hot": true
+  },
+  {
+   "id": "ENG-12",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Ben Jonson, John Donne (Metaphysical), Milton",
+   "hot": true
+  },
+  {
+   "id": "ENG-13",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Right form of verbs",
+   "hot": true
+  },
+  {
+   "id": "ENG-14",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Restoration & Neo-classical: Dryden, Pope, Swift, Defoe",
+   "hot": false
+  },
+  {
+   "id": "ENG-15",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Adverb",
+   "hot": false
+  },
+  {
+   "id": "ENG-16",
+   "code": "ENG",
+   "subject": "English",
+   "title": "18th-century novel: Richardson, Fielding, Johnson, Goldsmith",
+   "hot": false
+  },
+  {
+   "id": "ENG-17",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Preposition & appropriate preposition",
+   "hot": true
+  },
+  {
+   "id": "ENG-18",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Romantic: Wordsworth, Coleridge",
+   "hot": true
+  },
+  {
+   "id": "ENG-19",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Conjunction",
+   "hot": false
+  },
+  {
+   "id": "ENG-20",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Romantic: Byron, Shelley, Keats",
+   "hot": true
+  },
+  {
+   "id": "ENG-21",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Articles",
+   "hot": false
+  },
+  {
+   "id": "ENG-22",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Victorian poets: Tennyson, Browning, Arnold",
+   "hot": false
+  },
+  {
+   "id": "ENG-23",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Voice change",
+   "hot": true
+  },
+  {
+   "id": "ENG-24",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Victorian novel: Dickens, Brontës, Hardy, George Eliot",
+   "hot": true
+  },
+  {
+   "id": "ENG-25",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Narration",
+   "hot": true
+  },
+  {
+   "id": "ENG-26",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Modern: Yeats, T. S. Eliot",
+   "hot": true
+  },
+  {
+   "id": "ENG-27",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Transformation of sentences",
+   "hot": true
+  },
+  {
+   "id": "ENG-28",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Modern: Joyce, Woolf, Lawrence, Conrad, Orwell",
+   "hot": false
+  },
+  {
+   "id": "ENG-29",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Conditional sentences",
+   "hot": true
+  },
+  {
+   "id": "ENG-30",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Drama: Shaw, Wilde, Beckett, Osborne",
+   "hot": false
+  },
+  {
+   "id": "ENG-31",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Correction of sentences / error detection",
+   "hot": true
+  },
+  {
+   "id": "ENG-32",
+   "code": "ENG",
+   "subject": "English",
+   "title": "American literature: Whitman, Frost, Hemingway, Arthur Miller",
+   "hot": true
+  },
+  {
+   "id": "ENG-33",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Sentence completion",
+   "hot": false
+  },
+  {
+   "id": "ENG-34",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Literary terms: sonnet, ode, elegy, epic, ballad",
+   "hot": true
+  },
+  {
+   "id": "ENG-35",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Phrases & idioms",
+   "hot": true
+  },
+  {
+   "id": "ENG-36",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Literary terms: allegory, satire, figures of speech",
+   "hot": true
+  },
+  {
+   "id": "ENG-37",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Group verbs",
+   "hot": true
+  },
+  {
+   "id": "ENG-38",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Famous quotations & lines",
+   "hot": true
+  },
+  {
+   "id": "ENG-39",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Synonyms",
+   "hot": true
+  },
+  {
+   "id": "ENG-40",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Famous characters & pen names",
+   "hot": true
+  },
+  {
+   "id": "ENG-41",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Antonyms",
+   "hot": true
+  },
+  {
+   "id": "ENG-42",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Nobel laureates in literature",
+   "hot": false
+  },
+  {
+   "id": "ENG-43",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Spelling (correctly spelt words)",
+   "hot": true
+  },
+  {
+   "id": "ENG-44",
+   "code": "ENG",
+   "subject": "English",
+   "title": "World literature: Greek, Russian, French classics",
+   "hot": false
+  },
+  {
+   "id": "ENG-45",
+   "code": "ENG",
+   "subject": "English",
+   "title": "One-word substitution",
+   "hot": true
+  },
+  {
+   "id": "ENG-46",
+   "code": "ENG",
+   "subject": "English",
+   "title": "South Asian & postcolonial writers in English",
+   "hot": false
+  },
+  {
+   "id": "ENG-47",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Analogy",
+   "hot": false
+  },
+  {
+   "id": "ENG-48",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Clauses (noun, adjective, adverb)",
+   "hot": false
+  },
+  {
+   "id": "ENG-49",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Modals & causative verbs",
+   "hot": false
+  },
+  {
+   "id": "ENG-50",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Punctuation & capitalization",
+   "hot": false
+  },
+  {
+   "id": "ENG-51",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Foreign words & phrases (Latin, French)",
+   "hot": true
+  },
+  {
+   "id": "ENG-52",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Word formation: prefix & suffix",
+   "hot": false
+  },
+  {
+   "id": "ENG-53",
+   "code": "ENG",
+   "subject": "English",
+   "title": "Vocabulary from newspapers",
+   "hot": false
+  },
+  {
+   "id": "BD-01",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Ancient Bengal: janapadas, Maurya, Gupta, Shashanka",
+   "hot": false
+  },
+  {
+   "id": "BD-02",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Pala & Sena dynasties",
+   "hot": true
+  },
+  {
+   "id": "BD-03",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Sultanate: Bakhtiyar Khalji, Iliyas Shahi, Hussain Shahi",
+   "hot": true
+  },
+  {
+   "id": "BD-04",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Mughal era, Baro Bhuiyans, Subedars, Nawabs",
+   "hot": true
+  },
+  {
+   "id": "BD-05",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Plassey 1757, Buxar, Dewani",
+   "hot": true
+  },
+  {
+   "id": "BD-06",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "British rule: Permanent Settlement, Titumir, Faraizi, Indigo, 1857",
+   "hot": true
+  },
+  {
+   "id": "BD-07",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "1905 partition, Muslim League, Lahore Resolution 1940, 1947",
+   "hot": true
+  },
+  {
+   "id": "BD-08",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Language Movement 1948–1952",
+   "hot": true
+  },
+  {
+   "id": "BD-09",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "1954 election, 1956 constitution, 1958 martial law, 1962",
+   "hot": false
+  },
+  {
+   "id": "BD-10",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Six-point 1966, Agartala case, 1969 uprising",
+   "hot": true
+  },
+  {
+   "id": "BD-11",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "1970 election & 7 March speech",
+   "hot": true
+  },
+  {
+   "id": "BD-12",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "1971: Operation Searchlight, declaration, Mujibnagar Govt",
+   "hot": true
+  },
+  {
+   "id": "BD-13",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "1971: sectors, commanders, forces, Bir Sreshtho",
+   "hot": true
+  },
+  {
+   "id": "BD-14",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "1971: victory, surrender, martyred intellectuals, foreign role",
+   "hot": true
+  },
+  {
+   "id": "BD-15",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Post-1971 political history",
+   "hot": false
+  },
+  {
+   "id": "BD-16",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Constitution: making, preamble, fundamental principles",
+   "hot": true
+  },
+  {
+   "id": "BD-17",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Constitution: fundamental rights (Art. 26–47)",
+   "hot": true
+  },
+  {
+   "id": "BD-18",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Constitution: amendments",
+   "hot": true
+  },
+  {
+   "id": "BD-19",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Constitution: key articles (President, PM, Parliament, Judiciary, EC, PSC, CAG)",
+   "hot": true
+  },
+  {
+   "id": "BD-20",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Executive: President, PM, cabinet",
+   "hot": false
+  },
+  {
+   "id": "BD-21",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Legislature: Jatiya Sangsad, Speaker, committees",
+   "hot": false
+  },
+  {
+   "id": "BD-22",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Judiciary, Ombudsman, ACC",
+   "hot": false
+  },
+  {
+   "id": "BD-23",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Local government structure",
+   "hot": false
+  },
+  {
+   "id": "BD-24",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Administration: divisions, districts; CHT Accord 1997",
+   "hot": true
+  },
+  {
+   "id": "BD-25",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Location, area, borders, enclaves (2015), maritime boundary",
+   "hot": true
+  },
+  {
+   "id": "BD-26",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Rivers & bridges (Padma Bridge etc.)",
+   "hot": true
+  },
+  {
+   "id": "BD-27",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Hills, islands, Sundarbans, haors",
+   "hot": true
+  },
+  {
+   "id": "BD-28",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Climate & seasons of Bangladesh",
+   "hot": false
+  },
+  {
+   "id": "BD-29",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Economy: GDP, per capita, budget, Economic Review",
+   "hot": true
+  },
+  {
+   "id": "BD-30",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Agriculture: crops, varieties, research institutes",
+   "hot": true
+  },
+  {
+   "id": "BD-31",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Industry: RMG, jute, EPZ, economic zones",
+   "hot": true
+  },
+  {
+   "id": "BD-32",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Mineral resources: gas fields, coal, limestone",
+   "hot": true
+  },
+  {
+   "id": "BD-33",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Power & energy: Rooppur NPP, renewables",
+   "hot": true
+  },
+  {
+   "id": "BD-34",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Mega projects: Metro rail, Karnaphuli tunnel, Matarbari",
+   "hot": true
+  },
+  {
+   "id": "BD-35",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Transport: ports, airports, railways",
+   "hot": false
+  },
+  {
+   "id": "BD-36",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Population & Census 2022, literacy",
+   "hot": true
+  },
+  {
+   "id": "BD-37",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Education, health & SDG indicators",
+   "hot": false
+  },
+  {
+   "id": "BD-38",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Ethnic groups (ক্ষুদ্র নৃগোষ্ঠী)",
+   "hot": true
+  },
+  {
+   "id": "BD-39",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Culture: festivals, music, art, cinema",
+   "hot": false
+  },
+  {
+   "id": "BD-40",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Archaeological & World Heritage sites",
+   "hot": true
+  },
+  {
+   "id": "BD-41",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "National symbols, anthem, flag, emblem",
+   "hot": true
+  },
+  {
+   "id": "BD-42",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Sports & national awards",
+   "hot": false
+  },
+  {
+   "id": "BD-43",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Bangladesh in UN, OIC, SAARC, BIMSTEC; peacekeeping",
+   "hot": true
+  },
+  {
+   "id": "BD-44",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Foreign policy & Rohingya crisis",
+   "hot": true
+  },
+  {
+   "id": "BD-45",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Blue economy, climate change, Delta Plan 2100",
+   "hot": true
+  },
+  {
+   "id": "BD-46",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Recent history 2024–26: July uprising, interim govt, reform commissions, 13th election",
+   "hot": true
+  },
+  {
+   "id": "BD-47",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Bangladesh current affairs (last 12 months)",
+   "hot": false
+  },
+  {
+   "id": "BD-48",
+   "code": "BD",
+   "subject": "Bangladesh Affairs",
+   "title": "Important dates & \"firsts\" of Bangladesh",
+   "hot": true
+  },
+  {
+   "id": "INT-01",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Concepts: state, sovereignty, geopolitics, balance of power",
+   "hot": true
+  },
+  {
+   "id": "INT-02",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Ancient civilizations",
+   "hot": false
+  },
+  {
+   "id": "INT-03",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Renaissance, American & French revolutions, Industrial Revolution",
+   "hot": false
+  },
+  {
+   "id": "INT-04",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "World War I, Versailles, League of Nations",
+   "hot": true
+  },
+  {
+   "id": "INT-05",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "World War II & Cold War",
+   "hot": true
+  },
+  {
+   "id": "INT-06",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "UN: formation, charter, organs",
+   "hot": true
+  },
+  {
+   "id": "INT-07",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "UN specialized agencies & HQs",
+   "hot": true
+  },
+  {
+   "id": "INT-08",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "UN Secretaries-General & peacekeeping",
+   "hot": false
+  },
+  {
+   "id": "INT-09",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "SAARC, ASEAN, BIMSTEC, EU, AU",
+   "hot": true
+  },
+  {
+   "id": "INT-10",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "WTO, IMF, World Bank, ADB, AIIB, NDB",
+   "hot": true
+  },
+  {
+   "id": "INT-11",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "NATO, QUAD, AUKUS, SCO",
+   "hot": true
+  },
+  {
+   "id": "INT-12",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "OIC, OPEC, GCC, Commonwealth, G7, G20, BRICS",
+   "hot": true
+  },
+  {
+   "id": "INT-13",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Israel–Palestine & Middle East",
+   "hot": true
+  },
+  {
+   "id": "INT-14",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Russia–Ukraine war",
+   "hot": true
+  },
+  {
+   "id": "INT-15",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "South China Sea, Taiwan, Indo-Pacific",
+   "hot": true
+  },
+  {
+   "id": "INT-16",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Kashmir, India–Pakistan, Afghanistan",
+   "hot": false
+  },
+  {
+   "id": "INT-17",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Myanmar & Rohingya",
+   "hot": true
+  },
+  {
+   "id": "INT-18",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Climate: UNFCCC, Kyoto, Paris Agreement, COPs",
+   "hot": true
+  },
+  {
+   "id": "INT-19",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Nuclear treaties: NPT, CTBT, TPNW",
+   "hot": false
+  },
+  {
+   "id": "INT-20",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "International law: ICJ, ICC, UNCLOS",
+   "hot": true
+  },
+  {
+   "id": "INT-21",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Human rights: UDHR, CEDAW, CRC",
+   "hot": false
+  },
+  {
+   "id": "INT-22",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Countries: capitals, currencies, parliaments",
+   "hot": true
+  },
+  {
+   "id": "INT-23",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Borders, straits, canals; Durand, McMahon, Radcliffe lines",
+   "hot": true
+  },
+  {
+   "id": "INT-24",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "World leaders (current heads of state/govt)",
+   "hot": false
+  },
+  {
+   "id": "INT-25",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Nobel Prizes (latest)",
+   "hot": true
+  },
+  {
+   "id": "INT-26",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "International sports events",
+   "hot": false
+  },
+  {
+   "id": "INT-27",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "International days & years",
+   "hot": true
+  },
+  {
+   "id": "INT-28",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Global indices & Bangladesh's rank",
+   "hot": true
+  },
+  {
+   "id": "INT-29",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Major treaties: Westphalia, Camp David, Oslo, Simla",
+   "hot": true
+  },
+  {
+   "id": "INT-30",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "International current affairs (last 12 months)",
+   "hot": false
+  },
+  {
+   "id": "INT-31",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Chinese & Russian revolutions, Arab Spring",
+   "hot": false
+  },
+  {
+   "id": "INT-32",
+   "code": "INT",
+   "subject": "International Affairs",
+   "title": "Soft/hard power, diplomacy, terrorism, Belt & Road",
+   "hot": true
+  },
+  {
+   "id": "SCI-01",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Units, measurement, SI",
+   "hot": true
+  },
+  {
+   "id": "SCI-02",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Motion, force, Newton's laws, gravity",
+   "hot": false
+  },
+  {
+   "id": "SCI-03",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Work, energy, power",
+   "hot": false
+  },
+  {
+   "id": "SCI-04",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Heat & temperature",
+   "hot": true
+  },
+  {
+   "id": "SCI-05",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Sound",
+   "hot": true
+  },
+  {
+   "id": "SCI-06",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Light: reflection, refraction, lens, dispersion",
+   "hot": true
+  },
+  {
+   "id": "SCI-07",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Electricity & magnetism",
+   "hot": true
+  },
+  {
+   "id": "SCI-08",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Atom, radioactivity, fission & fusion",
+   "hot": true
+  },
+  {
+   "id": "SCI-09",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Matter, atomic structure, periodic table",
+   "hot": true
+  },
+  {
+   "id": "SCI-10",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Acids, bases, salts, pH",
+   "hot": true
+  },
+  {
+   "id": "SCI-11",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Metals, non-metals, alloys, ores",
+   "hot": true
+  },
+  {
+   "id": "SCI-12",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Carbon compounds, polymers, fuels",
+   "hot": true
+  },
+  {
+   "id": "SCI-13",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Everyday chemistry: fertilizer, soap, glass, cement, common names",
+   "hot": true
+  },
+  {
+   "id": "SCI-14",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Cell & tissue",
+   "hot": false
+  },
+  {
+   "id": "SCI-15",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Plants & photosynthesis",
+   "hot": true
+  },
+  {
+   "id": "SCI-16",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Animal classification",
+   "hot": true
+  },
+  {
+   "id": "SCI-17",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Human body: digestion, blood, circulation",
+   "hot": true
+  },
+  {
+   "id": "SCI-18",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Human body: nervous, respiratory, excretory, hormones",
+   "hot": true
+  },
+  {
+   "id": "SCI-19",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Vitamins, minerals & deficiency diseases",
+   "hot": true
+  },
+  {
+   "id": "SCI-20",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Diseases (viral/bacterial) & vaccines",
+   "hot": true
+  },
+  {
+   "id": "SCI-21",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Genetics, DNA, biotechnology",
+   "hot": true
+  },
+  {
+   "id": "SCI-22",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Food science & preservation",
+   "hot": false
+  },
+  {
+   "id": "SCI-23",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Environment, pollution, greenhouse effect",
+   "hot": true
+  },
+  {
+   "id": "SCI-24",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Solar system & space missions",
+   "hot": true
+  },
+  {
+   "id": "SCI-25",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Atmosphere layers, rocks, earthquakes",
+   "hot": false
+  },
+  {
+   "id": "SCI-26",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Inventions & inventors",
+   "hot": true
+  },
+  {
+   "id": "SCI-27",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Renewable energy & nanotechnology",
+   "hot": false
+  },
+  {
+   "id": "SCI-28",
+   "code": "SCI",
+   "subject": "General Science",
+   "title": "Medical technology: X-ray, CT, MRI, ECG",
+   "hot": true
+  },
+  {
+   "id": "ICT-01",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "History & generations of computers",
+   "hot": true
+  },
+  {
+   "id": "ICT-02",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Types of computers",
+   "hot": false
+  },
+  {
+   "id": "ICT-03",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Hardware: CPU, ALU, registers",
+   "hot": false
+  },
+  {
+   "id": "ICT-04",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Memory: RAM, ROM, cache, storage units",
+   "hot": true
+  },
+  {
+   "id": "ICT-05",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Input & output devices",
+   "hot": true
+  },
+  {
+   "id": "ICT-06",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Number systems & conversion",
+   "hot": true
+  },
+  {
+   "id": "ICT-07",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Boolean algebra & logic gates",
+   "hot": true
+  },
+  {
+   "id": "ICT-08",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Software & operating systems",
+   "hot": true
+  },
+  {
+   "id": "ICT-09",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Programming languages, compiler, algorithm, flowchart",
+   "hot": false
+  },
+  {
+   "id": "ICT-10",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Database: DBMS, SQL, keys",
+   "hot": true
+  },
+  {
+   "id": "ICT-11",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Networks: LAN/MAN/WAN, topologies",
+   "hot": true
+  },
+  {
+   "id": "ICT-12",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Network devices; OSI & TCP/IP",
+   "hot": true
+  },
+  {
+   "id": "ICT-13",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Internet: IP, DNS, HTTP, FTP, SMTP",
+   "hot": true
+  },
+  {
+   "id": "ICT-14",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Email, WWW, browsers, search engines",
+   "hot": false
+  },
+  {
+   "id": "ICT-15",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Fiber optics, satellite, 1G–5G",
+   "hot": true
+  },
+  {
+   "id": "ICT-16",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Wi-Fi, Bluetooth, NFC, RFID",
+   "hot": true
+  },
+  {
+   "id": "ICT-17",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Cyber security: malware, phishing, firewall, encryption",
+   "hot": true
+  },
+  {
+   "id": "ICT-18",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Cloud computing, IoT, Big data",
+   "hot": true
+  },
+  {
+   "id": "ICT-19",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "AI, machine learning, LLMs, robotics",
+   "hot": true
+  },
+  {
+   "id": "ICT-20",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Blockchain, crypto, VR/AR, metaverse",
+   "hot": true
+  },
+  {
+   "id": "ICT-21",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "MS Office: Word, Excel, PowerPoint",
+   "hot": true
+  },
+  {
+   "id": "ICT-22",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "E-commerce & e-governance",
+   "hot": true
+  },
+  {
+   "id": "ICT-23",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "ICT in Bangladesh: satellite, submarine cables, cyber law",
+   "hot": true
+  },
+  {
+   "id": "ICT-24",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Abbreviations & full forms",
+   "hot": true
+  },
+  {
+   "id": "ICT-25",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "IT companies, founders & inventions",
+   "hot": false
+  },
+  {
+   "id": "ICT-26",
+   "code": "ICT",
+   "subject": "Computer & ICT",
+   "title": "Multimedia & file formats",
+   "hot": false
+  },
+  {
+   "id": "GEO-01",
+   "code": "GEO",
+   "subject": "Geography & Disaster",
+   "title": "Earth: latitude, longitude, time zones",
+   "hot": true
+  },
+  {
+   "id": "GEO-02",
+   "code": "GEO",
+   "subject": "Geography & Disaster",
+   "title": "Atmosphere, winds, climate zones",
+   "hot": true
+  },
+  {
+   "id": "GEO-03",
+   "code": "GEO",
+   "subject": "Geography & Disaster",
+   "title": "Oceans, currents, tides",
+   "hot": false
+  },
+  {
+   "id": "GEO-04",
+   "code": "GEO",
+   "subject": "Geography & Disaster",
+   "title": "World's largest/longest: rivers, mountains, deserts",
+   "hot": true
+  },
+  {
+   "id": "GEO-05",
+   "code": "GEO",
+   "subject": "Geography & Disaster",
+   "title": "Physiography & soils of Bangladesh",
+   "hot": true
+  },
+  {
+   "id": "GEO-06",
+   "code": "GEO",
+   "subject": "Geography & Disaster",
+   "title": "Ecosystem, biodiversity, protected areas of BD",
+   "hot": true
+  },
+  {
+   "id": "GEO-07",
+   "code": "GEO",
+   "subject": "Geography & Disaster",
+   "title": "Climate change, global warming, ozone",
+   "hot": true
+  },
+  {
+   "id": "GEO-08",
+   "code": "GEO",
+   "subject": "Geography & Disaster",
+   "title": "Disasters: cyclone, flood, earthquake, landslide, drought",
+   "hot": true
+  },
+  {
+   "id": "GEO-09",
+   "code": "GEO",
+   "subject": "Geography & Disaster",
+   "title": "Disaster management in BD: cycle, SOD, early warning",
+   "hot": true
+  },
+  {
+   "id": "GEO-10",
+   "code": "GEO",
+   "subject": "Geography & Disaster",
+   "title": "Environmental conventions: Ramsar, CBD, Montreal",
+   "hot": true
+  },
+  {
+   "id": "GEO-11",
+   "code": "GEO",
+   "subject": "Geography & Disaster",
+   "title": "Population, urbanization, migration",
+   "hot": false
+  },
+  {
+   "id": "GEO-12",
+   "code": "GEO",
+   "subject": "Geography & Disaster",
+   "title": "Rocks, volcanoes, plate tectonics",
+   "hot": false
+  },
+  {
+   "id": "GEO-13",
+   "code": "GEO",
+   "subject": "Geography & Disaster",
+   "title": "Maps, GIS & remote sensing",
+   "hot": false
+  },
+  {
+   "id": "ETH-01",
+   "code": "ETH",
+   "subject": "Ethics & Governance",
+   "title": "Ethics & morality: concept, sources",
+   "hot": true
+  },
+  {
+   "id": "ETH-02",
+   "code": "ETH",
+   "subject": "Ethics & Governance",
+   "title": "Values: types, social values, values education",
+   "hot": true
+  },
+  {
+   "id": "ETH-03",
+   "code": "ETH",
+   "subject": "Ethics & Governance",
+   "title": "Ethical theories: Kant, utilitarianism, virtue ethics",
+   "hot": true
+  },
+  {
+   "id": "ETH-04",
+   "code": "ETH",
+   "subject": "Ethics & Governance",
+   "title": "Socrates, Plato, Aristotle & famous quotes",
+   "hot": true
+  },
+  {
+   "id": "ETH-05",
+   "code": "ETH",
+   "subject": "Ethics & Governance",
+   "title": "Good governance: concept & indicators",
+   "hot": true
+  },
+  {
+   "id": "ETH-06",
+   "code": "ETH",
+   "subject": "Ethics & Governance",
+   "title": "Rule of law, accountability, transparency",
+   "hot": true
+  },
+  {
+   "id": "ETH-07",
+   "code": "ETH",
+   "subject": "Ethics & Governance",
+   "title": "Law, liberty & equality",
+   "hot": true
+  },
+  {
+   "id": "ETH-08",
+   "code": "ETH",
+   "subject": "Ethics & Governance",
+   "title": "National Integrity Strategy (NIS) 2012",
+   "hot": true
+  },
+  {
+   "id": "ETH-09",
+   "code": "ETH",
+   "subject": "Ethics & Governance",
+   "title": "RTI Act 2009, Citizen Charter, Ombudsman",
+   "hot": true
+  },
+  {
+   "id": "ETH-10",
+   "code": "ETH",
+   "subject": "Ethics & Governance",
+   "title": "Corruption & ACC, e-governance",
+   "hot": false
+  },
+  {
+   "id": "ETH-11",
+   "code": "ETH",
+   "subject": "Ethics & Governance",
+   "title": "Civil service values & code of conduct",
+   "hot": false
+  },
+  {
+   "id": "ETH-12",
+   "code": "ETH",
+   "subject": "Ethics & Governance",
+   "title": "Human rights & gender equality",
+   "hot": false
+  },
+  {
+   "id": "ETH-13",
+   "code": "ETH",
+   "subject": "Ethics & Governance",
+   "title": "Social justice, public interest, conflict of interest",
+   "hot": false
+  },
+  {
+   "id": "ETH-14",
+   "code": "ETH",
+   "subject": "Ethics & Governance",
+   "title": "Emotional intelligence & professional integrity",
+   "hot": false
+  }
+ ]
+}
